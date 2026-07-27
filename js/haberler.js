@@ -19,7 +19,18 @@ kategori:"SON DAKİKA"
 
 },
 
+{
+baslik:"Son Dakika: Galatasaray'dan Dünya Kupası yıldızına dev hamle",
 
+aciklama:"Galatasaray'ın dünya yıldızı bir oyuncu için transfer çalışmalarını hızlandırdığı iddia edildi. Sarı-kırmızılı ekipte transfer gündemi hareketli. ",
+
+resim:"images/f07a0153-fef2-4988-afcb-a05c4da9c3c1.png",
+
+link:"https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaraydan-dunya-kupasi-yildizina-dev-hamle?authuser=0",
+
+kategori:"TRANSFER"
+
+},
 
 
 
