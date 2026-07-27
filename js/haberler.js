@@ -1,45 +1,53 @@
 // ======================
-// NOVASPOR HABERLER
+// NOVASPOR HABER SİSTEMİ
 // ======================
 
+
 const haberler = [
+
 
 {
 baslik:"Son Dakika: Galatasaray Venezia ile hazırlık maçına çıkıyor",
 
-aciklama:"Galatasaray'ın hazırlık maçı öncesi tüm gelişmeler NovaSpor'da.",
+aciklama:"Galatasaray'ın hazırlık maçı öncesi tüm detaylar NovaSpor'da.",
 
 resim:"images/haber1.jpg.png",
 
-link:"https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaray-venezia-ile-haz%C4%B1rl%C4%B1k-ma%C3%A7%C4%B1na-%C3%A7%C4%B1k%C4%B1yor",
+link:"#",
 
-kategori:"TRANSFER"
+kategori:"SON DAKİKA"
+
 },
 
 
-{
-baslik:"Fenerbahçe'de transfer çalışmaları",
 
-aciklama:"Sarı lacivertli ekipte yeni gelişmeler yaşanıyor.",
+{
+baslik:"Fenerbahçe'de transfer çalışmaları başladı",
+
+aciklama:"Sarı lacivertli ekip yeni sezon için çalışmalarını sürdürüyor.",
 
 resim:"images/haber3.jpg",
 
 link:"#",
 
 kategori:"TRANSFER"
+
 },
 
 
-{
-baslik:"Süper Lig'den son haberler",
 
-aciklama:"Ligde yaşanan önemli gelişmeler.",
+{
+baslik:"Süper Lig'de yeni sezon heyecanı",
+
+aciklama:"Takımlar hazırlıklarına devam ediyor.",
 
 resim:"images/haber4.jpg",
 
 link:"#",
 
 kategori:"SÜPER LİG"
+
 }
+
 
 ];
