@@ -936,3 +936,221 @@ color:#333;
 background:#ddd;
 
 }
+/* =========================
+   MOBİL TASARIM
+========================= */
+
+
+@media(max-width:768px){
+
+
+/* HEADER */
+
+header{
+
+flex-direction:column;
+padding:15px;
+
+}
+
+
+.logo{
+
+font-size:24px;
+margin-bottom:15px;
+
+}
+
+
+
+nav{
+
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+
+}
+
+
+nav a{
+
+font-size:14px;
+padding:8px;
+
+}
+
+
+
+/* SON DAKİKA */
+
+.breaking{
+
+font-size:14px;
+padding:12px;
+
+}
+
+
+
+/* ANA KONTEYNER */
+
+.container{
+
+width:95%;
+padding:10px;
+
+}
+
+
+
+/* BÜYÜK HABER */
+
+
+.featured{
+
+height:auto;
+
+}
+
+
+.featured img{
+
+height:250px;
+
+}
+
+
+
+.featured-text{
+
+padding:15px;
+
+}
+
+
+
+.featured-text h1{
+
+font-size:22px;
+
+}
+
+
+
+/* POPÜLER */
+
+.main-news{
+
+display:block;
+
+}
+
+
+
+.popular{
+
+margin-top:25px;
+
+}
+
+
+
+/* HABERLER */
+
+
+.news-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+
+.news-card img{
+
+height:200px;
+
+}
+
+
+
+/* FİKSTÜR */
+
+.fixture-card{
+
+font-size:15px;
+
+}
+
+
+
+/* PUAN TABLOSU */
+
+
+.puan-tablosu{
+
+font-size:13px;
+
+display:block;
+
+overflow-x:auto;
+
+}
+
+
+
+.puan-tablosu th,
+.puan-tablosu td{
+
+padding:10px;
+
+}
+
+
+
+/* TAKIMLAR */
+
+
+.teams{
+
+grid-template-columns:1fr;
+
+}
+
+
+
+.team-card{
+
+padding:15px;
+
+}
+
+
+
+/* ÇEREZ */
+
+#cookie-box{
+
+width:90%;
+padding:20px;
+
+}
+
+
+.cookie-buttons{
+
+flex-direction:column;
+
+}
+
+
+.cookie-buttons button{
+
+width:100%;
+
+}
+
+
+
+}
