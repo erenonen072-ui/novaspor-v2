@@ -60,22 +60,30 @@ Devamını Oku →
 // ======================
 
 
+// ======================
+// MANŞET SLIDER
+// ======================
+
+let manseIndex = 0;
+
+
 const buyukBaslik = document.querySelector("#buyuk-baslik");
-
 const buyukAciklama = document.querySelector("#buyuk-aciklama");
-
 const buyukResim = document.querySelector(".featured img");
 const buyukLink = document.querySelector("#buyuk-link");
 
 
-if(buyukBaslik && typeof haberler !== "undefined"){
+
+function mansetGoster(){
 
 
-let haber = haberler[0];
+if(!haberler) return;
+
+
+let haber = haberler[manseIndex];
 
 
 buyukBaslik.innerHTML = haber.baslik;
-
 
 buyukAciklama.innerHTML = haber.aciklama;
 
@@ -85,11 +93,62 @@ if(buyukResim){
 buyukResim.src = haber.resim;
 
 }
+
+
 if(buyukLink){
 
 buyukLink.href = haber.link;
 
 }
+
+
+}
+
+
+
+
+document.querySelector("#sonrakiHaber")?.addEventListener("click",()=>{
+
+
+manseIndex++;
+
+
+if(manseIndex >= haberler.length){
+
+manseIndex = 0;
+
+}
+
+
+mansetGoster();
+
+
+});
+
+
+
+
+document.querySelector("#oncekiHaber")?.addEventListener("click",()=>{
+
+
+manseIndex--;
+
+
+if(manseIndex < 0){
+
+manseIndex = haberler.length - 1;
+
+}
+
+
+mansetGoster();
+
+
+});
+
+
+
+mansetGoster();
 
 }
 // ======================
