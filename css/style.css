@@ -377,3 +377,44 @@ header{
 
 
 }
+/* POPÜLER HABER KARTLARI */
+
+
+.popular-card{
+
+    display:flex;
+    gap:12px;
+    margin-bottom:15px;
+    padding-bottom:15px;
+    border-bottom:1px solid #ddd;
+
+}
+
+
+
+.popular-card img{
+
+    width:80px;
+    height:70px;
+    object-fit:cover;
+    border-radius:10px;
+
+}
+
+
+
+.popular-card h3{
+
+    font-size:15px;
+    margin-bottom:8px;
+
+}
+
+
+
+.popular-card p{
+
+    font-size:12px;
+    color:#777;
+
+}
