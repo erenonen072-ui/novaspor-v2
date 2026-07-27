@@ -774,3 +774,31 @@ margin:0 10px;
 color:#ffd000;
 
 }
+.cookie-buttons{
+
+display:flex;
+gap:10px;
+
+}
+
+
+
+#cookie-deny{
+
+background:#444;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:12px;
+font-weight:bold;
+cursor:pointer;
+
+}
+
+
+
+#cookie-deny:hover{
+
+background:#666;
+
+}
