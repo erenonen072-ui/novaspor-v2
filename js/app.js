@@ -88,3 +88,63 @@ buyukResim.src = haber.resim;
 
 
 }
+// ======================
+// MANŞET SLIDER
+// ======================
+
+
+let manseIndex = 0;
+
+
+function mansetDegistir(){
+
+
+const baslik = document.querySelector("#buyuk-baslik");
+
+const aciklama = document.querySelector("#buyuk-aciklama");
+
+const resim = document.querySelector(".featured img");
+
+
+
+if(!baslik || typeof haberler === "undefined") return;
+
+
+
+let haber = haberler[manseIndex];
+
+
+
+baslik.innerHTML = haber.baslik;
+
+
+aciklama.innerHTML = haber.aciklama;
+
+
+if(resim){
+
+resim.src = haber.resim;
+
+}
+
+
+
+manseIndex++;
+
+
+
+if(manseIndex >= haberler.length || manseIndex >= 10){
+
+manseIndex = 0;
+
+}
+
+
+}
+
+
+
+mansetDegistir();
+
+
+setInterval(mansetDegistir,5000);
