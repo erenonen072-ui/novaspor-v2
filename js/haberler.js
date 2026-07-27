@@ -11,8 +11,8 @@ aciklama:"Galatasaray'ın hazırlık maçı öncesi tüm gelişmeler NovaSpor'da
 
 resim:"images/haber1.jpg.png",
 
-link:
-"https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaray-venezia-ile-hazirlik-macina-cikiyor"
+
+link:"https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaray-venezia-ile-hazirlik-macina-cikiyor",
 kategori:"TRANSFER"
 },
 
