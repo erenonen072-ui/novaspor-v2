@@ -753,3 +753,24 @@ grid-template-columns:1fr;
 }
 
 }
+.footer-links{
+
+margin-top:15px;
+
+}
+
+
+.footer-links a{
+
+color:white;
+text-decoration:none;
+margin:0 10px;
+
+}
+
+
+.footer-links a:hover{
+
+color:#ffd000;
+
+}
