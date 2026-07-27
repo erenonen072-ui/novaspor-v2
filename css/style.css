@@ -1292,3 +1292,58 @@ width:100% !important;
 }
 
 }
+/* MOBİL ÇEREZ SON AYAR */
+
+@media(max-width:600px){
+
+#cookie-box{
+
+position:fixed !important;
+
+top:50% !important;
+left:50% !important;
+
+bottom:auto !important;
+right:auto !important;
+
+transform:translate(-50%,-50%) !important;
+
+width:90% !important;
+
+max-height:85vh;
+
+overflow:auto;
+
+padding:25px !important;
+
+box-sizing:border-box;
+
+border-radius:20px;
+
+z-index:999999;
+
+}
+
+
+.cookie-buttons{
+
+display:flex !important;
+
+flex-direction:column !important;
+
+gap:12px;
+
+margin-top:20px;
+
+}
+
+
+.cookie-buttons button{
+
+width:100% !important;
+
+height:45px;
+
+}
+
+}
