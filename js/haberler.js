@@ -22,15 +22,15 @@ kategori:"SON DAKİKA"
 
 
 {
-baslik:"Fenerbahçe'de transfer çalışmaları başladı",
+baslik:"Son Dakika: Galatasaray Venezia ile hazırlık maçına çıkıyor",
 
-aciklama:"Sarı lacivertli ekip yeni sezon için çalışmalarını sürdürüyor.",
+aciklama:"Galatasaray yeni sezon hazırlıkları kapsamında Venezia ile oynayacağı hazırlık maçı öncesi son gelişmeler NovaSpor'da.",
 
-resim:"images/haber3.jpg",
+resim:"99b16b21-3dd7-43f4-a1b5-880d80927cd0.png",
 
-link:"#",
+link:"https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaray-venezia-ile-haz%C4%B1rl%C4%B1k-ma%C3%A7%C4%B1na-%C3%A7%C4%B1k%C4%B1yor?authuser=0",
 
-kategori:"TRANSFER"
+kategori:"SON DAKİKA"
 
 },
 
