@@ -269,3 +269,22 @@ cookieBox.style.display="none";
 
 
 });
+// =====================
+// MOBİL MENÜ
+// =====================
+
+
+const menuBtn = document.getElementById("menu-btn");
+
+const mobileMenu = document.getElementById("mobile-menu");
+
+
+if(menuBtn){
+
+menuBtn.onclick=function(){
+
+mobileMenu.classList.toggle("active");
+
+}
+
+}
