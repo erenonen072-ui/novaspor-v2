@@ -1154,62 +1154,24 @@ width:100%;
 
 
 }
-/* =====================
-   NOVASPOR ÇEREZ
-===================== */
-
 #cookie-box{
 
 position:fixed;
-
-bottom:20px;
-left:50%;
-
-transform:translateX(-50%);
-
-width:90%;
-max-width:500px;
+bottom:15px;
+left:15px;
+right:15px;
 
 background:white;
 
-color:#111;
-
-padding:25px;
+padding:20px;
 
 border-radius:20px;
 
-box-shadow:0 10px 40px rgba(0,0,0,.3);
+box-shadow:0 5px 30px #0005;
 
-z-index:99999;
+z-index:999999;
 
 text-align:center;
-
-box-sizing:border-box;
-
-}
-
-
-.cookie-icon{
-
-font-size:40px;
-
-}
-
-
-#cookie-box h3{
-
-margin:10px 0;
-
-}
-
-
-#cookie-box p{
-
-font-size:14px;
-
-line-height:1.5;
-
-color:#555;
 
 }
 
@@ -1217,27 +1179,21 @@ color:#555;
 .cookie-buttons{
 
 display:flex;
-
-gap:12px;
-
-margin-top:20px;
+gap:10px;
+justify-content:center;
 
 }
 
 
 .cookie-buttons button{
 
-flex:1;
-
-padding:12px;
+padding:12px 20px;
 
 border:none;
 
-border-radius:25px;
+border-radius:20px;
 
 font-weight:bold;
-
-cursor:pointer;
 
 }
 
@@ -1246,41 +1202,18 @@ cursor:pointer;
 
 background:#ffd000;
 
-color:#111;
-
 }
 
 
 #cookie-deny{
 
 background:#333;
-
 color:white;
 
 }
 
 
-/* TELEFON */
-
-@media(max-width:768px){
-
-
-#cookie-box{
-
-left:10px;
-
-right:10px;
-
-bottom:10px;
-
-width:auto;
-
-transform:none;
-
-padding:20px;
-
-}
-
+@media(max-width:600px){
 
 .cookie-buttons{
 
@@ -1292,6 +1225,8 @@ flex-direction:column;
 .cookie-buttons button{
 
 width:100%;
+
+}
 
 }
 
