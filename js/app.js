@@ -65,7 +65,7 @@ const buyukBaslik = document.querySelector("#buyuk-baslik");
 const buyukAciklama = document.querySelector("#buyuk-aciklama");
 
 const buyukResim = document.querySelector(".featured img");
-
+const buyukLink = document.querySelector("#buyuk-link");
 
 
 if(buyukBaslik && typeof haberler !== "undefined"){
@@ -85,7 +85,11 @@ if(buyukResim){
 buyukResim.src = haber.resim;
 
 }
+if(buyukLink){
 
+buyukLink.href = haber.link;
+
+}
 
 }
 // ======================
