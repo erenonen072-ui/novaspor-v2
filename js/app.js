@@ -104,3 +104,29 @@ Haberi Oku →
 
 
 }
+// ======================
+// BÜYÜK MANŞET HABER
+// ======================
+
+
+const buyukBaslik = document.querySelector("#buyuk-baslik");
+const buyukAciklama = document.querySelector("#buyuk-aciklama");
+const buyukResim = document.querySelector(".featured img");
+
+
+if(buyukBaslik && haberler.length > 0){
+
+
+let haber = haberler[0];
+
+
+buyukBaslik.innerHTML = haber.baslik;
+
+
+buyukAciklama.innerHTML = haber.aciklama;
+
+
+buyukResim.src = haber.resim;
+
+
+}
