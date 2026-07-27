@@ -153,3 +153,65 @@ buyukResim.src = haber.resim;
 
 
 }
+// ======================
+// 10 BÜYÜK HABER LİSTESİ
+// ======================
+
+
+const buyukHaberler = document.querySelector("#buyuk-haberler");
+
+
+if(buyukHaberler && typeof haberler !== "undefined"){
+
+
+buyukHaberler.innerHTML="";
+
+
+haberler.slice(0,10).forEach((haber,index)=>{
+
+
+buyukHaberler.innerHTML += `
+
+
+<div class="big-news-item">
+
+
+<img src="${haber.resim}">
+
+
+<div>
+
+
+<span>
+${haber.kategori}
+</span>
+
+
+<h3>
+${index+1}. ${haber.baslik}
+</h3>
+
+
+<p>
+${haber.aciklama}
+</p>
+
+
+<a href="${haber.link}" target="_blank">
+Haberi Oku →
+</a>
+
+
+</div>
+
+
+</div>
+
+
+`;
+
+
+});
+
+
+}
