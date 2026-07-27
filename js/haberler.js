@@ -4,7 +4,74 @@
 
 
 const haberler = [
+{
+baslik:"Son Dakika: Galatasaray'dan Can Uzun hamlesi",
 
+aciklama:"Galatasaray transfer çalışmalarını sürdürürken Can Uzun için önemli gelişmeler yaşanıyor.",
+
+resim:"images/can uzun.jpg",
+
+link:"https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaraydan-can-uzun-hamlesi?authuser=0",
+
+kategori:"TRANSFER"
+
+},
+
+
+{
+baslik:"Trabzonspor'dan orta sahaya güçlü takviye: Christ Inao Oulai",
+
+aciklama:"Trabzonspor yeni sezon kadro planlaması kapsamında orta saha transferini güçlendirdi.",
+
+resim:"images/Christ Inao Oulaï.jpg",
+
+link:"https://sites.google.com/view/novassporr/haberler_1/trabzonspordan-orta-sahaya-g%C3%BC%C3%A7l%C3%BC-takviye-christ-inao-oula%C3%AF-resmen-bordo-m?authuser=0",
+
+kategori:"TRANSFER"
+
+},
+
+
+{
+baslik:"Son Dakika: Galatasaray'dan Brahim Diaz bombası",
+
+aciklama:"Galatasaray'ın yıldız oyuncu için transfer görüşmelerinde bulunduğu iddia ediliyor.",
+
+resim:"images/Brahim Diaz.jpg",
+
+link:"https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaraydan-brahim-diaz-bombas%C4%B1-transferde-dev-pazarl%C4%B1k?authuser=0",
+
+kategori:"TRANSFER"
+
+},
+
+
+{
+baslik:"Süper Lig'de transfer hareketliliği hız kesmiyor",
+
+aciklama:"Süper Lig ekiplerinde yeni sezon öncesi transfer çalışmaları devam ediyor.",
+
+resim:"images/Trendyol-super-lig-dikey-logo.png",
+
+link:"https://sites.google.com/view/novassporr/haberler_1/s%C3%BCper-ligde-transfer-hareketlili%C4%9Fi-h%C4%B1z-kesmiyor?authuser=0",
+
+kategori:"SÜPER LİG"
+
+},
+
+
+{
+baslik:"Fenerbahçe'de Rafael Leão gündemi",
+
+aciklama:"Fenerbahçe'nin yıldız kanat oyuncusu için temaslarını sürdürdüğü belirtiliyor.",
+
+resim:"images/Rafael Leão.jpg",
+
+link:"https://sites.google.com/view/novassporr/haberler_1/fenerbah%C3%A7ede-rafael-le%C3%A3o-g%C3%BCndemi-y%C4%B1ld%C4%B1z-kanat-i%C3%A7in-temaslar-s%C3%BCr%C3%BCyor?authuser=0",
+
+kategori:"TRANSFER"
+
+},
 
 {
 baslik:"Son Dakika: Galatasaray Venezia ile hazırlık maçına çıkıyor",
