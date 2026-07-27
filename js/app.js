@@ -216,40 +216,56 @@ Haberi Oku →
 
 }
 // =====================
-// ÇEREZ SİSTEMİ
+// NOVASPOR ÇEREZ SİSTEMİ
 // =====================
 
+document.addEventListener("DOMContentLoaded", function(){
 
-const cookieBox = document.querySelector("#cookie-box");
-
-const accept = document.querySelector("#cookie-accept");
-
-const deny = document.querySelector("#cookie-deny");
+const cookieBox = document.getElementById("cookie-box");
+const acceptBtn = document.getElementById("cookie-accept");
+const denyBtn = document.getElementById("cookie-deny");
 
 
+if(!cookieBox) return;
+
+
+// Daha önce seçim yaptıysa gösterme
 
 if(localStorage.getItem("cookieChoice")){
 
-cookieBox.style.display="none";
+cookieBox.style.display = "none";
 
 }
 
 
+// Kabul Et
 
-accept.onclick=function(){
+if(acceptBtn){
+
+acceptBtn.addEventListener("click", function(){
 
 localStorage.setItem("cookieChoice","accepted");
 
 cookieBox.style.display="none";
 
+});
+
 }
 
 
+// Kabul Etme
 
-deny.onclick=function(){
+if(denyBtn){
+
+denyBtn.addEventListener("click", function(){
 
 localStorage.setItem("cookieChoice","denied");
 
 cookieBox.style.display="none";
 
+});
+
 }
+
+
+});
