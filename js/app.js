@@ -49,3 +49,58 @@ Devamını Oku →
 
 
 }
+// ======================
+// BÜYÜK MANŞETLER
+// ======================
+
+const heroArea = document.querySelector("#hero-area");
+
+
+if(heroArea && typeof haberler !== "undefined"){
+
+
+haberler.slice(0,10).forEach(haber=>{
+
+
+heroArea.innerHTML += `
+
+<div class="hero-card">
+
+
+<img src="${haber.resim}">
+
+
+<div class="hero-content">
+
+
+<span>
+${haber.kategori}
+</span>
+
+
+<h1>
+${haber.baslik}
+</h1>
+
+
+<p>
+${haber.aciklama}
+</p>
+
+
+<a href="${haber.link}" target="_blank">
+Haberi Oku →
+</a>
+
+
+</div>
+
+
+</div>
+
+`;
+
+});
+
+
+}
