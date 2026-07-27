@@ -1231,3 +1231,64 @@ width:100%;
 }
 
 }
+/* YATAY KAYMAYI ENGELLE */
+
+html, body{
+
+overflow-x:hidden;
+
+}
+
+
+/* MOBİL ÇEREZ KESİN DÜZEN */
+
+#cookie-box{
+
+position:fixed !important;
+
+left:10px !important;
+
+right:10px !important;
+
+bottom:10px !important;
+
+width:auto !important;
+
+max-width:none !important;
+
+transform:none !important;
+
+margin:0 !important;
+
+box-sizing:border-box !important;
+
+}
+
+
+@media(max-width:600px){
+
+#cookie-box{
+
+padding:20px !important;
+
+}
+
+
+.cookie-buttons{
+
+width:100% !important;
+
+display:flex !important;
+
+flex-direction:column !important;
+
+}
+
+
+.cookie-buttons button{
+
+width:100% !important;
+
+}
+
+}
