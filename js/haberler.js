@@ -35,17 +35,17 @@ kategori:"TRANSFER"
 
 
 {
-baslik:"Süper Lig'de yeni sezon heyecanı",
+baslik:"Fenerbahçe'den Mason Greenwood hamlesi resmileşti",
 
-aciklama:"Takımlar hazırlıklarına devam ediyor.",
+aciklama:"Fenerbahçe'nin İngiliz yıldız Mason Greenwood transferiyle ilgili gelişmeler NovaSpor'da. Sarı-lacivertli ekip transfer gündeminde önemli bir adım attı.",
 
-resim:"images/haber4.jpg",
+resim:"images/hq720.jpg",
 
-link:"#",
+link:"https://sites.google.com/view/novassporr/haberler_1/fenerbahceden-mason-greenwood-hamlesi-resmilesti?authuser=0",
 
-kategori:"SÜPER LİG"
+kategori:"TRANSFER"
 
-}
+},
 
 
 ];
