@@ -1154,105 +1154,69 @@ width:100%;
 
 
 }
-/* MOBİL ÇEREZ DÜZENİ */
-
-@media(max-width:768px){
-
-#cookie-box{
-
-width:90%;
-max-height:80vh;
-overflow-y:auto;
-
-padding:20px;
-
-border-radius:20px;
-
-}
-
-
-.cookie-content h3{
-
-font-size:20px;
-
-}
-
-
-.cookie-content p{
-
-font-size:14px;
-line-height:1.5;
-
-}
-
-
-.cookie-buttons{
-
-display:flex;
-flex-direction:column;
-gap:10px;
-width:100%;
-
-}
-
-
-.cookie-buttons button{
-
-width:100%;
-padding:14px;
-
-font-size:16px;
-
-}
-
-}
-/* MOBİL ÇEREZ DÜZELTME */
-
-@media(max-width:768px){
+/* =====================
+   NOVASPOR ÇEREZ
+===================== */
 
 #cookie-box{
 
 position:fixed;
 
-left:5%;
-
 bottom:20px;
+left:50%;
+
+transform:translateX(-50%);
 
 width:90%;
+max-width:500px;
 
-max-height:85vh;
+background:white;
 
-overflow-y:auto;
+color:#111;
 
-padding:20px;
+padding:25px;
+
+border-radius:20px;
+
+box-shadow:0 10px 40px rgba(0,0,0,.3);
+
+z-index:99999;
+
+text-align:center;
 
 box-sizing:border-box;
 
 }
 
 
+.cookie-icon{
 
-.cookie-content{
+font-size:40px;
 
-width:100%;
+}
+
+
+#cookie-box h3{
+
+margin:10px 0;
 
 }
 
 
+#cookie-box p{
 
-.cookie-content p{
+font-size:14px;
 
-font-size:13px;
+line-height:1.5;
+
+color:#555;
 
 }
-
 
 
 .cookie-buttons{
 
 display:flex;
-
-flex-direction:column;
 
 gap:12px;
 
@@ -1261,99 +1225,73 @@ margin-top:20px;
 }
 
 
-
 .cookie-buttons button{
 
-display:block;
+flex:1;
 
-width:100%;
+padding:12px;
 
-height:45px;
+border:none;
 
-font-size:16px;
+border-radius:25px;
+
+font-weight:bold;
+
+cursor:pointer;
 
 }
 
 
+#cookie-accept{
+
+background:#ffd000;
+
+color:#111;
 
 }
-/* MOBİL ÇEREZ SON DÜZENLEME */
+
+
+#cookie-deny{
+
+background:#333;
+
+color:white;
+
+}
+
+
+/* TELEFON */
 
 @media(max-width:768px){
 
+
 #cookie-box{
 
-position:fixed;
+left:10px;
 
-left:15px;
+right:10px;
 
-right:15px;
-
-bottom:15px;
+bottom:10px;
 
 width:auto;
-
-max-width:none;
-
-margin:0;
 
 transform:none;
 
 padding:20px;
 
-box-sizing:border-box;
-
-overflow:hidden;
-
 }
-
-
-
-.cookie-content{
-
-text-align:center;
-
-}
-
-
-
-.cookie-content h3{
-
-font-size:20px;
-
-}
-
-
-
-.cookie-content p{
-
-font-size:14px;
-
-line-height:1.5;
-
-}
-
 
 
 .cookie-buttons{
 
-display:flex;
-
 flex-direction:column;
 
-gap:10px;
-
-width:100%;
-
 }
-
 
 
 .cookie-buttons button{
 
 width:100%;
-
-height:45px;
 
 }
 
