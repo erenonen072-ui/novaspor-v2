@@ -120,5 +120,13 @@ kategori:"TRANSFER"
     resim: "images/leandro-trossard-saglik-kontrolunden-gecti.jpg",
     link: "https://sites.google.com/view/novassporr/haberler_1/beşiktaştan-dev-transfer-leandro-trossard-resmen-siyah-beyazlı?authuser=0"
 },
+{
+    kategori: "TRANSFER",
+    baslik: "Kerem Aktürkoğlu'na Roma kancası! İtalyan devi resmi teklif hazırlığında",
+    aciklama: "Milli futbolcu Kerem Aktürkoğlu için Serie A ekibi Roma'nın resmi teklif hazırlığında olduğu öne sürüldü. Transferde önümüzdeki günlerde sıcak gelişmeler yaşanabilir.",
+    resim: "images/kerem.jpg",
+    link: "https://sites.google.com/view/novassporr/haberler_1/kerem-aktürkoğluna-roma-kancası-italyan-devi-resmi-teklif-hazırlığında?authuser=0"
+},
 
+    
 ];
