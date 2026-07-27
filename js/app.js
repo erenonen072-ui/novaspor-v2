@@ -188,3 +188,52 @@ mansetDegistir();
 
 
 setInterval(mansetDegistir,5000);
+// ======================
+// POPÜLER HABERLER
+// ======================
+
+
+const popularArea = document.querySelector("#popular-area");
+
+
+if(popularArea && typeof haberler !== "undefined"){
+
+
+haberler.slice(0,3).forEach(haber=>{
+
+
+popularArea.innerHTML += `
+
+
+<div class="popular-card">
+
+
+<img src="${haber.resim}">
+
+
+<div>
+
+
+<h3>
+${haber.baslik}
+</h3>
+
+
+<p>
+👁 Popüler Haber
+</p>
+
+
+</div>
+
+
+</div>
+
+
+`;
+
+
+});
+
+
+}
