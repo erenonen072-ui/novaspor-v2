@@ -418,3 +418,19 @@ header{
     color:#777;
 
 }
+.news-card a{
+
+display:block;
+padding:15px;
+color:#111;
+font-weight:bold;
+text-decoration:none;
+
+}
+
+
+.news-card a:hover{
+
+color:#d60000;
+
+}
