@@ -506,3 +506,67 @@ transform:translateX(0);
 }
 
 }
+/* 10 BÜYÜK HABER */
+
+
+.big-news-item{
+
+display:flex;
+gap:15px;
+background:white;
+padding:15px;
+margin-top:15px;
+border-radius:15px;
+box-shadow:0 5px 15px #0002;
+
+}
+
+
+
+.big-news-item img{
+
+width:150px;
+height:100px;
+object-fit:cover;
+border-radius:10px;
+
+}
+
+
+
+.big-news-item span{
+
+background:#ffd000;
+padding:5px 10px;
+border-radius:20px;
+font-size:12px;
+font-weight:bold;
+
+}
+
+
+
+.big-news-item h3{
+
+margin:10px 0;
+
+}
+
+
+
+@media(max-width:700px){
+
+.big-news-item{
+
+flex-direction:column;
+
+}
+
+
+.big-news-item img{
+
+width:100%;
+
+}
+
+}
