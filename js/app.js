@@ -1,31 +1,27 @@
 // ======================
-// NOVASPOR HABER SİSTEMİ
+// NOVASPOR HABERLERİ YÜKLE
 // ======================
 
 
 const haberAlani = document.querySelector(".news-grid");
 
 
-if(haberAlani && typeof haberler !== "undefined"){
+if(haberAlani){
 
 
-haberAlani.innerHTML = "";
+haberAlani.innerHTML="";
 
 
-haberler.forEach(haber => {
+haberler.forEach(haber=>{
 
 
 haberAlani.innerHTML += `
+
 
 <div class="news-card">
 
 
 <img src="${haber.resim}">
-
-
-<span>
-${haber.kategori}
-</span>
 
 
 <h3>
@@ -38,12 +34,13 @@ ${haber.aciklama}
 </p>
 
 
-<a href="${haber.link}" target="_blank">
-Haberi Oku →
+<a href="${haber.link}">
+Devamını Oku →
 </a>
 
 
 </div>
+
 
 `;
 
