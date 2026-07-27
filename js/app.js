@@ -215,18 +215,16 @@ Haberi Oku →
 
 
 }
-// ======================
+// =====================
 // ÇEREZ SİSTEMİ
-// ======================
+// =====================
 
 
 const cookieBox = document.querySelector("#cookie-box");
 
-const acceptBtn = document.querySelector("#cookie-accept");
+const accept = document.querySelector("#cookie-accept");
 
-const denyBtn = document.querySelector("#cookie-deny");
-
-const closeBtn = document.querySelector("#cookie-close");
+const deny = document.querySelector("#cookie-deny");
 
 
 
@@ -238,9 +236,7 @@ cookieBox.style.display="none";
 
 
 
-if(acceptBtn){
-
-acceptBtn.onclick=function(){
+accept.onclick=function(){
 
 localStorage.setItem("cookieChoice","accepted");
 
@@ -248,30 +244,12 @@ cookieBox.style.display="none";
 
 }
 
-}
 
 
-
-if(denyBtn){
-
-denyBtn.onclick=function(){
+deny.onclick=function(){
 
 localStorage.setItem("cookieChoice","denied");
 
 cookieBox.style.display="none";
-
-}
-
-}
-
-
-
-if(closeBtn){
-
-closeBtn.onclick=function(){
-
-cookieBox.style.display="none";
-
-}
 
 }
