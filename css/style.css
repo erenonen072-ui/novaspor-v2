@@ -570,3 +570,38 @@ width:100%;
 }
 
 }
+/* CANLI SKOR */
+
+
+.score-card{
+
+background:white;
+padding:25px;
+border-radius:15px;
+margin:20px 0;
+box-shadow:0 5px 15px #0002;
+text-align:center;
+
+}
+
+
+.live{
+
+background:red;
+color:white;
+padding:7px 15px;
+border-radius:20px;
+font-weight:bold;
+
+}
+
+
+.finished{
+
+background:#555;
+color:white;
+padding:7px 15px;
+border-radius:20px;
+font-weight:bold;
+
+}
