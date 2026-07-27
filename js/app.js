@@ -6,7 +6,7 @@
 const haberAlani = document.querySelector(".news-grid");
 
 
-if(haberAlani){
+if(haberAlani && typeof haberler !== "undefined"){
 
 
 haberAlani.innerHTML="";
@@ -34,7 +34,7 @@ ${haber.aciklama}
 </p>
 
 
-<a href="${haber.link}">
+<a href="${haber.link}" target="_blank">
 Devamını Oku →
 </a>
 
@@ -49,72 +49,26 @@ Devamını Oku →
 
 
 }
+
+
+
+
+
+
 // ======================
-// BÜYÜK MANŞETLER
-// ======================
-
-const heroArea = document.querySelector("#hero-area");
-
-
-if(heroArea && typeof haberler !== "undefined"){
-
-
-haberler.slice(0,10).forEach(haber=>{
-
-
-heroArea.innerHTML += `
-
-<div class="hero-card">
-
-
-<img src="${haber.resim}">
-
-
-<div class="hero-content">
-
-
-<span>
-${haber.kategori}
-</span>
-
-
-<h1>
-${haber.baslik}
-</h1>
-
-
-<p>
-${haber.aciklama}
-</p>
-
-
-<a href="${haber.link}" target="_blank">
-Haberi Oku →
-</a>
-
-
-</div>
-
-
-</div>
-
-`;
-
-});
-
-
-}
-// ======================
-// BÜYÜK MANŞET HABER
+// BÜYÜK MANŞET
 // ======================
 
 
 const buyukBaslik = document.querySelector("#buyuk-baslik");
+
 const buyukAciklama = document.querySelector("#buyuk-aciklama");
+
 const buyukResim = document.querySelector(".featured img");
 
 
-if(buyukBaslik && haberler.length > 0){
+
+if(buyukBaslik && typeof haberler !== "undefined"){
 
 
 let haber = haberler[0];
@@ -126,7 +80,11 @@ buyukBaslik.innerHTML = haber.baslik;
 buyukAciklama.innerHTML = haber.aciklama;
 
 
+if(buyukResim){
+
 buyukResim.src = haber.resim;
+
+}
 
 
 }
