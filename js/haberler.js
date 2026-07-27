@@ -113,6 +113,12 @@ link:"https://sites.google.com/view/novassporr/haberler_1/fenerbahceden-mason-gr
 kategori:"TRANSFER"
 
 },
-
+{
+    kategori: "TRANSFER",
+    baslik: "Beşiktaş'tan dev transfer: Leandro Trossard resmen siyah-beyazlı",
+    aciklama: "Beşiktaş, Belçikalı yıldız Leandro Trossard transferini resmen tamamladı. Siyah-beyazlı ekip yeni sezon öncesinde önemli bir takviye yaptı.",
+    resim: "images/leandro-trossard-saglik-kontrolunden-gecti.jpg",
+    link: "https://sites.google.com/view/novassporr/haberler_1/beşiktaştan-dev-transfer-leandro-trossard-resmen-siyah-beyazlı?authuser=0"
+},
 
 ];
