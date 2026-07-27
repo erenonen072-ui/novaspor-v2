@@ -605,3 +605,32 @@ border-radius:20px;
 font-weight:bold;
 
 }
+/* FİKSTÜR */
+
+
+.fixture-card{
+
+background:white;
+padding:20px;
+border-radius:15px;
+margin:15px 0;
+box-shadow:0 5px 15px #0002;
+text-align:center;
+
+}
+
+
+.fixture-card h3{
+
+color:#111;
+margin-bottom:15px;
+
+}
+
+
+.fixture-card p{
+
+font-size:18px;
+margin:10px;
+
+}
