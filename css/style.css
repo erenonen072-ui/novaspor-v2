@@ -2745,3 +2745,29 @@ height:200px;
 
 
 }
+/* MOBİL HEADER YAZILARI */
+
+@media (max-width:768px){
+
+header{
+    background:#ffd400 !important;
+}
+
+.logo{
+    color:#111 !important;
+}
+
+#mobile-menu{
+    background:#fff !important;
+}
+
+#mobile-menu a{
+    color:#111 !important;
+}
+
+#mobile-menu a:hover{
+    background:#ffd400;
+    color:#111 !important;
+}
+
+}
