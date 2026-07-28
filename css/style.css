@@ -2306,3 +2306,34 @@ background:#ffd54f;
     font-weight:700;
     text-decoration:none;
 }
+/* Mobilde TFF 1. Lig yazıları beyaz */
+
+@media (max-width:768px){
+
+.lig-card{
+    background:#1b2d4a;
+}
+
+.lig-card a{
+    color:#fff !important;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.lig-card a:hover{
+    color:#ffd700 !important;
+}
+
+.overlay h3{
+    color:#fff !important;
+}
+
+.overlay p{
+    color:#f2f2f2 !important;
+}
+
+.overlay a{
+    color:#111 !important;
+}
+
+}
