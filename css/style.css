@@ -1806,3 +1806,187 @@ display:flex;
 .basket-info p{
     color:#666;
 }
+/* ==========================================
+   🏀 NOVASPOR BASKETBOL BÖLÜMÜ
+========================================== */
+
+.basket-home{
+    max-width:1200px;
+    margin:70px auto;
+    padding:0 15px;
+}
+
+.section-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+    border-left:6px solid #ff7a00;
+    padding-left:15px;
+}
+
+.section-top h2{
+    margin:0;
+    font-size:32px;
+    color:#222;
+    font-weight:800;
+}
+
+.section-top a{
+    text-decoration:none;
+    color:#ff7a00;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.section-top a:hover{
+    text-decoration:underline;
+}
+
+.basket-layout{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:25px;
+}
+
+/* Büyük haber */
+
+.basket-feature{
+    position:relative;
+    overflow:hidden;
+    border-radius:20px;
+    background:#000;
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+}
+
+.basket-feature img{
+    width:100%;
+    height:520px;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.basket-feature:hover img{
+    transform:scale(1.06);
+}
+
+.basket-overlay{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    padding:35px;
+    background:linear-gradient(to top, rgba(0,0,0,.92), rgba(0,0,0,.15));
+}
+
+.basket-overlay span{
+    display:inline-block;
+    background:#ff7a00;
+    color:#fff;
+    padding:7px 15px;
+    border-radius:50px;
+    font-size:13px;
+    font-weight:bold;
+}
+
+.basket-overlay h2{
+    margin:18px 0 12px;
+    color:#fff;
+    font-size:36px;
+}
+
+.basket-overlay p{
+    color:#eee;
+    line-height:1.7;
+    font-size:17px;
+}
+
+.basket-overlay a{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 22px;
+    border-radius:10px;
+    background:#ff7a00;
+    color:#fff;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.basket-overlay a:hover{
+    background:#ff5500;
+}
+
+/* Sağ taraf */
+
+.basket-side{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.basket-small{
+    display:flex;
+    gap:15px;
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    text-decoration:none;
+    color:#222;
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+    transition:.3s;
+}
+
+.basket-small:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 28px rgba(0,0,0,.16);
+}
+
+.basket-small img{
+    width:140px;
+    height:110px;
+    object-fit:cover;
+}
+
+.basket-small div{
+    padding:12px;
+}
+
+.basket-small span{
+    display:inline-block;
+    background:#ff7a00;
+    color:#fff;
+    padding:4px 10px;
+    border-radius:30px;
+    font-size:11px;
+    font-weight:bold;
+}
+
+.basket-small h4{
+    margin-top:10px;
+    font-size:17px;
+    line-height:1.4;
+}
+
+/* Mobil */
+
+@media(max-width:900px){
+
+.basket-layout{
+grid-template-columns:1fr;
+}
+
+.basket-feature img{
+height:350px;
+}
+
+.basket-overlay h2{
+font-size:26px;
+}
+
+.basket-small img{
+width:110px;
+height:90px;
+}
+
+}
