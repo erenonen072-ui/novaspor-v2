@@ -1,31 +1,60 @@
 document.addEventListener("DOMContentLoaded",()=>{
 
 
+    // ⚽ Süper Lig
     haberleriGoster(
         "superlig-container",
         superLigHaberleri
     );
 
 
+    // 🥈 1. Lig
+    haberleriGoster(
+        "lig1-container",
+        lig1Haberleri
+    );
+
+
+    // 🥉 2. Lig
+    haberleriGoster(
+        "lig2-container",
+        lig2Haberleri
+    );
+
+
+    // 🏅 3. Lig
+    haberleriGoster(
+        "lig3-container",
+        lig3Haberleri
+    );
+
+
+    // 🏆 Avrupa
     haberleriGoster(
         "avrupa-container",
         avrupaHaberleri
     );
 
 
-    haberleriGoster(
-        "basketbol-container",
-        basketbolHaberleri
-    );
-
-
+    // 🔄 Transfer
     haberleriGoster(
         "transfer-container",
         transferHaberleri
     );
 
 
+    // 🏀 Basketbol
+    haberleriGoster(
+        "basketbol-container",
+        basketbolHaberleri
+    );
+
+
+
+    // 📱 Mobil Menü
+
     const menuBtn = document.querySelector(".menu-btn");
+
     const navbar = document.querySelector(".navbar");
 
 
@@ -44,63 +73,80 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 
 
+
+
 function haberleriGoster(alan, liste){
 
 
-const container=document.getElementById(alan);
+    const container = document.getElementById(alan);
 
 
-if(!container) return;
+    if(!container || !liste) return;
 
 
-container.innerHTML="";
+
+    container.innerHTML = "";
 
 
-liste.forEach(haber=>{
+
+    liste.forEach(haber=>{
 
 
-container.innerHTML += `
-
-<article class="news-card">
-
-<img src="${haber.resim}" loading="lazy">
+        container.innerHTML += `
 
 
-<div class="news-info">
+        <article class="news-card">
 
 
-<span class="news-tag">
-${haber.kategori}
-</span>
+            <img 
+            src="${haber.resim}" 
+            loading="lazy"
+            alt="${haber.baslik}"
+            >
 
 
-<h3>
-${haber.baslik}
-</h3>
+            <div class="news-info">
 
 
-<p>
-${haber.aciklama}
-</p>
+                <span class="news-tag">
+                    ${haber.kategori}
+                </span>
 
 
-<div class="news-bottom">
 
-<a href="${haber.link}">
-Haberi Oku →
-</a>
-
-</div>
+                <h3>
+                    ${haber.baslik}
+                </h3>
 
 
-</div>
 
-</article>
+                <p>
+                    ${haber.aciklama}
+                </p>
 
-`;
 
 
-});
+                <div class="news-bottom">
+
+
+                    <a href="${haber.link}">
+                        Haberi Oku →
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+
+        </article>
+
+
+        `;
+
+
+    });
 
 
 }
