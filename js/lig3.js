@@ -27,5 +27,5 @@ const lig3Haberleri = [
     resim: "images/TFF3_kopya.png",
     link: "https://sites.google.com/view/novassporr/2-lig-haberleri/3-lig-haberleri/3-ligde-yeni-sezon-heyecanı-başlıyor-gruplar-ve-takımlar-belli-oldu"
 }
-
+window.lig3Haberleri = lig3Haberleri;
 ];
