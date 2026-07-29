@@ -1877,3 +1877,20 @@ border-radius:12px;
 }
 
 }
+body.dark{
+background:#111;
+color:white;
+}
+
+
+body.dark .news-card,
+body.dark .league-section,
+body.dark .popular-news{
+background:#1c1c1c;
+color:white;
+}
+
+
+body.dark p{
+color:#ddd;
+}
