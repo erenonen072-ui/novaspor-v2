@@ -84,3 +84,33 @@ container.innerHTML += `
 
 
 }
+.haber-card{
+    height:420px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+}
+
+
+.haber-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+
+.haber-card div{
+    padding:15px;
+}
+
+
+.haber-card h3{
+    height:55px;
+    overflow:hidden;
+}
+
+
+.haber-card p{
+    height:45px;
+    overflow:hidden;
+}
