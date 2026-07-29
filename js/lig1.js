@@ -1,1 +1,1 @@
-
+window.lig1Haberleri = [
