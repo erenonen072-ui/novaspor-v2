@@ -41,11 +41,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     );
 
 
-    // 🔄 Transfer
-    haberleriGoster(
-        "transfer-container",
-        window.transferHaberleri
-    );
+    
 
 
     // 🏀 Basketbol
