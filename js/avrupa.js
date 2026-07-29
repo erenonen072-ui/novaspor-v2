@@ -8,7 +8,7 @@ const avrupaHaberleri = [
 kategori:"AVRUPA KUPALARI",
 baslik:"Vinícius Júnior İçin Avrupa Devleri Karşı Karşıya! Brezilyalı Yıldızın Geleceği Merak Konusu Oldu",
 aciklama:"Real Madrid'in yıldızı Vinícius Júnior için Avrupa'nın dev kulüplerinin ilgisi devam ediyor. Brezilyalı futbolcunun geleceği transfer döneminin en çok konuşulan konularından biri oldu.",
-resim:"imagesAVRUPA FUTBOLCUSU.jpg/",
+resim:"images/AVRUPA FUTBOLCUSU.jpg",
 link:"https://sites.google.com/view/novassporr/vin%C3%ADcius-j%C3%BAnior-i%C3%A7in-avrupa-devleri-kar%C5%9F%C4%B1-kar%C5%9F%C4%B1ya-brezilyal%C4%B1-y%C4%B1ld%C4%B1z%C4%B1n-gele?authuser=0"
 },
 
