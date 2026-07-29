@@ -2017,3 +2017,78 @@ display:block;
 
 
 }
+/* 🔍 ARAMA */
+
+.search-box{
+
+position:absolute;
+top:70px;
+right:20px;
+
+width:320px;
+
+background:white;
+
+padding:15px;
+
+border-radius:12px;
+
+display:none;
+
+z-index:1000;
+
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+
+}
+
+
+.search-box.active{
+
+display:block;
+
+}
+
+
+.search-box input{
+
+width:100%;
+
+padding:12px;
+
+border-radius:8px;
+
+border:1px solid #ddd;
+
+}
+
+
+#searchResults{
+
+margin-top:10px;
+
+}
+
+
+.search-item{
+
+padding:10px;
+
+border-bottom:1px solid #ddd;
+
+cursor:pointer;
+
+}
+
+
+body.dark .search-box{
+
+background:#222;
+
+}
+
+
+body.dark .search-item{
+
+color:white;
+
+}
