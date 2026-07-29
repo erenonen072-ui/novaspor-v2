@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://novaspor.vercel.app/sitemap.xml
