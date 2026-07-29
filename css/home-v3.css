@@ -1847,3 +1847,33 @@ border-radius:12px;
 }
 
 }
+#basketbol-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+}
+
+
+#basketbol-container .news-card{
+    min-width:0;
+}
+
+
+#basketbol-container img{
+    height:130px;
+    object-fit:cover;
+}
+
+
+#basketbol-container h3{
+    font-size:16px;
+}
+
+
+@media(max-width:768px){
+
+#basketbol-container{
+    grid-template-columns:1fr;
+}
+
+}
