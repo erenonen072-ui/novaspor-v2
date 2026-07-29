@@ -217,35 +217,28 @@ function haberleriGoster(alan, liste){
 // ==========================
 // COOKIE
 // ==========================
+const cookieBox = document.getElementById("cookieBox");
+const accept = document.getElementById("cookieAccept");
+const reject = document.getElementById("cookieReject");
 
-const cookieBox=document.getElementById("cookieBox");
+if (cookieBox) {
 
-const accept=document.getElementById("cookieAccept");
+    if (localStorage.getItem("cookieConsent")) {
+        cookieBox.style.display = "none";
+    }
 
-const reject=document.getElementById("cookieReject");
+    if (accept) {
+        accept.onclick = () => {
+            localStorage.setItem("cookieConsent", "accepted");
+            cookieBox.style.display = "none";
+        };
+    }
 
-if(localStorage.getItem("cookieConsent")){
-
-cookieBox.style.display="none";
-
-}
-
-accept.onclick=()=>{
-
-localStorage.setItem("cookieConsent","accepted");
-
-cookieBox.style.display="none";
-
-}
-
-reject.onclick=()=>{
-
-localStorage.setItem("cookieConsent","rejected");
-
-cookieBox.style.display="none";
-
-}
-
-}
+    if (reject) {
+        reject.onclick = () => {
+            localStorage.setItem("cookieConsent", "rejected");
+            cookieBox.style.display = "none";
+        };
+    }
 
 }
