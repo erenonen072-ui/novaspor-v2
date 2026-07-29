@@ -2092,3 +2092,27 @@ body.dark .search-item{
 color:white;
 
 }
+.popular-news li{
+
+display:flex;
+justify-content:space-between;
+padding:12px;
+
+border-bottom:1px solid #ddd;
+
+}
+
+
+.popular-news span{
+
+font-size:13px;
+color:#777;
+
+}
+
+
+body.dark .popular-news span{
+
+color:#ccc;
+
+}
