@@ -49,6 +49,11 @@ document.addEventListener("DOMContentLoaded",()=>{
         "basketbol-container",
         window.basketbolHaberleri
     );
+    // 🏐 Voleybol
+haberleriGoster(
+    "voleybol-container",
+    window.voleybolHaberleri
+);
 
 
 
