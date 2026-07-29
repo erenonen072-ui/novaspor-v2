@@ -1,38 +1,29 @@
 // ======================================
 // NOVASPOR GÜNDEM
 // ======================================
-
 const gundemHaberleri = [
-    superLigHaberleri[0],
     transferHaberleri[0],
+    superLigHaberleri[0],
     lig2Haberleri[0],
-    avrupaHaberleri[0]
+    lig1Haberleri[0]
 ];
 
-const gundemContainer = document.getElementById("gundem-container");
+const container = document.getElementById("gundem-container");
 
-if (gundemContainer) {
+if (container) {
 
-    gundemContainer.innerHTML = "";
+    container.innerHTML = "";
 
     gundemHaberleri.forEach(haber => {
 
-        gundemContainer.innerHTML += `
-
+        container.innerHTML += `
             <a href="${haber.link}">
-
                 <img src="${haber.resim}" alt="${haber.baslik}">
-
                 <div>
-
                     <span>${haber.kategori}</span>
-
                     <h4>${haber.baslik}</h4>
-
                 </div>
-
             </a>
-
         `;
 
     });
