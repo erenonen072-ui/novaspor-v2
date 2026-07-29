@@ -3588,65 +3588,63 @@ background:#ddd;
 
 }
 
-@media (max-width:850px){
+@media (max-width:768px){
 
 .cookie-box{
+    position:fixed;
+    left:12px;
+    right:12px;
+    bottom:15px;
 
-left:200px;
-right:200px;
-bottom:600px;
+    width:auto;
+    max-width:none;
 
-width:auto;
+    transform:none;
 
-transform:none;
+    padding:16px;
+    border-radius:16px;
 
-padding:16px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:15px;
 
-border-radius:14px;
-
+    z-index:99999;
 }
 
 .cookie-left{
-
-gap:12px;
-
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
 }
 
 .cookie-icon{
-
-font-size:32px;
-
+    font-size:30px;
 }
 
 .cookie-content h3{
-
-font-size:17px;
-
+    font-size:18px;
+    margin-bottom:6px;
 }
 
 .cookie-content p{
-
-font-size:14px;
-
-line-height:1.5;
-
+    font-size:14px;
+    line-height:1.5;
 }
 
 .cookie-buttons{
-
-width:100%;
-display:flex;
-gap:10px;
-
+    width:100%;
+    display:flex;
+    gap:10px;
 }
 
 .cookie-btn{
-
-flex:1;
-padding:12px;
-
+    flex:1;
+    height:48px;
+    border-radius:12px;
+    font-size:15px;
+    font-weight:700;
 }
-
 }
 /* =========================
    PROFESYONEL ARAMA
