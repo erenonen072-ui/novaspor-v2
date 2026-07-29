@@ -2,33 +2,43 @@
 // NOVASPOR MANŞET HABERİ
 // ======================================
 
+const mansetHaber = {
 
-const mansetHaberleri = [
+    baslik: "Fenerbahçe'den Mason Greenwood Hamlesi Resmileşti",
 
-{
-baslik: "Fenerbahçe'den Mason Greenwood Hamlesi Resmileşti",
-aciklama: "Fenerbahçe transfer gündeminde önemli bir gelişme yaşandı.",
-resim:"images/greenwood.jpg",
-link:"https://sites.google.com/view/novassporr/haberler_1/fenerbahçeden-mason-greenwood-hamlesi-resmileşti?authuser=0",
-kategori:"TRANSFER"
-},
+    aciklama: "Fenerbahçe transfer çalışmalarına hız verirken Mason Greenwood hamlesi gündeme geldi.",
 
+    resim: "images/haber1.jpg",
 
-{
-baslik: "Beşiktaş'tan Dev Transfer: Leandro Trossard Resmen Siyah-Beyazlı",
-aciklama: "Beşiktaş yeni sezon kadrosu için önemli bir hamle yaptı.",
-resim:"images/trossard.jpg",
-link:"https://sites.google.com/view/novassporr/haberler_1/beşiktaştan-dev-transfer-leandro-trossard-resmen-siyah-beyazlı?authuser=0",
-kategori:"TRANSFER"
-},
+    link: "https://sites.google.com/view/novassporr/haberler_1/fenerbahçeden-mason-greenwood-hamlesi-resmileşti?authuser=0",
+
+    kategori: "TRANSFER"
+
+};
 
 
-{
-baslik: "Son Dakika: Galatasaray'dan Can Uzun Hamlesi",
-aciklama: "Galatasaray transfer çalışmalarına hız verdi.",
-resim:"images/canuzun.jpg",
-link:"https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaraydan-can-uzun-hamlesi?authuser=0",
-kategori:"SON DAKİKA"
+const heroImage = document.getElementById("hero-image");
+const heroTitle = document.getElementById("hero-title");
+const heroText = document.getElementById("hero-text");
+const heroLink = document.getElementById("hero-link");
+const heroTag = document.querySelector(".hero-tag");
+
+
+if (heroImage && heroTitle && heroText && heroLink) {
+
+    heroImage.src = mansetHaber.resim;
+
+    heroImage.alt = mansetHaber.baslik;
+
+    heroTitle.textContent = mansetHaber.baslik;
+
+    heroText.textContent = mansetHaber.aciklama;
+
+    heroLink.href = mansetHaber.link;
+
+
+    if(heroTag){
+        heroTag.textContent = mansetHaber.kategori;
+    }
+
 }
-
-];
