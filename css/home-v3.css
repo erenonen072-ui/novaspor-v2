@@ -3648,3 +3648,99 @@ padding:12px;
 }
 
 }
+/* =========================
+   PROFESYONEL ARAMA
+========================= */
+
+.search-box{
+position:absolute;
+top:80px;
+right:15px;
+width:380px;
+max-height:500px;
+overflow-y:auto;
+background:#fff;
+border-radius:18px;
+box-shadow:0 15px 40px rgba(0,0,0,.18);
+display:none;
+z-index:99999;
+}
+
+.search-box.active{
+display:block;
+animation:fadeSearch .25s;
+}
+
+.search-box input{
+width:100%;
+padding:16px;
+border:none;
+border-bottom:1px solid #eee;
+font-size:16px;
+outline:none;
+}
+
+.search-item{
+display:block;
+padding:15px;
+border-bottom:1px solid #eee;
+transition:.25s;
+}
+
+.search-item:hover{
+background:#f5f5f5;
+}
+
+.search-item h4{
+font-size:16px;
+margin-bottom:6px;
+}
+
+.search-item p{
+font-size:13px;
+color:#666;
+}
+
+.no-result{
+padding:25px;
+text-align:center;
+color:#888;
+}
+
+body.dark .search-box{
+background:#1f1f1f;
+}
+
+body.dark .search-item{
+border-color:#333;
+}
+
+body.dark .search-item:hover{
+background:#2a2a2a;
+}
+
+body.dark .search-item p{
+color:#ccc;
+}
+
+@keyframes fadeSearch{
+from{
+opacity:0;
+transform:translateY(-10px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@media(max-width:768px){
+
+.search-box{
+left:10px;
+right:10px;
+width:auto;
+top:70px;
+}
+
+}
