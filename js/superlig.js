@@ -1,4 +1,4 @@
-const superLigHaberleri = [
+window.superLigHaberleri = [
 
 {
 kategori:"Süper Lig",
