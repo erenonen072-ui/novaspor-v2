@@ -1,9 +1,6 @@
 document.addEventListener("DOMContentLoaded",()=>{
 
-    haberleriGoster(
-        "superlig-container",
-        superLigHaberleri
-    );
+   
 
 
     haberleriGoster(
