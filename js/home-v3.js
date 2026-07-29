@@ -263,3 +263,102 @@ if(darkBtn){
         }
     };
 }
+// ==========================
+// PROFESYONEL ARAMA
+// ==========================
+
+const searchBtn = document.getElementById("searchBtn");
+const searchBox = document.querySelector(".search-box");
+const searchInput = document.getElementById("searchInput");
+const searchResults = document.getElementById("searchResults");
+
+const tumHaberler = [
+...(window.superLigHaberleri || []),
+...(window.lig1Haberleri || []),
+...(window.lig2Haberleri || []),
+...(window.lig3Haberleri || []),
+...(window.avrupaHaberleri || []),
+...(window.basketbolHaberleri || [])
+];
+
+searchBtn.addEventListener("click",()=>{
+
+searchBox.classList.toggle("active");
+
+if(searchBox.classList.contains("active")){
+searchInput.focus();
+}
+
+});
+
+searchInput.addEventListener("input",()=>{
+
+const kelime = searchInput.value.toLowerCase().trim();
+
+searchResults.innerHTML="";
+
+if(kelime===""){
+return;
+}
+
+const sonuc = tumHaberler.filter(h=>{
+
+return (
+
+h.baslik.toLowerCase().includes(kelime) ||
+
+(h.aciklama||"").toLowerCase().includes(kelime)
+
+);
+
+});
+
+if(sonuc.length===0){
+
+searchResults.innerHTML=`
+<div class="no-result">
+😔 Sonuç bulunamadı.
+</div>
+`;
+
+return;
+
+}
+
+sonuc.slice(0,8).forEach(h=>{
+
+searchResults.innerHTML+=`
+
+<a class="search-item" href="${h.link}" target="_blank">
+
+<h4>${h.baslik}</h4>
+
+<p>${h.aciklama||""}</p>
+
+</a>
+
+`;
+
+});
+
+});
+
+document.addEventListener("click",(e)=>{
+
+if(!searchBox.contains(e.target) && !searchBtn.contains(e.target)){
+
+searchBox.classList.remove("active");
+
+}
+
+});
+
+document.addEventListener("keydown",(e)=>{
+
+if(e.key==="Escape"){
+
+searchBox.classList.remove("active");
+
+}
+
+});
