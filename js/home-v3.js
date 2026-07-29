@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded",()=>{
     );
 
 
-
     const menuBtn = document.querySelector(".menu-btn");
     const navbar = document.querySelector(".navbar");
 
@@ -62,55 +61,46 @@ liste.forEach(haber=>{
 
 container.innerHTML += `
 
-<div class="haber-card">
+<article class="news-card">
 
 <img src="${haber.resim}" loading="lazy">
 
-<div>
 
-<span>${haber.kategori}</span>
+<div class="news-info">
 
-<h3>${haber.baslik}</h3>
 
-<p>${haber.aciklama}</p>
+<span class="news-tag">
+${haber.kategori}
+</span>
+
+
+<h3>
+${haber.baslik}
+</h3>
+
+
+<p>
+${haber.aciklama}
+</p>
+
+
+<div class="news-bottom">
+
+<a href="${haber.link}">
+Haberi Oku →
+</a>
 
 </div>
 
+
 </div>
+
+</article>
 
 `;
+
 
 });
 
 
-}
-.haber-card{
-    height:420px;
-    overflow:hidden;
-    display:flex;
-    flex-direction:column;
-}
-
-
-.haber-card img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
-}
-
-
-.haber-card div{
-    padding:15px;
-}
-
-
-.haber-card h3{
-    height:55px;
-    overflow:hidden;
-}
-
-
-.haber-card p{
-    height:45px;
-    overflow:hidden;
 }
