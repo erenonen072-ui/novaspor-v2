@@ -1,5 +1,5 @@
 // ======================================
-// NOVASPOR MANŞET HABERLERİ
+// NOVASPOR MANŞET SLIDER
 // ======================================
 
 const mansetHaberleri = [
@@ -12,7 +12,6 @@ const mansetHaberleri = [
     kategori: "TRANSFER"
 },
 
-
 {
     baslik: "Beşiktaş'tan Dev Transfer: Leandro Trossard Resmen Siyah-Beyazlı",
     aciklama: "Beşiktaş transfer çalışmalarında önemli bir hamle yaptı.",
@@ -20,7 +19,6 @@ const mansetHaberleri = [
     link: "https://sites.google.com/view/novassporr/haberler_1/beşiktaştan-dev-transfer-leandro-trossard-resmen-siyah-beyazlı?authuser=0",
     kategori: "TRANSFER"
 },
-
 
 {
     baslik: "Son Dakika: Galatasaray'dan Can Uzun Hamlesi",
@@ -33,9 +31,7 @@ const mansetHaberleri = [
 ];
 
 
-// İlk manşeti göster
-
-const mansetHaber = mansetHaberleri[0];
+let aktifManşet = 0;
 
 
 const heroImage = document.getElementById("hero-image");
@@ -45,21 +41,55 @@ const heroLink = document.getElementById("hero-link");
 const heroTag = document.querySelector(".hero-tag");
 
 
-if(heroImage && heroTitle && heroText && heroLink){
 
-    heroImage.src = mansetHaber.resim;
+function mansetGuncelle(){
 
-    heroImage.alt = mansetHaber.baslik;
+    const haber = mansetHaberleri[aktifManşet];
 
-    heroTitle.textContent = mansetHaber.baslik;
 
-    heroText.textContent = mansetHaber.aciklama;
+    heroImage.src = haber.resim;
 
-    heroLink.href = mansetHaber.link;
+    heroImage.alt = haber.baslik;
+
+    heroTitle.textContent = haber.baslik;
+
+    heroText.textContent = haber.aciklama;
+
+    heroLink.href = haber.link;
 
 
     if(heroTag){
-        heroTag.textContent = mansetHaber.kategori;
+        heroTag.textContent = haber.kategori;
     }
+
+}
+
+
+
+// İlk haber
+
+if(heroImage && heroTitle && heroText && heroLink){
+
+    mansetGuncelle();
+
+
+    // 5 saniyede bir değiştir
+
+    setInterval(()=>{
+
+        aktifManşet++;
+
+
+        if(aktifManşet >= mansetHaberleri.length){
+
+            aktifManşet = 0;
+
+        }
+
+
+        mansetGuncelle();
+
+
+    },5000);
 
 }
