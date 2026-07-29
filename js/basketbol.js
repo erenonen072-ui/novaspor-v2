@@ -38,28 +38,3 @@ tag:"ANADOLU EFES"
 
 ];
 
-const basketArea = document.getElementById("basket-area");
-
-basketArea.innerHTML = basketHaberler.map(haber => `
-
-<div class="basket-card">
-
-<img src="${haber.image}" alt="${haber.title}">
-
-<div class="basket-info">
-
-<span>${haber.tag}</span>
-
-<h3>${haber.title}</h3>
-
-<p>${haber.summary}</p>
-
-<a href="${haber.link}">
-Haberi Oku →
-</a>
-
-</div>
-
-</div>
-
-`).join("");
