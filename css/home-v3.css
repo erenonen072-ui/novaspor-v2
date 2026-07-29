@@ -1937,3 +1937,65 @@ color:#ccc;
 body.dark .news-card{
 box-shadow:0 5px 20px rgba(255,255,255,.05);
 }
+/* 📱 MOBİL MENÜ */
+
+.mobile-menu{
+
+position:fixed;
+top:0;
+left:-300px;
+
+width:260px;
+height:100vh;
+
+background:white;
+padding:80px 20px;
+
+display:flex;
+flex-direction:column;
+gap:20px;
+
+transition:.3s;
+
+z-index:999;
+
+}
+
+
+.mobile-menu a{
+
+color:#111;
+font-size:18px;
+text-decoration:none;
+
+}
+
+
+.mobile-menu.active{
+
+left:0;
+
+}
+
+
+body.dark .mobile-menu{
+
+background:#1c1c1c;
+
+}
+
+
+body.dark .mobile-menu a{
+
+color:white;
+
+}
+
+
+@media(min-width:769px){
+
+.mobile-menu{
+display:none;
+}
+
+}
