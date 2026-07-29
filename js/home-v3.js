@@ -214,179 +214,37 @@ function haberleriGoster(alan, liste){
 
 
 }
-/* ========================= */
-/* COOKIE */
-/* ========================= */
+// ==========================
+// COOKIE
+// ==========================
 
-.cookie-box{
+const cookieBox=document.getElementById("cookieBox");
 
-position:fixed;
+const accept=document.getElementById("cookieAccept");
 
-bottom:20px;
+const reject=document.getElementById("cookieReject");
 
-left:50%;
+if(localStorage.getItem("cookieConsent")){
 
-transform:translateX(-50%);
-
-width:min(92%,900px);
-
-background:#ffffff;
-
-border-radius:18px;
-
-padding:22px;
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-gap:25px;
-
-box-shadow:0 15px 40px rgba(0,0,0,.18);
-
-z-index:9999;
-
-animation:cookieShow .5s ease;
+cookieBox.style.display="none";
 
 }
 
-.cookie-left{
+accept.onclick=()=>{
 
-display:flex;
+localStorage.setItem("cookieConsent","accepted");
 
-align-items:flex-start;
-
-gap:18px;
+cookieBox.style.display="none";
 
 }
 
-.cookie-icon{
+reject.onclick=()=>{
 
-font-size:42px;
+localStorage.setItem("cookieConsent","rejected");
 
-}
-
-.cookie-content h3{
-
-margin-bottom:8px;
-
-font-size:20px;
-
-font-weight:700;
+cookieBox.style.display="none";
 
 }
-
-.cookie-content p{
-
-line-height:1.7;
-
-font-size:15px;
-
-color:#555;
-
-}
-
-.cookie-content a{
-
-color:#ffb400;
-
-font-weight:700;
-
-text-decoration:none;
-
-}
-
-.cookie-buttons{
-
-display:flex;
-
-gap:12px;
-
-}
-
-.cookie-btn{
-
-padding:12px 22px;
-
-border:none;
-
-border-radius:10px;
-
-font-weight:600;
-
-cursor:pointer;
-
-transition:.25s;
-
-}
-
-.cookie-btn.primary{
-
-background:#ffb400;
-
-color:#111;
-
-}
-
-.cookie-btn.primary:hover{
-
-transform:translateY(-2px);
-
-}
-
-.cookie-btn.secondary{
-
-background:#ececec;
-
-}
-
-.cookie-btn.secondary:hover{
-
-background:#ddd;
-
-}
-
-@media(max-width:850px){
-
-.cookie-box{
-
-flex-direction:column;
-
-align-items:flex-start;
-
-}
-
-.cookie-buttons{
-
-width:100%;
-
-}
-
-.cookie-btn{
-
-flex:1;
-
-}
-
-}
-
-@keyframes cookieShow{
-
-from{
-
-opacity:0;
-
-transform:translate(-50%,50px);
-
-}
-
-to{
-
-opacity:1;
-
-transform:translate(-50%,0);
 
 }
 
