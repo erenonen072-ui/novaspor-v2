@@ -14,12 +14,11 @@ const lig2Haberleri = [
 
 {
     kategori: "TRANSFER",
-    baslik: "Menemen FK'dan Orta Sahaya Güçlü Takviye",
-    resim: "images/menemen-transfer.jpg",
-    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/menemen-transfer",
-    saat: "35 dk önce"
+    baslik: "Çorum FK'dan Savunmaya Güçlü Takviye: Andrei Borza Resmen İmzayı Attı",
+    resim: "images/ÇORUM.png",
+    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/çorum-fkdan-savunmaya-güçlü-takviye-andrei-borza-resmen-imzayı-attı?authuser=0",
+    saat: "Az önce"
 },
-
 {
     kategori: "2. LİG",
     baslik: "2. Lig Ekipleri Hazırlıklarını Sürdürüyor",
