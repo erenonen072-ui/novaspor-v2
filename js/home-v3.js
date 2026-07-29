@@ -60,7 +60,21 @@ container.innerHTML += `
 
 `;
 
+const menuBtn = document.querySelector(".menu-btn");
 
+const navbar = document.querySelector(".navbar");
+
+
+if(menuBtn){
+
+menuBtn.addEventListener("click",()=>{
+
+navbar.classList.toggle("active");
+
+});
+
+
+}
 });
 
 
