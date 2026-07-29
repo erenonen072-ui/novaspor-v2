@@ -40,23 +40,21 @@ tag:"ANADOLU EFES"
 
 const basketArea = document.getElementById("basket-area");
 
-basketArea.innerHTML = `
+basketArea.innerHTML = basketHaberler.map(haber => `
 
-<div class="basket-layout">
+<div class="basket-card">
 
-<div class="basket-feature">
+<img src="${haber.image}" alt="${haber.title}">
 
-<img src="${basketHaberler[0].image}">
+<div class="basket-info">
 
-<div class="basket-overlay">
+<span>${haber.tag}</span>
 
-<span>${basketHaberler[0].tag}</span>
+<h3>${haber.title}</h3>
 
-<h2>${basketHaberler[0].title}</h2>
+<p>${haber.summary}</p>
 
-<p>${basketHaberler[0].summary}</p>
-
-<a href="${basketHaberler[0].link}">
+<a href="${haber.link}">
 Haberi Oku →
 </a>
 
@@ -64,28 +62,4 @@ Haberi Oku →
 
 </div>
 
-<div class="basket-side">
-
-${basketHaberler.slice(1).map(haber=>`
-
-<a class="basket-small" href="${haber.link}">
-
-<img src="${haber.image}">
-
-<div>
-
-<span>${haber.tag}</span>
-
-<h4>${haber.title}</h4>
-
-</div>
-
-</a>
-
-`).join("")}
-
-</div>
-
-</div>
-
-`;
+`).join("");
