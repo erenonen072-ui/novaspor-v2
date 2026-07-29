@@ -1,31 +1,31 @@
  // ==========================
-// NOVASPOR - 3. LİG
+// NOVASPOR - 3. LİG HABERLERİ
 // ==========================
 
-window.lig3Haberleri = [
+const lig3Haberleri = [
 
 {
     kategori: "TRANSFER",
-    baslik: "3. Lig'de Transfer Çalışmaları Hız Kazandı",
-    aciklama: "Kulüpler yeni sezon öncesi kadrolarını güçlendirmek için transfer çalışmalarına devam ediyor.",
-    resim: "images/lig3.png",
-    link: "#"
+    baslik: "Malatya Yeşilyurt Spor'dan Orta Sahaya Tecrübeli Takviye: Aykut Sarıdoğan İmzayı Attı",
+    aciklama: "Malatya Yeşilyurt Spor, yeni sezon kadro yapılanması kapsamında orta saha bölgesine deneyimli futbolcu Aykut Sarıdoğan'ı transfer etti.",
+    resim: "images/Yeni_Malatyaspor.png",
+    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/3-lig-haberleri/malatya-yeşilyurt-spordan-orta-sahaya-tecrübeli-takviye-aykut-sarıdoğan-i"
+},
+
+{
+    kategori: "TRANSFER",
+    baslik: "Eskişehirspor Transferde Hız Kesmiyor: Kadro Güçlendirme Çalışmaları Sürüyor",
+    aciklama: "Şampiyonluk hedefleyen Eskişehirspor, yeni sezon öncesi transfer çalışmalarına devam ederek güçlü bir kadro oluşturmayı amaçlıyor.",
+    resim: "images/Eskişehirspor.png",
+    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/3-lig-haberleri/eskişehirspor-transferde-hız-kesmiyor-kadro-güçlendirme-çalışma-sürüyo"
 },
 
 {
     kategori: "GÜNDEM",
-    baslik: "3. Lig Takımları Yeni Sezona Hazırlanıyor",
-    aciklama: "Takımlar kamp çalışmalarını sürdürürken taraftarlar yeni sezon heyecanını bekliyor.",
-    resim: "images/lig3.png",
-    link: "#"
-},
-
-{
-    kategori: "MAÇ",
-    baslik: "3. Lig'de Büyük Rekabet Başlıyor",
-    aciklama: "Yeni sezonla birlikte mücadele seviyesi yüksek karşılaşmalar futbolseverleri bekliyor.",
-    resim: "images/lig3.png",
-    link: "#"
+    baslik: "3. Lig'de Yeni Sezon Heyecanı Başlıyor: Gruplar ve Takımlar Belli Oldu",
+    aciklama: "2026-2027 sezonu öncesinde TFF 3. Lig'de gruplar belli olurken takımlar yeni sezon hazırlıklarına başladı.",
+    resim: "images/TFF3_kopya.png",
+    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/3-lig-haberleri/3-ligde-yeni-sezon-heyecanı-başlıyor-gruplar-ve-takımlar-belli-oldu"
 }
 
 ];
