@@ -1,74 +1,34 @@
 // ======================================
-// NOVASPOR OTOMATİK MANŞET SİSTEMİ
+// NOVASPOR MANŞET HABERİ
 // ======================================
 
-let tumHaberler = [];
+
+const mansetHaberleri = [
+
+{
+baslik: "Fenerbahçe'den Mason Greenwood Hamlesi Resmileşti",
+aciklama: "Fenerbahçe transfer gündeminde önemli bir gelişme yaşandı.",
+resim:"images/greenwood.jpg",
+link:"https://sites.google.com/view/novassporr/haberler_1/fenerbahçeden-mason-greenwood-hamlesi-resmileşti?authuser=0",
+kategori:"TRANSFER"
+},
 
 
-// Haber listelerini birleştir
-if (window.superLigHaberleri) {
-    tumHaberler.push(...window.superLigHaberleri);
+{
+baslik: "Beşiktaş'tan Dev Transfer: Leandro Trossard Resmen Siyah-Beyazlı",
+aciklama: "Beşiktaş yeni sezon kadrosu için önemli bir hamle yaptı.",
+resim:"images/trossard.jpg",
+link:"https://sites.google.com/view/novassporr/haberler_1/beşiktaştan-dev-transfer-leandro-trossard-resmen-siyah-beyazlı?authuser=0",
+kategori:"TRANSFER"
+},
+
+
+{
+baslik: "Son Dakika: Galatasaray'dan Can Uzun Hamlesi",
+aciklama: "Galatasaray transfer çalışmalarına hız verdi.",
+resim:"images/canuzun.jpg",
+link:"https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaraydan-can-uzun-hamlesi?authuser=0",
+kategori:"SON DAKİKA"
 }
 
-if (window.lig1Haberleri) {
-    tumHaberler.push(...window.lig1Haberleri);
-}
-
-if (window.lig2Haberleri) {
-    tumHaberler.push(...window.lig2Haberleri);
-}
-
-if (window.lig3Haberleri) {
-    tumHaberler.push(...window.lig3Haberleri);
-}
-
-if (window.avrupaHaberleri) {
-    tumHaberler.push(...window.avrupaHaberleri);
-}
-
-if (window.basketbolHaberleri) {
-    tumHaberler.push(...window.basketbolHaberleri);
-}
-
-if (window.transferHaberleri) {
-    tumHaberler.push(...window.transferHaberleri);
-}
-
-
-
-// İlk haberi manşet yap
-const mansetHaber = tumHaberler[0];
-
-
-const heroImage = document.getElementById("hero-image");
-const heroTitle = document.getElementById("hero-title");
-const heroText = document.getElementById("hero-text");
-const heroLink = document.getElementById("hero-link");
-const heroTag = document.querySelector(".hero-tag");
-
-
-
-if (mansetHaber && heroImage && heroTitle && heroText && heroLink) {
-
-
-    heroImage.src = mansetHaber.resim;
-    heroImage.alt = mansetHaber.baslik;
-
-
-    heroTitle.textContent = mansetHaber.baslik;
-
-
-    heroText.textContent =
-    mansetHaber.ozet || 
-    mansetHaber.aciklama ||
-    "NovaSpor'dan son dakika spor gelişmeleri.";
-
-
-    heroLink.href = mansetHaber.link || "#";
-
-
-    if(heroTag){
-        heroTag.textContent = mansetHaber.kategori || "SON DAKİKA";
-    }
-
-}
+];
