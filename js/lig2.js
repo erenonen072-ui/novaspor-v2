@@ -5,11 +5,11 @@
 const lig2Haberleri = [
 
 {
-    kategori: "2. LİG",
-    baslik: "2. Lig'de Yeni Sezon Heyecanı Başlıyor",
-    resim: "images/2lig1.jpg",
-    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/2-ligde-yeni-sezon-heyecanı-başlıyor",
-    saat: "15 dk önce"
+    kategori: "TRANSFER",
+    baslik: "Menemen FK'dan Orta Sahaya Güçlü Takviye: Deneyimli İsim Resmen Kadroda",
+    resim: "images/MENEMEN.png",
+    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/menemen-fkdan-orta-sahaya-güçlü-takviye-deneyimli-isim-resmen-kadroda",
+    saat: "Az önce"
 },
 
 {
