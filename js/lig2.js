@@ -2,7 +2,7 @@
 // NOVASPOR - 2. LİG
 // ==========================
 
-const lig2Haberleri = [
+window.lig2Haberleri = [
 
 {
     kategori: "TRANSFER",
