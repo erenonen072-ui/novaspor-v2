@@ -37,3 +37,4 @@ link:"https://sites.google.com/view/novassporr/real-madridden-avrupay%C4%B1-sars
 }
 
 ];
+window.avrupaHaberleri = avrupaHaberleri;
