@@ -2,7 +2,7 @@
 // NOVASPOR BASKETBOL
 // ==========================
 
-const basketHaberler = [
+const basketbolHaberleri = [
 
 {
 title:"Fenerbahçe Beko'dan Güç Gösterisi! Yeni Transferlerle Hedef Bir Kez Daha Avrupa'nın Zirvesi",
