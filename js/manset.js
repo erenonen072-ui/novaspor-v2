@@ -2,7 +2,7 @@
 // NOVASPOR MANŞET SLIDER
 // ======================================
 
-const mansetHaberleri = [
+window.mansetHaberleri = [
 
 {
     baslik: "Fenerbahçe'den Mason Greenwood Hamlesi Resmileşti",
@@ -44,7 +44,11 @@ const heroTag = document.querySelector(".hero-tag");
 
 function mansetGuncelle(){
 
-    const haber = mansetHaberleri[aktifManşet];
+
+    const haber = window.mansetHaberleri[aktifManşet];
+
+
+    if(!haber) return;
 
 
     heroImage.src = haber.resim;
@@ -59,28 +63,29 @@ function mansetGuncelle(){
 
 
     if(heroTag){
+
         heroTag.textContent = haber.kategori;
+
     }
 
 }
 
 
 
-// İlk haber
 
 if(heroImage && heroTitle && heroText && heroLink){
+
 
     mansetGuncelle();
 
 
-    // 5 saniyede bir değiştir
-
     setInterval(()=>{
+
 
         aktifManşet++;
 
 
-        if(aktifManşet >= mansetHaberleri.length){
+        if(aktifManşet >= window.mansetHaberleri.length){
 
             aktifManşet = 0;
 
@@ -91,5 +96,6 @@ if(heroImage && heroTitle && heroText && heroLink){
 
 
     },5000);
+
 
 }
