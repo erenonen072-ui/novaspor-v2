@@ -191,11 +191,7 @@ function haberleriGoster(alan, liste){
                 <div class="news-bottom">
 
 
-                    <a href="${haber.link}" target="_blank">
-
-                        Haberi Oku →
-
-                    </a>
+                    
 
 
                 </div>
