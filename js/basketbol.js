@@ -1,4 +1,4 @@
-const basketbolHaberleri = [
+window.basketbolHaberleri = [
 
 {
 kategori:"Basketbol",
