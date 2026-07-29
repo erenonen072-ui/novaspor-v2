@@ -1,20 +1,41 @@
 // ======================================
-// NOVASPOR MANŞET HABERİ
+// NOVASPOR MANŞET HABERLERİ
 // ======================================
 
-const mansetHaber = {
+const mansetHaberleri = [
 
+{
     baslik: "Fenerbahçe'den Mason Greenwood Hamlesi Resmileşti",
-
-    aciklama: "Fenerbahçe transfer çalışmalarına hız verirken Mason Greenwood hamlesi gündeme geldi.",
-
+    aciklama: "Fenerbahçe'nin transfer gündemindeki Mason Greenwood gelişmesi büyük ilgi gördü.",
     resim: "images/haber1.jpg",
-
     link: "https://sites.google.com/view/novassporr/haberler_1/fenerbahçeden-mason-greenwood-hamlesi-resmileşti?authuser=0",
-
     kategori: "TRANSFER"
+},
 
-};
+
+{
+    baslik: "Beşiktaş'tan Dev Transfer: Leandro Trossard Resmen Siyah-Beyazlı",
+    aciklama: "Beşiktaş transfer çalışmalarında önemli bir hamle yaptı.",
+    resim: "images/haber2.jpg",
+    link: "https://sites.google.com/view/novassporr/haberler_1/beşiktaştan-dev-transfer-leandro-trossard-resmen-siyah-beyazlı?authuser=0",
+    kategori: "TRANSFER"
+},
+
+
+{
+    baslik: "Son Dakika: Galatasaray'dan Can Uzun Hamlesi",
+    aciklama: "Galatasaray transfer çalışmalarını hızlandırdı.",
+    resim: "images/haber3.jpg",
+    link: "https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaraydan-can-uzun-hamlesi?authuser=0",
+    kategori: "SON DAKİKA"
+}
+
+];
+
+
+// İlk manşeti göster
+
+const mansetHaber = mansetHaberleri[0];
 
 
 const heroImage = document.getElementById("hero-image");
@@ -24,7 +45,7 @@ const heroLink = document.getElementById("hero-link");
 const heroTag = document.querySelector(".hero-tag");
 
 
-if (heroImage && heroTitle && heroText && heroLink) {
+if(heroImage && heroTitle && heroText && heroLink){
 
     heroImage.src = mansetHaber.resim;
 
