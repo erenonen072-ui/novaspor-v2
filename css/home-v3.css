@@ -1894,3 +1894,46 @@ color:white;
 body.dark p{
 color:#ddd;
 }
+/* 🌙 DARK MODE */
+
+body.dark{
+background:#111;
+color:#fff;
+}
+
+
+body.dark .header{
+background:#181818;
+}
+
+
+body.dark .navbar a{
+color:#ddd;
+}
+
+
+body.dark .league-section,
+body.dark .news-card,
+body.dark .popular-news,
+body.dark .newsletter{
+background:#1e1e1e;
+color:white;
+}
+
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4{
+color:white;
+}
+
+
+body.dark p{
+color:#ccc;
+}
+
+
+body.dark .news-card{
+box-shadow:0 5px 20px rgba(255,255,255,.05);
+}
