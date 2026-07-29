@@ -7,7 +7,7 @@ const mansetHaberleri = [
 {
     baslik: "Fenerbahçe'den Mason Greenwood Hamlesi Resmileşti",
     aciklama: "Fenerbahçe'nin transfer gündemindeki Mason Greenwood gelişmesi büyük ilgi gördü.",
-    resim: "images/haber1.jpg",
+    resim: "images/hq720.jpg",
     link: "https://sites.google.com/view/novassporr/haberler_1/fenerbahçeden-mason-greenwood-hamlesi-resmileşti?authuser=0",
     kategori: "TRANSFER"
 },
@@ -16,7 +16,7 @@ const mansetHaberleri = [
 {
     baslik: "Beşiktaş'tan Dev Transfer: Leandro Trossard Resmen Siyah-Beyazlı",
     aciklama: "Beşiktaş transfer çalışmalarında önemli bir hamle yaptı.",
-    resim: "images/haber2.jpg",
+    resim: "images/leandro-trossard-saglik-kontrolunden-gecti.jpg",
     link: "https://sites.google.com/view/novassporr/haberler_1/beşiktaştan-dev-transfer-leandro-trossard-resmen-siyah-beyazlı?authuser=0",
     kategori: "TRANSFER"
 },
@@ -25,7 +25,7 @@ const mansetHaberleri = [
 {
     baslik: "Son Dakika: Galatasaray'dan Can Uzun Hamlesi",
     aciklama: "Galatasaray transfer çalışmalarını hızlandırdı.",
-    resim: "images/haber3.jpg",
+    resim: "images/can uzun.jpg",
     link: "https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaraydan-can-uzun-hamlesi?authuser=0",
     kategori: "SON DAKİKA"
 }
