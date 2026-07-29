@@ -1,4 +1,10 @@
+// ==========================
+// NOVASPOR HOME V3 JS
+// ==========================
+
+
 document.addEventListener("DOMContentLoaded",()=>{
+
 
     // ⚽ Süper Lig
     haberleriGoster(
@@ -6,11 +12,13 @@ document.addEventListener("DOMContentLoaded",()=>{
         window.superLigHaberleri
     );
 
+
     // 🥈 1. Lig
     haberleriGoster(
         "lig1-container",
         window.lig1Haberleri
     );
+
 
     // 🥉 2. Lig
     haberleriGoster(
@@ -18,23 +26,27 @@ document.addEventListener("DOMContentLoaded",()=>{
         window.lig2Haberleri
     );
 
+
     // 🏅 3. Lig
     haberleriGoster(
         "lig3-container",
         window.lig3Haberleri
     );
 
-    // 🏆 Avrupa
+
+    // 🌍 Avrupa
     haberleriGoster(
         "avrupa-container",
         window.avrupaHaberleri
     );
+
 
     // 🔄 Transfer
     haberleriGoster(
         "transfer-container",
         window.transferHaberleri
     );
+
 
     // 🏀 Basketbol
     haberleriGoster(
@@ -43,35 +55,96 @@ document.addEventListener("DOMContentLoaded",()=>{
     );
 
 
-    // 📱 Mobil Menü
+
+    // 📱 MOBİL MENÜ
+
     const menuBtn = document.querySelector(".menu-btn");
     const navbar = document.querySelector(".navbar");
 
-    if(menuBtn){
+
+    if(menuBtn && navbar){
+
         menuBtn.addEventListener("click",()=>{
+
             navbar.classList.toggle("active");
+
         });
+
     }
+
+
+
+    // ⬆️ YUKARI ÇIK BUTONU
+
+    const topBtn = document.getElementById("topBtn");
+
+
+    if(topBtn){
+
+        window.addEventListener("scroll",()=>{
+
+            if(window.scrollY > 300){
+
+                topBtn.style.display="block";
+
+            }else{
+
+                topBtn.style.display="none";
+
+            }
+
+        });
+
+
+        topBtn.addEventListener("click",()=>{
+
+            window.scrollTo({
+
+                top:0,
+                behavior:"smooth"
+
+            });
+
+        });
+
+    }
+
+
 
 });
 
 
 
+
+
+
+// ==========================
+// HABER KARTI OLUŞTURMA
+// ==========================
+
+
 function haberleriGoster(alan, liste){
+
 
     const container = document.getElementById(alan);
 
+
     if(!container || !liste) return;
+
 
 
     container.innerHTML = "";
 
 
+
     liste.forEach(haber=>{
+
 
         container.innerHTML += `
 
+
         <article class="news-card">
+
 
             <img 
             src="${haber.resim}" 
@@ -79,38 +152,69 @@ function haberleriGoster(alan, liste){
             alt="${haber.baslik}"
             >
 
+
+
             <div class="news-info">
 
+
+
                 <span class="news-tag">
+
                     ${haber.kategori}
+
                 </span>
 
 
+
+
                 <h3>
+
                     ${haber.baslik}
+
                 </h3>
 
 
+
+
+
                 <p>
+
                     ${haber.aciklama || ""}
+
                 </p>
+
+
+
 
 
                 <div class="news-bottom">
 
+
                     <a href="${haber.link}" target="_blank">
+
                         Haberi Oku →
+
                     </a>
+
 
                 </div>
 
 
+
+
             </div>
+
+
 
         </article>
 
+
+
         `;
 
+
+
     });
+
 
 }
