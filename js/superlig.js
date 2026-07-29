@@ -1,4 +1,4 @@
-const superligHaberleri = [
+const superLigHaberleri = [
 
 {
 kategori:"Süper Lig",
