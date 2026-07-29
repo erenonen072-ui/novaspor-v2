@@ -21,11 +21,11 @@ const lig2Haberleri = [
 },
 {
     kategori: "2. LİG",
-    baslik: "2. Lig Ekipleri Hazırlıklarını Sürdürüyor",
-    resim: "images/2lig3.jpg",
-    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/hazirlik",
-    saat: "1 saat önce"
-}
+    baslik: "2. Lig'de Yeni Sezon Heyecanı Başlıyor",
+    resim: "images/nesine-2-lig-page.jpg",
+    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/2-ligde-yeni-sezon-heyecanı-başlıyor?authuser=0",
+    saat: "Bugün"
+},
 
 ];
 
