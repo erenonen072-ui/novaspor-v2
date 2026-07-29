@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded",()=>{
 
-   
+
+    haberleriGoster(
+        "superlig-container",
+        superLigHaberleri
+    );
 
 
     haberleriGoster(
@@ -20,13 +24,32 @@ document.addEventListener("DOMContentLoaded",()=>{
         transferHaberleri
     );
 
+
+
+    const menuBtn = document.querySelector(".menu-btn");
+    const navbar = document.querySelector(".navbar");
+
+
+    if(menuBtn){
+
+        menuBtn.addEventListener("click",()=>{
+
+            navbar.classList.toggle("active");
+
+        });
+
+    }
+
+
 });
 
 
 
 function haberleriGoster(alan, liste){
 
+
 const container=document.getElementById(alan);
+
 
 if(!container) return;
 
@@ -57,21 +80,6 @@ container.innerHTML += `
 
 `;
 
-const menuBtn = document.querySelector(".menu-btn");
-
-const navbar = document.querySelector(".navbar");
-
-
-if(menuBtn){
-
-menuBtn.addEventListener("click",()=>{
-
-navbar.classList.toggle("active");
-
-});
-
-
-}
 });
 
 
