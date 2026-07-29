@@ -1228,3 +1228,76 @@ width:100%;
 }
 
 }
+/* =========================
+   🏀 Basketbol Haberleri
+========================= */
+
+#basket-area{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:20px;
+}
+
+.basket-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.basket-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.basket-card img{
+    width:100%;
+    height:190px;
+    object-fit:cover;
+}
+
+.basket-info{
+    padding:15px;
+}
+
+.basket-info h3{
+    font-size:18px;
+    color:#111;
+    margin-bottom:10px;
+    line-height:1.4;
+}
+
+.basket-info p{
+    font-size:14px;
+    color:#666;
+    line-height:1.6;
+}
+
+.basket-info a{
+    display:inline-block;
+    margin-top:12px;
+    color:#ff6b00;
+    font-weight:bold;
+}
+
+/* Tablet */
+
+@media (max-width:900px){
+    #basket-area{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+/* Telefon */
+
+@media (max-width:600px){
+    #basket-area{
+        grid-template-columns:1fr;
+    }
+
+    .basket-card img{
+        height:220px;
+    }
+}
