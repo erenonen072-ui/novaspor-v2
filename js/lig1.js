@@ -16,7 +16,7 @@ window.lig1Haberleri = [
     kategori: "TRANSFER",
     baslik: "Vanspor FK'den Dev Transfer Hamlesi",
     aciklama: "Vanspor FK yeni sezon hedefleri doğrultusunda önemli bir transfer hamlesine hazırlanıyor.",
-    resim: "images/vanspor.png",
+    resim: "images/VANSPOR.jpg",
     link: "#"
 },
 
@@ -24,24 +24,9 @@ window.lig1Haberleri = [
     kategori: "GÜNDEM",
     baslik: "Sarıyer'den Çifte Takviye",
     aciklama: "Sarıyer yönetimi yeni sezon kadro planlaması kapsamında iki önemli oyuncuyla anlaşmaya vardı.",
-    resim: "images/sariyer.png",
+    resim: "images/Sarıyerspor.png",
     link: "#"
 },
 
-{
-    kategori: "MAÇ",
-    baslik: "1. Lig'de Yeni Sezon Heyecanı Başlıyor",
-    aciklama: "Takımlar sezon öncesi hazırlıklarını sürdürürken taraftarlar yeni sezonu bekliyor.",
-    resim: "images/lig1.png",
-    link: "#"
-},
-
-{
-    kategori: "GÜNDEM",
-    baslik: "1. Lig Takımlarında Sezon Hazırlıkları",
-    aciklama: "Kulüpler yeni sezon öncesi kamp çalışmalarına hız verdi.",
-    resim: "images/lig1.png",
-    link: "#"
-}
 
 ];
