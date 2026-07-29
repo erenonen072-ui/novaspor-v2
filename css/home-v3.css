@@ -2254,3 +2254,216 @@ bottom:10px;
 }
 
 }
+/* ==========================
+   📱 MOBİL GÖRÜNÜM V3
+========================== */
+
+@media(max-width:768px){
+
+
+/* Genel boşluk */
+
+.container{
+
+width:95%;
+margin:auto;
+
+}
+
+
+/* Header */
+
+.header .container{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+
+.logo{
+
+font-size:22px;
+
+}
+
+
+.navbar{
+
+display:none;
+
+}
+
+
+.menu-btn{
+
+display:block;
+
+font-size:25px;
+
+}
+
+
+
+/* Son dakika */
+
+.breaking-news{
+
+font-size:13px;
+
+}
+
+
+/* Etiketler */
+
+.trend-tags{
+
+display:flex;
+overflow-x:auto;
+gap:10px;
+
+}
+
+
+.trend-tags a{
+
+white-space:nowrap;
+
+}
+
+
+/* Manşet */
+
+.hero{
+
+display:block;
+
+}
+
+
+.hero-left img{
+
+height:240px;
+object-fit:cover;
+
+}
+
+
+.hero-content h1{
+
+font-size:22px;
+
+}
+
+
+.hero-right{
+
+margin-top:20px;
+
+}
+
+
+/* Haber kartları */
+
+.news-grid{
+
+grid-template-columns:1fr;
+
+gap:15px;
+
+}
+
+
+.news-card{
+
+display:flex;
+flex-direction:column;
+
+}
+
+
+.news-card img{
+
+width:100%;
+height:190px;
+object-fit:cover;
+
+}
+
+
+.news-info h3{
+
+font-size:18px;
+
+}
+
+
+.news-info p{
+
+font-size:14px;
+
+}
+
+
+/* Basketbol kartları */
+
+#basketbol-container .news-card{
+
+width:100%;
+
+}
+
+
+#basketbol-container img{
+
+height:180px;
+
+}
+
+
+/* Bölüm başlıkları */
+
+.section-header{
+
+flex-direction:column;
+align-items:flex-start;
+gap:10px;
+
+}
+
+
+.section-header h2{
+
+font-size:22px;
+
+}
+
+
+/* Popüler */
+
+.popular-news{
+
+padding:15px;
+
+}
+
+
+/* Footer */
+
+.footer-container{
+
+display:block;
+
+}
+
+
+.footer-container div{
+
+margin-bottom:25px;
+
+}
+
+
+
+}
