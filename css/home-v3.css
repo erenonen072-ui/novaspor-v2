@@ -1814,3 +1814,36 @@ border-radius:12px;
 }
 
 }
+#basketbol-container.haber-grid{
+    display:grid !important;
+    grid-template-columns:repeat(3, 1fr) !important;
+    gap:15px !important;
+}
+
+#basketbol-container .haber-card{
+    width:100% !important;
+    max-width:300px !important;
+}
+
+#basketbol-container .haber-card img{
+    height:120px !important;
+    object-fit:cover !important;
+}
+
+#basketbol-container .haber-card h3{
+    font-size:15px !important;
+    padding:8px !important;
+}
+
+#basketbol-container .haber-card p{
+    font-size:13px !important;
+}
+
+
+@media(max-width:768px){
+
+#basketbol-container.haber-grid{
+    grid-template-columns:1fr !important;
+}
+
+}
