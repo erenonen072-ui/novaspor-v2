@@ -1,2230 +1,1653 @@
-/* =======================================
-   NOVASPOR V3
-======================================= */
+/* ======================================
+   NOVASPOR V4 PREMIUM CSS
+   BÖLÜM 1
+====================================== */
 
+
+/* RESET */
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 html{
-scroll-behavior:smooth;
+    scroll-behavior:smooth;
 }
 
 body{
-
-font-family:'Poppins',sans-serif;
-
-background:#f5f7fb;
-
-color:#222;
-
-line-height:1.6;
-
-overflow-x:hidden;
-
+    font-family:'Poppins',sans-serif;
+    background:#f5f7fb;
+    color:#111;
+    line-height:1.6;
+    overflow-x:hidden;
 }
 
 img{
-
-width:100%;
-
-display:block;
-
-object-fit:cover;
-
+    width:100%;
+    display:block;
+    object-fit:cover;
 }
 
 a{
-
-text-decoration:none;
-
-color:inherit;
-
+    text-decoration:none;
+    color:inherit;
 }
 
 .container{
-
-width:95%;
-
-max-width:1400px;
-
-margin:auto;
-
+    width:95%;
+    max-width:1400px;
+    margin:auto;
 }
 
-/* ================= HEADER ================= */
+
+
+/* ======================================
+ HEADER
+====================================== */
 
 .header{
-
-position:sticky;
-
-top:0;
-
-left:0;
-
-z-index:999;
-
-background:#fff;
-
-box-shadow:0 5px 25px rgba(0,0,0,.08);
-
+    position:sticky;
+    top:0;
+    z-index:999;
+    background:#fff;
+    box-shadow:0 5px 25px rgba(0,0,0,.08);
 }
+
 
 .header .container{
-
-height:75px;
-
-display:flex;
-
-align-items:center;
-
-justify-content:space-between;
-
+    height:75px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
+
 
 .logo{
-
-font-size:30px;
-
-font-weight:800;
-
-color:#ffbf00;
-
-display:flex;
-
-gap:10px;
-
-align-items:center;
-
+    font-size:30px;
+    font-weight:900;
+    color:#ffbf00;
 }
+
 
 .logo span{
-
-color:#111;
-
+    color:#111;
 }
+
+
 
 .navbar{
-
-display:flex;
-
-gap:28px;
-
+    display:flex;
+    gap:30px;
 }
+
 
 .navbar a{
-
-font-weight:600;
-
-transition:.3s;
-
-padding:8px 0;
-
-position:relative;
-
+    font-weight:600;
+    position:relative;
+    padding:8px 0;
+    transition:.3s;
 }
+
 
 .navbar a:hover{
-
-color:#ffbf00;
-
+    color:#ffbf00;
 }
+
 
 .navbar a.active{
-
-color:#ffbf00;
-
+    color:#ffbf00;
 }
+
 
 .navbar a::after{
-
-content:"";
-
-position:absolute;
-
-bottom:-6px;
-
-left:0;
-
-width:0;
-
-height:3px;
-
-background:#ffbf00;
-
-transition:.3s;
-
-border-radius:30px;
-
+    content:"";
+    position:absolute;
+    bottom:-5px;
+    left:0;
+    width:0;
+    height:3px;
+    background:#ffbf00;
+    border-radius:20px;
+    transition:.3s;
 }
+
 
 .navbar a:hover::after{
-
-width:100%;
-
+    width:100%;
 }
 
-/* HEADER ICONLARI */
+
+
+/* HEADER BUTONLARI */
 
 .header-buttons{
+    display:flex;
+    gap:10px;
+}
 
-display:flex;
 
-gap:12px;
+.icon-btn,
+.menu-btn{
+
+    width:42px;
+    height:42px;
+    border:none;
+    border-radius:50%;
+    background:#f2f2f2;
+    cursor:pointer;
+    font-size:18px;
+    transition:.3s;
 
 }
 
-.icon-btn,.menu-btn{
-
-width:42px;
-
-height:42px;
-
-border:none;
-
-border-radius:50%;
-
-background:#f3f3f3;
-
-cursor:pointer;
-
-font-size:18px;
-
-transition:.3s;
-
-}
 
 .icon-btn:hover,
-
 .menu-btn:hover{
 
-background:#ffbf00;
-
-transform:translateY(-2px);
+    background:#ffbf00;
+    transform:translateY(-3px);
 
 }
 
-/* ================= BREAKING ================= */
+
+
+/* ======================================
+ SON DAKİKA
+====================================== */
+
 
 .breaking-news{
 
-display:flex;
+    display:flex;
+    align-items:center;
+    width:95%;
+    max-width:1400px;
+    margin:25px auto;
 
-align-items:center;
+    background:#fff;
+    border-radius:15px;
 
-background:#fff;
+    overflow:hidden;
 
-margin:20px auto;
-
-width:95%;
-
-max-width:1400px;
-
-border-radius:12px;
-
-overflow:hidden;
-
-box-shadow:0 5px 20px rgba(0,0,0,.08);
+    box-shadow:
+    0 8px 25px rgba(0,0,0,.08);
 
 }
+
 
 .breaking-title{
 
-background:#e60000;
+    background:#e60000;
+    color:white;
 
-color:#fff;
+    padding:15px 25px;
 
-padding:15px 25px;
+    font-weight:800;
 
-font-weight:700;
-
-white-space:nowrap;
+    white-space:nowrap;
 
 }
+
 
 .breaking-text{
 
-padding:15px;
+    padding:15px 20px;
 
-flex:1;
-
-font-weight:500;
+    font-weight:600;
 
 }
 
-/* ================= TREND ================= */
+
+
+/* ======================================
+ TREND ETİKETLERİ
+====================================== */
+
 
 .trend-tags{
 
-display:flex;
-
-gap:12px;
-
-flex-wrap:wrap;
-
-margin:25px auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin:30px auto;
 
 }
+
 
 .trend-tags a{
 
-background:#fff;
+    background:white;
 
-padding:10px 18px;
+    padding:10px 20px;
 
-border-radius:50px;
+    border-radius:50px;
 
-font-weight:600;
+    font-weight:700;
 
-box-shadow:0 5px 15px rgba(0,0,0,.08);
+    box-shadow:
+    0 5px 15px rgba(0,0,0,.08);
 
-transition:.3s;
+    transition:.3s;
 
 }
+
 
 .trend-tags a:hover{
 
-background:#ffbf00;
+    background:#ffbf00;
 
-color:#111;
-
-transform:translateY(-3px);
+    transform:translateY(-4px);
 
 }
-/* =======================================
-   HERO SLIDER
-======================================= */
+
+
+
+/* ======================================
+ HERO ALANI
+====================================== */
+
 
 .hero{
 
-display:grid;
+    display:grid;
 
-grid-template-columns:2fr 1fr;
+    grid-template-columns:2fr 1fr;
 
-gap:25px;
+    gap:25px;
 
-margin:35px 0;
+    margin:40px 0;
 
 }
+
+
+
+/* ANA HABER */
 
 .hero-left{
 
-position:relative;
+    position:relative;
 
-overflow:hidden;
+    height:520px;
 
-border-radius:20px;
+    overflow:hidden;
 
-background:#000;
+    border-radius:22px;
 
-box-shadow:0 15px 40px rgba(0,0,0,.15);
+    box-shadow:
+    0 15px 40px rgba(0,0,0,.15);
 
 }
+
 
 .hero-left img{
 
-height:550px;
+    width:100%;
+    height:100%;
 
-transition:.5s;
+    object-fit:cover;
+
+    transition:.5s;
 
 }
+
+
 
 .hero-left:hover img{
 
-transform:scale(1.08);
+    transform:scale(1.07);
 
 }
+
+
 
 .hero-content{
 
-position:absolute;
+    position:absolute;
 
-left:0;
+    left:0;
+    bottom:0;
 
-right:0;
+    width:100%;
 
-bottom:0;
+    padding:40px;
 
-padding:40px;
+    color:white;
 
-background:linear-gradient(transparent,rgba(0,0,0,.92));
-
-color:#fff;
+    background:
+    linear-gradient(
+    transparent,
+    rgba(0,0,0,.9)
+    );
 
 }
+
+
 
 .hero-tag{
 
-display:inline-block;
+    display:inline-block;
 
-background:#ffbf00;
+    background:#ffbf00;
 
-color:#111;
+    color:#111;
 
-padding:8px 15px;
+    padding:7px 15px;
 
-border-radius:30px;
+    border-radius:30px;
 
-font-size:13px;
+    font-size:13px;
 
-font-weight:700;
-
-margin-bottom:15px;
+    font-weight:800;
 
 }
+
+
 
 .hero-content h1{
 
-font-size:42px;
+    font-size:42px;
 
-line-height:1.2;
+    line-height:1.2;
 
-margin-bottom:15px;
+    margin:15px 0;
 
 }
+
+
 
 .hero-content p{
 
-font-size:18px;
+    font-size:17px;
 
-opacity:.95;
-
-margin-bottom:20px;
+    margin-bottom:20px;
 
 }
+
+
 
 .hero-content a{
 
-display:inline-block;
+    display:inline-block;
 
-padding:13px 22px;
+    background:#ffbf00;
 
-background:#ffbf00;
+    color:#111;
 
-color:#111;
+    padding:12px 25px;
 
-font-weight:700;
+    border-radius:8px;
 
-border-radius:8px;
-
-transition:.3s;
+    font-weight:800;
 
 }
 
-.hero-content a:hover{
 
-background:#fff;
 
-}
-
-/* =======================================
-   GÜNDEM
-======================================= */
+/* GÜNDEM */
 
 .hero-right{
 
-background:#fff;
+    background:white;
 
-padding:20px;
+    padding:20px;
 
-border-radius:20px;
+    border-radius:22px;
 
-box-shadow:0 10px 30px rgba(0,0,0,.08);
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
 
 }
+
 
 .hero-right h2{
 
-margin-bottom:20px;
+    font-size:26px;
 
-font-size:26px;
+    margin-bottom:20px;
 
 }
+
+
 
 .side-news{
 
-display:flex;
+    display:flex;
 
-flex-direction:column;
+    flex-direction:column;
 
-gap:15px;
+    gap:15px;
 
 }
+
 
 .side-news a{
 
-display:flex;
+    display:flex;
 
-gap:15px;
+    gap:15px;
 
-padding:12px;
+    padding:10px;
 
-border-radius:14px;
+    border-radius:15px;
 
-transition:.3s;
+    transition:.3s;
 
 }
+
 
 .side-news a:hover{
 
-background:#f7f7f7;
-
-transform:translateX(6px);
+    background:#f5f5f5;
 
 }
+
 
 .side-news img{
 
-width:110px;
+    width:100px;
 
-height:80px;
+    height:75px;
 
-border-radius:12px;
-
-object-fit:cover;
+    border-radius:10px;
 
 }
 
-.side-news span{
 
-display:inline-block;
-
-font-size:12px;
-
-background:#ffbf00;
-
-padding:4px 10px;
-
-border-radius:30px;
-
-font-weight:700;
-
-margin-bottom:8px;
-
-}
 
 .side-news h4{
 
-font-size:16px;
+    font-size:15px;
 
-line-height:1.4;
-
-color:#222;
+    line-height:1.4;
 
 }
 
-/* =======================================
-   MOBİL
-======================================= */
+
+
+/* ======================================
+ MOBİL TEMEL
+====================================== */
+
 
 @media(max-width:992px){
 
 .hero{
 
-grid-template-columns:1fr;
+    grid-template-columns:1fr;
 
 }
 
-.hero-left img{
 
-height:320px;
+.hero-left{
+
+    height:350px;
 
 }
+
 
 .hero-content{
 
-padding:20px;
+    padding:25px;
 
 }
+
 
 .hero-content h1{
 
-font-size:28px;
-
-}
-
-.hero-content p{
-
-font-size:15px;
-
-}
-
-.hero-right{
-
-margin-top:15px;
+    font-size:28px;
 
 }
 
 }
-/* =======================================
-   LEAGUE SECTIONS
-======================================= */
+/* ======================================
+   LİG BÖLÜMLERİ
+====================================== */
+
 
 .league-section{
 
-margin:70px 0;
+    margin:70px 0;
 
 }
+
+
 
 .section-header{
 
-display:flex;
+    display:flex;
 
-justify-content:space-between;
+    justify-content:space-between;
 
-align-items:center;
+    align-items:center;
 
-margin-bottom:30px;
+    margin-bottom:30px;
 
 }
+
+
 
 .section-mini{
 
-display:inline-block;
+    display:inline-block;
 
-background:#ffbf00;
+    background:#ffbf00;
 
-color:#111;
+    color:#111;
 
-padding:6px 14px;
+    padding:6px 14px;
 
-border-radius:30px;
+    border-radius:30px;
 
-font-size:12px;
+    font-size:12px;
 
-font-weight:700;
-
-margin-bottom:8px;
+    font-weight:800;
 
 }
+
+
 
 .section-header h2{
 
-font-size:34px;
+    font-size:34px;
 
-font-weight:800;
+    font-weight:900;
 
 }
+
+
 
 .section-header a{
 
-color:#ffbf00;
+    color:#ffbf00;
 
-font-weight:700;
-
-transition:.3s;
+    font-weight:800;
 
 }
 
-.section-header a:hover{
 
-letter-spacing:1px;
 
-}
 
-/* ================= NEWS GRID ================= */
+
+/* ======================================
+   YENİ NESİL HABER KARTLARI
+====================================== */
+
 
 .news-grid{
 
-display:grid;
+    display:grid;
 
-grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(3,1fr);
 
-gap:25px;
-
-}
-
-.small-grid{
-
-grid-template-columns:repeat(3,1fr);
+    gap:25px;
 
 }
 
-/* ================= CARD ================= */
+
+
 
 .news-card{
 
-background:#fff;
+    background:white;
 
-border-radius:18px;
+    border-radius:22px;
 
-overflow:hidden;
+    overflow:hidden;
 
-box-shadow:0 8px 25px rgba(0,0,0,.08);
+    box-shadow:
 
-transition:.35s;
+    0 8px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    cursor:pointer;
 
 }
+
+
 
 .news-card:hover{
 
-transform:translateY(-10px);
+    transform:translateY(-8px);
 
-box-shadow:0 18px 40px rgba(0,0,0,.18);
+    box-shadow:
 
-}
-
-.news-card img{
-
-width:100%;
-
-height:220px;
-
-object-fit:cover;
-
-transition:.5s;
+    0 18px 40px rgba(0,0,0,.15);
 
 }
 
-.news-card:hover img{
 
-transform:scale(1.08);
 
-}
 
-.news-info{
 
-padding:18px;
+/* HABER RESMİ */
 
-}
+.news-image{
 
-.news-tag{
+    width:100%;
 
-display:inline-block;
+    height:240px;
 
-padding:5px 12px;
-
-background:#0066ff;
-
-color:#fff;
-
-border-radius:30px;
-
-font-size:11px;
-
-font-weight:700;
-
-margin-bottom:12px;
+    overflow:hidden;
 
 }
 
-.news-tag.transfer{
 
-background:#ffbf00;
 
-color:#111;
+.news-image img{
 
-}
+    width:100%;
 
-.news-tag.live{
+    height:100%;
 
-background:#19b400;
+    object-fit:cover;
 
-}
-
-.news-tag.special{
-
-background:#e60023;
+    transition:.4s;
 
 }
 
-.news-info h3{
 
-font-size:21px;
 
-line-height:1.4;
+.news-card:hover .news-image img{
 
-margin-bottom:12px;
-
-font-weight:700;
+    transform:scale(1.06);
 
 }
 
-.news-info p{
 
-color:#666;
 
-font-size:15px;
 
-margin-bottom:18px;
 
-}
+/* HABER İÇERİK */
 
-.news-bottom{
+.news-content{
 
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-border-top:1px solid #eee;
-
-padding-top:14px;
-
-font-size:14px;
+    padding:28px 22px;
 
 }
 
-.news-bottom a{
 
-font-weight:700;
 
-color:#ffbf00;
+.news-content h3{
 
-}
+    font-size:24px;
 
-.news-bottom a:hover{
+    line-height:1.3;
 
-text-decoration:underline;
+    font-weight:800;
 
-}
+    color:#111;
 
-/* ================= MOBILE ================= */
-
-@media(max-width:992px){
-
-.news-grid{
-
-grid-template-columns:1fr;
+    margin-bottom:15px;
 
 }
 
-.small-grid{
 
-grid-template-columns:1fr;
 
-}
+.news-content p{
 
-.section-header{
+    font-size:17px;
 
-flex-direction:column;
+    line-height:1.5;
 
-align-items:flex-start;
-
-gap:12px;
+    color:#666;
 
 }
 
-.section-header h2{
 
-font-size:28px;
 
-}
 
-.news-card img{
 
-height:240px;
+/* ======================================
+   BASKETBOL
+====================================== */
 
-}
-
-}
-/* =======================================
-   🏀 BASKETBOL
-======================================= */
 
 .basket-layout{
 
-display:grid;
+    display:grid;
 
-grid-template-columns:2fr 1fr;
+    grid-template-columns:2fr 1fr;
 
-gap:25px;
+    gap:25px;
 
-margin-top:25px;
+    margin-top:30px;
 
 }
+
+
+
 
 .basket-feature{
 
-position:relative;
+    height:500px;
 
-border-radius:20px;
+    position:relative;
 
-overflow:hidden;
+    overflow:hidden;
 
-height:500px;
-
-box-shadow:0 12px 35px rgba(0,0,0,.12);
+    border-radius:22px;
 
 }
+
+
 
 .basket-feature img{
 
-width:100%;
+    width:100%;
 
-height:100%;
+    height:100%;
 
-object-fit:cover;
+    object-fit:cover;
 
-transition:.5s;
+    transition:.5s;
 
 }
+
+
 
 .basket-feature:hover img{
 
-transform:scale(1.08);
+    transform:scale(1.07);
 
 }
+
+
+
 
 .basket-overlay{
 
-position:absolute;
+    position:absolute;
 
-left:0;
+    left:0;
 
-right:0;
+    bottom:0;
 
-bottom:0;
+    width:100%;
 
-padding:35px;
+    padding:35px;
 
-background:linear-gradient(transparent,rgba(0,0,0,.95));
+    color:white;
 
-color:#fff;
+    background:
+
+    linear-gradient(
+
+    transparent,
+
+    rgba(0,0,0,.9)
+
+    );
 
 }
+
+
+
 
 .basket-overlay span{
 
-background:#ff9800;
+    background:#ffbf00;
 
-color:#111;
+    color:#111;
 
-padding:6px 12px;
+    padding:6px 12px;
 
-border-radius:30px;
+    border-radius:30px;
 
-font-size:12px;
+    font-size:12px;
 
-font-weight:700;
+    font-weight:800;
 
 }
+
+
 
 .basket-overlay h2{
 
-margin:18px 0;
+    font-size:32px;
 
-font-size:32px;
-
-line-height:1.3;
+    margin:15px 0;
 
 }
+
+
 
 .basket-overlay p{
 
-opacity:.95;
-
-margin-bottom:20px;
+    margin-bottom:20px;
 
 }
+
+
 
 .basket-overlay a{
 
-display:inline-block;
+    background:#ffbf00;
 
-padding:12px 22px;
+    color:#111;
 
-background:#ffbf00;
+    padding:12px 22px;
 
-border-radius:8px;
+    border-radius:8px;
 
-font-weight:700;
-
-color:#111;
+    font-weight:800;
 
 }
+
+
+
+
+
+/* Basket yan haberler */
+
 
 .basket-side{
 
-display:flex;
+    display:flex;
 
-flex-direction:column;
+    flex-direction:column;
 
-gap:18px;
+    gap:18px;
 
 }
+
+
 
 .basket-small{
 
-display:flex;
+    display:flex;
 
-gap:15px;
+    gap:15px;
 
-background:#fff;
+    background:white;
 
-border-radius:15px;
+    padding:12px;
 
-padding:12px;
+    border-radius:15px;
 
-box-shadow:0 8px 20px rgba(0,0,0,.08);
+    box-shadow:
 
-transition:.3s;
+    0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
 
 }
+
+
 
 .basket-small:hover{
 
-transform:translateX(6px);
+    transform:translateX(6px);
 
 }
+
+
 
 .basket-small img{
 
-width:120px;
+    width:120px;
 
-height:85px;
+    height:85px;
 
-border-radius:10px;
+    border-radius:10px;
 
-object-fit:cover;
-
-}
-
-.basket-small span{
-
-font-size:11px;
-
-background:#ffbf00;
-
-padding:4px 10px;
-
-border-radius:30px;
-
-font-weight:700;
-
-display:inline-block;
-
-margin-bottom:8px;
+    object-fit:cover;
 
 }
+
+
 
 .basket-small h4{
 
-font-size:16px;
+    font-size:16px;
 
-line-height:1.4;
+    line-height:1.4;
 
 }
 
-/* =======================================
-   🔥 EN ÇOK OKUNAN
-======================================= */
+
+
+
+
+/* ======================================
+   EN ÇOK OKUNAN
+====================================== */
+
 
 .popular-news{
 
-margin:70px 0;
+    background:white;
 
-background:#fff;
+    padding:30px;
 
-padding:30px;
+    border-radius:22px;
 
-border-radius:20px;
+    margin:70px 0;
 
-box-shadow:0 10px 30px rgba(0,0,0,.08);
+    box-shadow:
+
+    0 10px 30px rgba(0,0,0,.08);
 
 }
+
+
 
 .popular-news h2{
 
-margin-bottom:20px;
+    font-size:30px;
 
-font-size:30px;
-
-}
-
-.popular-news ol{
-
-padding-left:22px;
+    margin-bottom:20px;
 
 }
+
+
 
 .popular-news li{
 
-margin:15px 0;
+    list-style:none;
 
-font-weight:600;
+    padding:15px 0;
 
-transition:.3s;
+    border-bottom:1px solid #eee;
 
-cursor:pointer;
+    font-weight:700;
 
 }
+
+
 
 .popular-news li:hover{
 
-color:#ffbf00;
-
-padding-left:10px;
+    color:#ffbf00;
 
 }
 
-/* =======================================
-   📧 NEWSLETTER
-======================================= */
+
+
+/* ======================================
+   NEWSLETTER
+====================================== */
+
 
 .newsletter{
 
-margin:80px 0;
+    margin:80px 0;
 
-background:linear-gradient(135deg,#ffbf00,#ff8c00);
+    background:
 
-padding:60px;
+    linear-gradient(135deg,#ffbf00,#ff9000);
 
-border-radius:25px;
+    padding:60px;
 
-text-align:center;
+    border-radius:25px;
 
-color:#111;
+    text-align:center;
 
 }
+
+
 
 .newsletter h2{
 
-font-size:38px;
+    font-size:38px;
 
-margin-bottom:15px;
+    margin-bottom:15px;
 
 }
+
+
 
 .newsletter p{
 
-margin-bottom:30px;
+    font-size:18px;
 
-font-size:18px;
-
-}
-
-.newsletter form{
-
-display:flex;
-
-justify-content:center;
-
-gap:15px;
-
-flex-wrap:wrap;
+    margin-bottom:30px;
 
 }
+
+
 
 .newsletter input{
 
-width:400px;
+    padding:15px;
 
-max-width:100%;
+    width:400px;
 
-padding:16px;
+    max-width:100%;
 
-border:none;
+    border:none;
 
-border-radius:10px;
-
-font-size:16px;
+    border-radius:10px;
 
 }
+
+
 
 .newsletter button{
 
-padding:16px 30px;
+    padding:15px 30px;
 
-border:none;
+    border:none;
 
-background:#111;
+    border-radius:10px;
 
-color:#fff;
+    background:#111;
 
-font-weight:700;
+    color:white;
 
-border-radius:10px;
+    font-weight:800;
 
-cursor:pointer;
-
-transition:.3s;
+    cursor:pointer;
 
 }
 
-.newsletter button:hover{
 
-transform:translateY(-3px);
 
-}
 
-/* =======================================
-   📱 MOBİL
-======================================= */
+/* ======================================
+   TABLET
+====================================== */
+
 
 @media(max-width:992px){
 
-.basket-layout{
 
-grid-template-columns:1fr;
+.news-grid{
+
+    grid-template-columns:repeat(2,1fr);
 
 }
+
+
+.basket-layout{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+}
+
+
+
+
+/* ======================================
+   TELEFON
+====================================== */
+
+
+@media(max-width:768px){
+
+
+.news-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.news-image{
+
+    height:210px;
+
+}
+
+
+
+.news-content{
+
+    padding:20px;
+
+}
+
+
+
+.news-content h3{
+
+    font-size:20px;
+
+}
+
+
+
+.news-content p{
+
+    font-size:15px;
+
+}
+
+
+
+.section-header{
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    gap:10px;
+
+}
+
+
 
 .basket-feature{
 
-height:340px;
+    height:330px;
 
 }
+
+
+
+.basket-overlay{
+
+    padding:20px;
+
+}
+
+
 
 .basket-overlay h2{
 
-font-size:24px;
+    font-size:24px;
 
 }
+
+
 
 .basket-small{
 
-flex-direction:column;
+    flex-direction:column;
 
 }
+
+
 
 .basket-small img{
 
-width:100%;
+    width:100%;
 
-height:180px;
+    height:180px;
 
 }
+
+
 
 .newsletter{
 
-padding:35px 20px;
+    padding:35px 20px;
 
 }
 
-.newsletter h2{
 
-font-size:28px;
 
 }
-
-}
-/* =======================================
+/* ======================================
    FOOTER
-======================================= */
+====================================== */
+
 
 footer{
 
-margin-top:80px;
+    margin-top:80px;
 
-background:#111;
+    background:#111;
 
-color:#fff;
+    color:white;
 
 }
+
+
 
 .footer-container{
 
-max-width:1400px;
+    max-width:1400px;
 
-margin:auto;
+    margin:auto;
 
-padding:60px 25px;
+    padding:60px 25px;
 
-display:grid;
+    display:grid;
 
-grid-template-columns:2fr 1fr 1fr;
+    grid-template-columns:2fr 1fr 1fr;
 
-gap:50px;
+    gap:50px;
 
 }
+
+
 
 .footer-container h3{
 
-font-size:34px;
+    font-size:34px;
 
-margin-bottom:20px;
+    color:#ffbf00;
 
-color:#ffbf00;
+    margin-bottom:20px;
 
 }
+
+
 
 .footer-container h4{
 
-margin-bottom:20px;
+    color:#ffbf00;
 
-color:#ffbf00;
+    margin-bottom:20px;
 
 }
+
+
 
 .footer-container p{
 
-color:#bbb;
+    color:#bbb;
 
-line-height:1.8;
+    line-height:1.8;
 
 }
+
+
 
 .footer-container a{
 
-display:block;
+    display:block;
 
-margin:12px 0;
+    margin:12px 0;
 
-color:#ddd;
+    color:#ddd;
 
-transition:.3s;
+    transition:.3s;
 
 }
+
+
 
 .footer-container a:hover{
 
-color:#ffbf00;
+    color:#ffbf00;
 
-padding-left:8px;
+    padding-left:8px;
 
 }
+
+
 
 .copyright{
 
-padding:20px;
+    text-align:center;
 
-text-align:center;
+    padding:20px;
 
-border-top:1px solid #333;
+    border-top:1px solid #333;
 
-color:#999;
+    color:#999;
 
 }
 
-/* =====================
-SOSYAL MEDYA
-===================== */
+
+
+
+
+/* ======================================
+   SOSYAL MEDYA
+====================================== */
+
 
 .social-media{
 
-margin:70px 0;
+    margin:70px 0;
 
-text-align:center;
+    text-align:center;
 
 }
+
+
 
 .social-media h2{
 
-font-size:32px;
+    font-size:32px;
 
-margin-bottom:25px;
+    margin-bottom:25px;
 
 }
+
+
 
 .social-icons{
 
-display:flex;
+    display:flex;
 
-justify-content:center;
+    justify-content:center;
 
-gap:20px;
+    gap:20px;
 
-flex-wrap:wrap;
+    flex-wrap:wrap;
 
 }
+
+
 
 .social-icons a{
 
-background:#fff;
+    background:white;
 
-padding:14px 22px;
+    padding:14px 25px;
 
-border-radius:50px;
+    border-radius:50px;
 
-font-weight:700;
+    font-weight:700;
 
-box-shadow:0 8px 20px rgba(0,0,0,.08);
+    box-shadow:
 
-transition:.3s;
+    0 8px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
 
 }
+
+
 
 .social-icons a:hover{
 
-background:#ffbf00;
+    background:#ffbf00;
 
-transform:translateY(-5px);
-
-}
-
-/* =====================
-ANİMASYONLAR
-===================== */
-
-.news-card,
-.basket-small,
-.hero-left,
-.popular-news,
-.newsletter{
-
-animation:fadeUp .7s ease;
+    transform:translateY(-5px);
 
 }
 
-@keyframes fadeUp{
 
-from{
 
-opacity:0;
 
-transform:translateY(40px);
+
+/* ======================================
+   ARAMA
+====================================== */
+
+
+.search-box{
+
+    position:absolute;
+
+    top:80px;
+
+    right:20px;
+
+    width:380px;
+
+    background:white;
+
+    border-radius:18px;
+
+    box-shadow:
+
+    0 15px 40px rgba(0,0,0,.18);
+
+    display:none;
+
+    overflow:hidden;
+
+    z-index:9999;
 
 }
 
-to{
 
-opacity:1;
 
-transform:translateY(0);
+.search-box.active{
 
-}
+    display:block;
 
 }
 
-/* =====================
-YUKARI ÇIK
-===================== */
+
+
+.search-box input{
+
+    width:100%;
+
+    padding:16px;
+
+    border:none;
+
+    outline:none;
+
+    border-bottom:1px solid #eee;
+
+    font-size:16px;
+
+}
+
+
+
+.search-item{
+
+    padding:15px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+
+
+.search-item:hover{
+
+    background:#f5f5f5;
+
+}
+
+
+
+
+
+/* ======================================
+   COOKIE
+====================================== */
+
+
+.cookie-box{
+
+    position:fixed;
+
+    bottom:20px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:min(92%,900px);
+
+    background:white;
+
+    padding:22px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+    box-shadow:
+
+    0 15px 40px rgba(0,0,0,.18);
+
+    z-index:99999;
+
+}
+
+
+
+.cookie-content h3{
+
+    margin-bottom:8px;
+
+}
+
+
+
+.cookie-content p{
+
+    color:#555;
+
+    font-size:14px;
+
+}
+
+
+
+.cookie-buttons{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+
+
+.cookie-btn{
+
+    padding:12px 22px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:700;
+
+}
+
+
+
+.cookie-btn.primary{
+
+    background:#ffbf00;
+
+}
+
+
+
+.cookie-btn.secondary{
+
+    background:#eee;
+
+}
+
+
+
+
+
+/* ======================================
+   YUKARI ÇIK
+====================================== */
+
 
 #topBtn{
 
-position:fixed;
+    position:fixed;
 
-right:25px;
+    right:25px;
 
-bottom:25px;
+    bottom:25px;
 
-width:55px;
+    width:50px;
 
-height:55px;
+    height:50px;
 
-border:none;
+    border:none;
 
-border-radius:50%;
+    border-radius:50%;
 
-background:#ffbf00;
+    background:#ffbf00;
 
-font-size:22px;
+    font-size:22px;
 
-cursor:pointer;
+    cursor:pointer;
 
-box-shadow:0 10px 25px rgba(0,0,0,.25);
+    display:none;
 
-display:none;
-
-transition:.3s;
-
-z-index:999;
+    z-index:999;
 
 }
 
-#topBtn:hover{
 
-transform:translateY(-5px);
 
-}
+#topBtn.show{
 
-/* =====================
-SCROLLBAR
-===================== */
-
-::-webkit-scrollbar{
-
-width:10px;
+    display:block;
 
 }
 
-::-webkit-scrollbar-thumb{
 
-background:#ffbf00;
 
-border-radius:50px;
 
-}
 
-::-webkit-scrollbar-track{
-
-background:#eee;
-
-}
-/* =======================================
+/* ======================================
    DARK MODE
-======================================= */
+====================================== */
+
 
 body.dark{
 
-background:#111;
+    background:#111;
 
-color:#fff;
+    color:white;
 
 }
 
-body.dark .header,
+
+
+body.dark .header{
+
+    background:#181818;
+
+}
+
+
+
+body.dark .navbar a{
+
+    color:#ddd;
+
+}
+
+
+
 body.dark .news-card,
 body.dark .hero-right,
 body.dark .popular-news,
 body.dark .basket-small,
-body.dark .trend-tags a,
-body.dark .breaking-news{
+body.dark .trend-tags a{
 
-background:#1b1b1b;
+    background:#1d1d1d;
 
-color:#fff;
+    color:white;
 
 }
 
-body.dark .news-info p,
-body.dark .footer-container p{
-
-color:#ccc;
-
-}
-
-body.dark .section-header h2,
-body.dark .news-info h3,
-body.dark .side-news h4{
-
-color:#fff;
-
-}
-
-body.dark footer{
-
-background:#000;
-
-}
-
-/* =======================================
-   MOBILE MENU
-======================================= */
-
-.menu-btn{
-
-display:none;
-
-}
-
-@media(max-width:992px){
-
-.navbar{
-
-position:fixed;
-
-top:75px;
-
-left:-100%;
-
-width:280px;
-
-height:100vh;
-
-background:#fff;
-
-display:flex;
-
-flex-direction:column;
-
-padding:30px;
-
-gap:20px;
-
-box-shadow:0 15px 40px rgba(0,0,0,.15);
-
-transition:.35s;
-
-z-index:999;
-
-}
-
-.navbar.active{
-
-left:0;
-
-}
-
-.menu-btn{
-
-display:block;
-
-}
-
-.header-buttons{
-
-gap:8px;
-
-}
-
-}
-
-body.dark .navbar{
-
-background:#1b1b1b;
-
-}
-
-/* =======================================
-   TABLET
-======================================= */
-
-@media(max-width:992px){
-
-.container{
-
-width:94%;
-
-}
-
-.hero{
-
-grid-template-columns:1fr;
-
-}
-
-.hero-left img{
-
-height:350px;
-
-}
-
-.news-grid{
-
-grid-template-columns:repeat(2,1fr);
-
-}
-
-.small-grid{
-
-grid-template-columns:repeat(2,1fr);
-
-}
-
-.footer-container{
-
-grid-template-columns:1fr;
-
-text-align:center;
-
-}
-
-}
-
-/* =======================================
-   TELEFON
-======================================= */
-
-@media(max-width:768px){
-
-.logo{
-
-font-size:24px;
-
-}
-
-.breaking-news{
-
-flex-direction:column;
-
-}
-
-.breaking-title{
-
-width:100%;
-
-text-align:center;
-
-}
-
-.hero-content{
-
-padding:20px;
-
-}
-
-.hero-content h1{
-
-font-size:26px;
-
-}
-
-.hero-content p{
-
-font-size:15px;
-
-}
-
-.news-grid{
-
-grid-template-columns:1fr;
-
-}
-
-.small-grid{
-
-grid-template-columns:1fr;
-
-}
-
-.news-card img{
-
-height:220px;
-
-}
-
-.basket-feature{
-
-height:280px;
-
-}
-
-.basket-overlay{
-
-padding:20px;
-
-}
-
-.basket-overlay h2{
-
-font-size:22px;
-
-}
-
-.side-news img{
-
-width:95px;
-
-height:70px;
-
-}
-
-.newsletter{
-
-padding:35px 18px;
-
-}
-
-.newsletter input{
-
-width:100%;
-
-}
-
-.newsletter button{
-
-width:100%;
-
-}
-
-.social-icons{
-
-flex-direction:column;
-
-}
-
-.social-icons a{
-
-width:100%;
-
-text-align:center;
-
-}
-
-}
-
-/* =======================================
-   EXTRA EFFECTS
-======================================= */
-
-.news-card:hover img,
-.hero-left:hover img,
-.basket-feature:hover img{
-
-filter:brightness(.92);
-
-}
-
-.news-card,
-.hero-left,
-.basket-small,
-.popular-news{
-
-transition:.35s ease;
-
-}
-
-::selection{
-
-background:#ffbf00;
-
-color:#111;
-
-}
-
-button{
-
-font-family:inherit;
-
-}
-
-input{
-
-font-family:inherit;
-
-}
-
-img{
-
-border-radius:12px;
-
-}
-/* Basketbol haberlerini küçült ve yan yana diz */
-
-#basketbol-container{
-    display:grid;
-    grid-template-columns:repeat(3, 1fr);
-    gap:15px;
-}
-
-
-#basketbol-container .haber-card{
-    border-radius:12px;
-}
-
-
-#basketbol-container .haber-card img{
-    height:120px;
-}
-
-
-#basketbol-container .haber-card h3{
-    font-size:15px;
-    padding:8px;
-}
-
-
-#basketbol-container .haber-card p{
-    font-size:13px;
-    padding:0 8px 10px;
-}
-
-
-/* Telefon görünümü */
-
-@media(max-width:768px){
-
-#basketbol-container{
-    grid-template-columns:1fr;
-}
-
-}
-#basketbol-container.haber-grid{
-    display:grid !important;
-    grid-template-columns:repeat(3, 1fr) !important;
-    gap:15px !important;
-}
-
-#basketbol-container .haber-card{
-    width:100% !important;
-    max-width:300px !important;
-}
-
-#basketbol-container .haber-card img{
-    height:120px !important;
-    object-fit:cover !important;
-}
-
-#basketbol-container .haber-card h3{
-    font-size:15px !important;
-    padding:8px !important;
-}
-
-#basketbol-container .haber-card p{
-    font-size:13px !important;
-}
-
-
-@media(max-width:768px){
-
-#basketbol-container.haber-grid{
-    grid-template-columns:1fr !important;
-}
-
-}
-#basketbol-container{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:15px;
-}
-
-
-#basketbol-container .news-card{
-    min-width:0;
-}
-
-
-#basketbol-container img{
-    height:130px;
-    object-fit:cover;
-}
-
-
-#basketbol-container h3{
-    font-size:16px;
-}
-
-
-@media(max-width:768px){
-
-#basketbol-container{
-    grid-template-columns:1fr;
-}
-
-}
-body.dark{
-background:#111;
-color:white;
-}
-
-
-body.dark .news-card,
-body.dark .league-section,
-body.dark .popular-news{
-background:#1c1c1c;
-color:white;
-}
-
-
-body.dark p{
-color:#ddd;
-}
-/* 🌙 DARK MODE */
-
-body.dark{
-background:#111;
-color:#fff;
-}
-
-
-body.dark .header{
-background:#181818;
-}
-
-
-body.dark .navbar a{
-color:#ddd;
-}
-
-
-body.dark .league-section,
-body.dark .news-card,
-body.dark .popular-news,
-body.dark .newsletter{
-background:#1e1e1e;
-color:white;
-}
 
 
 body.dark h1,
 body.dark h2,
 body.dark h3,
 body.dark h4{
-color:white;
+
+    color:white;
+
 }
+
 
 
 body.dark p{
-color:#ccc;
-}
 
-
-body.dark .news-card{
-box-shadow:0 5px 20px rgba(255,255,255,.05);
-}
-/* 📱 MOBİL MENÜ */
-
-.mobile-menu{
-
-position:fixed;
-top:0;
-left:-300px;
-
-width:260px;
-height:100vh;
-
-background:white;
-padding:80px 20px;
-
-display:flex;
-flex-direction:column;
-gap:20px;
-
-transition:.3s;
-
-z-index:999;
-
-}
-
-
-.mobile-menu a{
-
-color:#111;
-font-size:18px;
-text-decoration:none;
-
-}
-
-
-.mobile-menu.active{
-
-left:0;
-
-}
-
-
-body.dark .mobile-menu{
-
-background:#1c1c1c;
-
-}
-
-
-body.dark .mobile-menu a{
-
-color:white;
-
-}
-
-
-@media(min-width:769px){
-
-.mobile-menu{
-display:none;
-}
-
-}
-.menu-btn{
-display:none;
-}
-
-
-@media(max-width:768px){
-
-.navbar{
-display:none;
-}
-
-
-.menu-btn{
-display:block;
-}
-
-
-}
-/* 🔍 ARAMA */
-
-.search-box{
-
-position:absolute;
-top:70px;
-right:20px;
-
-width:320px;
-
-background:white;
-
-padding:15px;
-
-border-radius:12px;
-
-display:none;
-
-z-index:1000;
-
-box-shadow:0 10px 30px rgba(0,0,0,.2);
-
-}
-
-
-.search-box.active{
-
-display:block;
-
-}
-
-
-.search-box input{
-
-width:100%;
-
-padding:12px;
-
-border-radius:8px;
-
-border:1px solid #ddd;
-
-}
-
-
-#searchResults{
-
-margin-top:10px;
-
-}
-
-
-.search-item{
-
-padding:10px;
-
-border-bottom:1px solid #ddd;
-
-cursor:pointer;
-
-}
-
-
-body.dark .search-box{
-
-background:#222;
-
-}
-
-
-body.dark .search-item{
-
-color:white;
-
-}
-.popular-news li{
-
-display:flex;
-justify-content:space-between;
-padding:12px;
-
-border-bottom:1px solid #ddd;
-
-}
-
-
-.popular-news span{
-
-font-size:13px;
-color:#777;
-
-}
-
-
-body.dark .popular-news span{
-
-color:#ccc;
-
-}
-/* ⬆ YUKARI ÇIK */
-
-#topBtn{
-
-position:fixed;
-
-right:25px;
-
-bottom:25px;
-
-width:45px;
-
-height:45px;
-
-border:none;
-
-border-radius:50%;
-
-background:#ffcc00;
-
-font-size:25px;
-
-cursor:pointer;
-
-display:none;
-
-z-index:999;
-
-}
-
-
-#topBtn.show{
-
-display:block;
-
-}
-
-
-body.dark #topBtn{
-
-background:#fff;
-
-color:#111;
-
-}
-/* 🍪 ÇEREZ */
-
-.cookie-box{
-
-position:fixed;
-
-bottom:20px;
-
-left:20px;
-
-right:20px;
-
-max-width:500px;
-
-background:white;
-
-padding:20px;
-
-border-radius:15px;
-
-box-shadow:0 10px 30px rgba(0,0,0,.2);
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-gap:15px;
-
-z-index:9999;
-
-}
-
-
-.cookie-box h3{
-
-margin:0 0 5px;
-
-}
-
-
-.cookie-box p{
-
-margin:0;
-
-font-size:14px;
-
-}
-
-
-.cookie-box button{
-
-background:#ffcc00;
-
-border:none;
-
-padding:12px 20px;
-
-border-radius:10px;
-
-cursor:pointer;
-
-font-weight:600;
+    color:#ccc;
 
 }
 
@@ -2232,1644 +1655,214 @@ font-weight:600;
 
 body.dark .cookie-box{
 
-background:#222;
+    background:#222;
 
-color:white;
-
-}
-
-
-@media(max-width:600px){
-
-.cookie-box{
-
-flex-direction:column;
-
-left:10px;
-
-right:10px;
-
-bottom:10px;
-
-}
-
-}
-/* ==========================
-   📱 MOBİL GÖRÜNÜM V3
-========================== */
-
-@media(max-width:768px){
-
-
-/* Genel boşluk */
-
-.container{
-
-width:95%;
-margin:auto;
-
-}
-
-
-/* Header */
-
-.header .container{
-
-display:flex;
-justify-content:space-between;
-align-items:center;
-
-}
-
-
-.logo{
-
-font-size:22px;
-
-}
-
-
-.navbar{
-
-display:none;
-
-}
-
-
-.menu-btn{
-
-display:block;
-
-font-size:25px;
-
-}
-
-
-
-/* Son dakika */
-
-.breaking-news{
-
-font-size:13px;
-
-}
-
-
-/* Etiketler */
-
-.trend-tags{
-
-display:flex;
-overflow-x:auto;
-gap:10px;
-
-}
-
-
-.trend-tags a{
-
-white-space:nowrap;
-
-}
-
-
-/* Manşet */
-
-.hero{
-
-display:block;
-
-}
-
-
-.hero-left img{
-
-height:240px;
-object-fit:cover;
-
-}
-
-
-.hero-content h1{
-
-font-size:22px;
-
-}
-
-
-.hero-right{
-
-margin-top:20px;
-
-}
-
-
-/* Haber kartları */
-
-.news-grid{
-
-grid-template-columns:1fr;
-
-gap:15px;
-
-}
-
-
-.news-card{
-
-display:flex;
-flex-direction:column;
-
-}
-
-
-.news-card img{
-
-width:100%;
-height:190px;
-object-fit:cover;
-
-}
-
-
-.news-info h3{
-
-font-size:18px;
-
-}
-
-
-.news-info p{
-
-font-size:14px;
-
-}
-
-
-/* Basketbol kartları */
-
-#basketbol-container .news-card{
-
-width:100%;
-
-}
-
-
-#basketbol-container img{
-
-height:180px;
-
-}
-
-
-/* Bölüm başlıkları */
-
-.section-header{
-
-flex-direction:column;
-align-items:flex-start;
-gap:10px;
-
-}
-
-
-.section-header h2{
-
-font-size:22px;
-
-}
-
-
-/* Popüler */
-
-.popular-news{
-
-padding:15px;
-
-}
-
-
-/* Footer */
-
-.footer-container{
-
-display:block;
-
-}
-
-
-.footer-container div{
-
-margin-bottom:25px;
-
-}
-
-
-
-}
-.mobile-menu{
-display:none;
-}
-/* HABER KARTLARI PROFESYONEL TASARIM */
-
-.news-card{
-    background:#fff;
-    border-radius:18px;
-    overflow:hidden;
-    box-shadow:0 8px 25px rgba(0,0,0,0.08);
-    transition:.3s ease;
-    border:1px solid #eee;
-}
-
-.news-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 15px 35px rgba(0,0,0,0.15);
-}
-
-
-.news-card img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
-    display:block;
-}
-
-
-.news-card-content{
-    padding:18px;
-}
-
-
-.news-category{
-    display:inline-block;
-    background:#ffd000;
-    color:#111;
-    font-size:13px;
-    font-weight:700;
-    padding:6px 12px;
-    border-radius:20px;
-    margin-bottom:10px;
-}
-
-
-.news-card h3{
-    font-size:20px;
-    line-height:1.3;
-    margin:8px 0;
-    color:#111;
-}
-
-
-.news-card p{
-    color:#666;
-    font-size:15px;
-    line-height:1.5;
-}
-
-
-.news-card a{
-    color:#111;
-    font-weight:700;
-    text-decoration:none;
-}
-
-
-@media(max-width:768px){
-
-.news-card img{
-    height:180px;
-}
-
-.news-card h3{
-    font-size:18px;
-}
-
-.news-card-content{
-    padding:15px;
-}
-
-}
-/* =========================
-   PROFESYONEL HABER KARTLARI
-========================= */
-
-.news-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-}
-
-
-.news-card{
-    background:#fff;
-    border-radius:20px;
-    overflow:hidden;
-    box-shadow:0 5px 20px rgba(0,0,0,.10);
-    transition:.3s;
-    border:1px solid #eee;
-}
-
-
-.news-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 15px 35px rgba(0,0,0,.18);
-}
-
-
-.news-card img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
-}
-
-
-.news-card-content{
-    padding:18px;
-}
-
-
-.news-tag{
-    display:inline-block;
-    background:#ffd000;
-    color:#111;
-    padding:6px 12px;
-    border-radius:20px;
-    font-size:12px;
-    font-weight:bold;
-    margin-bottom:10px;
-}
-
-
-.news-card h3{
-    font-size:20px;
-    line-height:1.3;
-    margin:8px 0;
-    color:#111;
-}
-
-
-.news-card p{
-    color:#666;
-    font-size:14px;
-    line-height:1.5;
-}
-
-
-.news-meta{
-    display:flex;
-    justify-content:space-between;
-    color:#888;
-    font-size:13px;
-    margin-top:15px;
-}
-
-
-/* MOBİL */
-
-@media(max-width:768px){
-
-.news-grid{
-    grid-template-columns:1fr;
-}
-
-
-.news-card img{
-    height:190px;
-}
-
-}
-/* YENİ NESİL HABER KARTLARI */
-
-.news-card{
-    background:#fff;
-    border-radius:22px;
-    overflow:hidden;
-    box-shadow:0 10px 30px rgba(0,0,0,.10);
-    transition:.35s;
-    position:relative;
-}
-
-
-.news-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 20px 45px rgba(0,0,0,.18);
-}
-
-
-.news-card img{
-    height:240px;
-    width:100%;
-    object-fit:cover;
-}
-
-
-.news-card-content{
-    padding:20px;
-}
-
-
-.news-card h3{
-    font-size:21px;
-    font-weight:800;
-    line-height:1.3;
-    margin:10px 0;
-}
-
-
-.news-card p{
-    color:#666;
-    font-size:15px;
-}
-
-
-.news-card::before{
-    content:"SON DAKİKA";
-    position:absolute;
-    top:15px;
-    left:15px;
-    background:#ffd000;
-    color:#111;
-    padding:7px 14px;
-    border-radius:20px;
-    font-size:12px;
-    font-weight:900;
-}
-
-
-.news-card a{
-    display:inline-block;
-    margin-top:15px;
-    background:#111;
     color:white;
-    padding:10px 18px;
-    border-radius:25px;
-    text-decoration:none;
-    font-weight:700;
-}
-
-
-.news-card a:hover{
-    background:#ffd000;
-    color:#111;
-}
-/* ===============================
-   NOVASPOR PREMIUM HABER KARTLARI
-================================ */
-
-.news-card{
-    background:#fff;
-    border-radius:24px;
-    overflow:hidden;
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
-    transition:.35s ease;
-    position:relative;
-}
-
-
-.news-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 18px 40px rgba(0,0,0,.18);
-}
-
-
-/* Haber resmi */
-
-.news-card img{
-    width:100%;
-    height:240px;
-    object-fit:cover;
-    transition:.4s;
-}
-
-
-.news-card:hover img{
-    transform:scale(1.05);
-}
-
-
-/* İç alan */
-
-.news-info{
-    padding:22px;
-}
-
-
-/* Etiket */
-
-.news-tag{
-    display:inline-block;
-    background:#ffd000;
-    color:#111;
-    font-size:12px;
-    font-weight:800;
-    padding:7px 14px;
-    border-radius:30px;
-    margin-bottom:12px;
-}
-
-
-.news-tag.live{
-    background:#e60000;
-    color:white;
-}
-
-
-.news-tag.special{
-    background:#111;
-    color:white;
-}
-
-
-/* Başlık */
-
-.news-card h3{
-    font-size:21px;
-    font-weight:800;
-    line-height:1.35;
-    color:#111;
-    margin:10px 0 12px;
-}
-
-
-/* Açıklama */
-
-.news-card p{
-    color:#666;
-    font-size:15px;
-    line-height:1.6;
-}
-
-
-/* Alt bölüm */
-
-.news-bottom{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-top:20px;
-    padding-top:15px;
-    border-top:1px solid #eee;
-}
-
-
-.news-bottom span{
-    font-size:13px;
-    color:#888;
-}
-
-
-.news-bottom a{
-    background:#111;
-    color:#fff;
-    padding:9px 16px;
-    border-radius:25px;
-    font-size:13px;
-    font-weight:700;
-    text-decoration:none;
-    transition:.3s;
-}
-
-
-.news-bottom a:hover{
-    background:#ffd000;
-    color:#111;
-}
-
-
-/* Grid aralık */
-
-.news-grid{
-    gap:28px;
-}
-
-
-
-/* Mobil */
-
-@media(max-width:768px){
-
-.news-card img{
-    height:200px;
-}
-
-.news-card h3{
-    font-size:18px;
-}
 
 }
-/* ===================================
-   NOVASPOR V3 HABER KART TASARIMI
-=================================== */
 
 
-/* GENEL */
 
-body{
-    font-family:'Poppins',sans-serif;
-    background:#f5f5f5;
-    color:#111;
-}
 
 
-/* ===================================
-   HERO - NETFLIX TARZI
-=================================== */
-
-
-.hero{
-    display:grid;
-    grid-template-columns:2fr 1fr;
-    gap:25px;
-    margin:30px 0;
-}
-
-
-
-.hero-main{
-    position:relative;
-    height:520px;
-    overflow:hidden;
-    border-radius:18px;
-}
-
-
-
-.hero-main img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    transition:.5s;
-}
-
-
-
-.hero-main:hover img{
-    transform:scale(1.05);
-}
-
-
-
-.hero-overlay{
-    position:absolute;
-    left:0;
-    bottom:0;
-    width:100%;
-    padding:40px;
-    color:white;
-    background:linear-gradient(
-        transparent,
-        rgba(0,0,0,.85)
-    );
-}
-
-
-
-.hero-tag{
-    display:inline-block;
-    background:#ffc400;
-    color:#000;
-    padding:7px 15px;
-    border-radius:5px;
-    font-weight:700;
-    font-size:13px;
-}
-
-
-
-.hero-overlay h1{
-    font-size:38px;
-    margin:15px 0;
-    font-weight:800;
-}
-
-
-
-.hero-overlay p{
-    font-size:16px;
-    opacity:.9;
-}
-
-
-
-.hero-overlay a{
-    display:inline-block;
-    background:#000;
-    color:#fff;
-    padding:12px 25px;
-    margin-top:15px;
-    border-radius:6px;
-    text-decoration:none;
-    font-weight:600;
-}
-
-
-
-
-
-
-/* ===================================
-   HABER KARTLARI
-=================================== */
-
-
-.news-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-}
-
-
-
-.news-card{
-
-    background:#fff;
-    overflow:hidden;
-    border-radius:15px;
-    transition:.3s;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
-
-}
-
-
-
-.news-card:hover{
-
-    transform:translateY(-8px);
-    box-shadow:0 15px 30px rgba(0,0,0,.15);
-
-}
-
-
-
-
-.news-card img{
-
-    width:100%;
-    height:240px;
-    object-fit:cover;
-    transition:.4s;
-
-}
-
-
-
-.news-card:hover img{
-
-    transform:scale(1.08);
-
-}
-
-
-
-
-.news-info{
-
-    padding:20px;
-
-}
-
-
-
-
-.news-tag{
-
-    display:inline-block;
-    background:#ffc400;
-    color:#000;
-    padding:6px 12px;
-    border-radius:5px;
-    font-size:12px;
-    font-weight:800;
-}
-
-
-
-
-.news-info h3{
-
-    font-size:21px;
-    margin:15px 0;
-    line-height:1.3;
-    font-weight:800;
-
-}
-
-
-
-.news-info p{
-
-    color:#666;
-    font-size:14px;
-
-}
-
-
-
-
-
-.news-bottom{
-
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-top:20px;
-
-}
-
-
-
-
-.news-bottom span{
-
-    color:#777;
-    font-size:13px;
-
-}
-
-
-
-
-
-.news-bottom a{
-
-    background:#000;
-    color:#fff;
-    padding:9px 15px;
-    border-radius:6px;
-    text-decoration:none;
-    font-size:13px;
-    font-weight:600;
-
-}
-
-
-
-
-.news-bottom a:hover{
-
-    background:#ffc400;
-    color:#000;
-
-}
-
-
-
-
-
-
-
-/* ===================================
-   SECTION BAŞLIKLARI
-=================================== */
-
-
-.section-header{
-
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin:40px 0 20px;
-
-}
-
-
-
-.section-mini{
-
-    color:#ffc400;
-    font-size:13px;
-    font-weight:800;
-
-}
-
-
-
-.section-header h2{
-
-    margin:5px 0;
-    font-size:30px;
-
-}
-
-
-
-
-
-/* ===================================
-   EN ÇOK OKUNAN
-=================================== */
-
-
-.popular-news{
-
-    background:#fff;
-    padding:25px;
-    border-radius:15px;
-    margin:40px 0;
-
-}
-
-
-
-.popular-list a{
-
-    display:flex;
-    gap:15px;
-    padding:15px 0;
-    border-bottom:1px solid #eee;
-    color:#111;
-    text-decoration:none;
-    font-weight:600;
-
-}
-
-
-
-.popular-list span{
-
-    color:#ffc400;
-    font-size:22px;
-    font-weight:900;
-
-}
-
-
-
-
-
-
-
-
-/* ===================================
-   MOBİL
-=================================== */
-
-
-@media(max-width:768px){
-
-
-.hero{
-
-    display:block;
-
-}
-
-
-
-.hero-main{
-
-    height:400px;
-
-}
-
-
-
-.hero-overlay{
-
-    padding:20px;
-
-}
-
-
-
-.hero-overlay h1{
-
-    font-size:25px;
-
-}
-
-
-
-.news-grid{
-
-    grid-template-columns:1fr;
-
-}
-
-
-
-.news-card img{
-
-    height:220px;
-
-}
-
-
-
-.section-header h2{
-
-    font-size:22px;
-
-}
-
-
-
-.navbar{
-
-    display:none;
-
-}
-
-
-}
-/* ===================================
-   MOBİL MENÜ SİSTEMİ
-=================================== */
+/* ======================================
+   MOBİL MENÜ
+====================================== */
 
 
 .menu-btn{
 
     display:none;
-    background:#ffc400;
-    border:none;
-    font-size:24px;
-    padding:8px 12px;
-    border-radius:8px;
-    cursor:pointer;
 
 }
-
 
 
 
 @media(max-width:768px){
 
 
-.header .container{
-
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
-}
-
-
-
-.menu-btn{
-
-    display:block;
-
-}
-
-
-
-
-.header-buttons{
-
-    display:flex;
-    gap:8px;
-    align-items:center;
-
-}
-
-
-
-
-.icon-btn{
-
-    width:40px;
-    height:40px;
-    border-radius:50%;
-    border:none;
-    background:#eee;
-    cursor:pointer;
-
-}
-
-
-
-
-
 .navbar{
 
+    position:fixed;
 
-position:fixed;
-top:0;
-right:-300px;
+    top:0;
 
-width:280px;
-height:100vh;
+    right:-300px;
 
-background:#111;
+    width:280px;
 
-display:flex;
-flex-direction:column;
+    height:100vh;
 
-padding:80px 25px;
+    background:#111;
 
-gap:20px;
+    padding:80px 25px;
 
-transition:.4s;
+    display:flex;
 
-z-index:9999;
+    flex-direction:column;
 
+    gap:20px;
 
-}
+    transition:.4s;
 
-
-
-
-
-.navbar a{
-
-color:white;
-font-size:18px;
-text-decoration:none;
+    z-index:9999;
 
 }
-
-
 
 
 
 .navbar.active{
 
-right:0;
+    right:0;
 
 }
 
 
 
+.navbar a{
 
+    color:white;
+
+    font-size:18px;
 
 }
 
 
-.news-card{
-    height:420px;
-    overflow:hidden;
-    display:flex;
-    flex-direction:column;
+
+.menu-btn{
+
+    display:block;
+
 }
 
 
-.news-card img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
+
+.footer-container{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
 }
 
 
-.news-info h3{
-    height:55px;
-    overflow:hidden;
-}
-
-
-.news-info p{
-    height:45px;
-    overflow:hidden;
-}
-.haber-card{
-    height:420px;
-    display:flex;
-    flex-direction:column;
-    overflow:hidden;
-}
-
-
-.haber-card img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
-}
-
-
-.haber-card > div{
-    padding:15px;
-    display:flex;
-    flex-direction:column;
-    flex:1;
-}
-
-
-.haber-card h3{
-    height:60px;
-    overflow:hidden;
-}
-
-
-.haber-card p{
-    height:50px;
-    overflow:hidden;
-    color:#777;
-}
-/* ========================= */
-/* COOKIE */
-/* ========================= */
 
 .cookie-box{
 
-position:fixed;
+    left:10px;
 
-bottom:20px;
+    right:10px;
 
-left:50%;
-
-transform:translateX(-50%);
-
-width:min(92%,900px);
-
-background:#ffffff;
-
-border-radius:18px;
-
-padding:22px;
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-gap:25px;
-
-box-shadow:0 15px 40px rgba(0,0,0,.18);
-
-z-index:9999;
-
-animation:cookieShow .5s ease;
-
-}
-
-.cookie-left{
-
-display:flex;
-
-align-items:flex-start;
-
-gap:18px;
-
-}
-
-.cookie-icon{
-
-font-size:42px;
-
-}
-
-.cookie-content h3{
-
-margin-bottom:8px;
-
-font-size:20px;
-
-font-weight:700;
-
-}
-
-.cookie-content p{
-
-line-height:1.7;
-
-font-size:15px;
-
-color:#555;
-
-}
-
-.cookie-content a{
-
-color:#ffb400;
-
-font-weight:700;
-
-text-decoration:none;
-
-}
-
-.cookie-buttons{
-
-display:flex;
-
-gap:12px;
-
-}
-
-.cookie-btn{
-
-padding:12px 22px;
-
-border:none;
-
-border-radius:10px;
-
-font-weight:600;
-
-cursor:pointer;
-
-transition:.25s;
-
-}
-
-.cookie-btn.primary{
-
-background:#ffb400;
-
-color:#111;
-
-}
-
-.cookie-btn.primary:hover{
-
-transform:translateY(-2px);
-
-}
-
-.cookie-btn.secondary{
-
-background:#ececec;
-
-}
-
-.cookie-btn.secondary:hover{
-
-background:#ddd;
-
-}
-
-@media (max-width:768px){
-
-.cookie-box{
-    position:fixed;
-    left:12px;
-    right:12px;
-    bottom:300px;
-
-    width:auto;
-    max-width:none;
+    bottom:10px;
 
     transform:none;
 
-    padding:16px;
-    border-radius:16px;
+    width:auto;
 
-    display:flex;
     flex-direction:column;
+
     align-items:flex-start;
-    gap:15px;
 
-    z-index:99999;
 }
 
-.cookie-left{
-    display:flex;
-    align-items:flex-start;
-    gap:12px;
-}
 
-.cookie-icon{
-    font-size:30px;
-}
-
-.cookie-content h3{
-    font-size:18px;
-    margin-bottom:6px;
-}
-
-.cookie-content p{
-    font-size:14px;
-    line-height:1.5;
-}
 
 .cookie-buttons{
+
     width:100%;
-    display:flex;
-    gap:10px;
+
 }
+
+
 
 .cookie-btn{
+
     flex:1;
-    height:48px;
-    border-radius:12px;
-    font-size:15px;
-    font-weight:700;
+
 }
-}
-/* =========================
-   PROFESYONEL ARAMA
-========================= */
+
+
 
 .search-box{
-position:absolute;
-top:80px;
-right:15px;
-width:380px;
-max-height:500px;
-overflow-y:auto;
-background:#fff;
-border-radius:18px;
-box-shadow:0 15px 40px rgba(0,0,0,.18);
-display:none;
-z-index:99999;
+
+    left:10px;
+
+    right:10px;
+
+    width:auto;
+
 }
 
-.search-box.active{
-display:block;
-animation:fadeSearch .25s;
+
 }
 
-.search-box input{
-width:100%;
-padding:16px;
-border:none;
-border-bottom:1px solid #eee;
-font-size:16px;
-outline:none;
+
+
+
+
+/* ======================================
+   ANİMASYONLAR
+====================================== */
+
+
+.news-card,
+.hero-left,
+.basket-feature,
+.popular-news{
+
+    animation:fadeUp .6s ease;
+
 }
 
-.search-item{
-display:block;
-padding:15px;
-border-bottom:1px solid #eee;
-transition:.25s;
-}
 
-.search-item:hover{
-background:#f5f5f5;
-}
 
-.search-item h4{
-font-size:16px;
-margin-bottom:6px;
-}
+@keyframes fadeUp{
 
-.search-item p{
-font-size:13px;
-color:#666;
-}
-
-.no-result{
-padding:25px;
-text-align:center;
-color:#888;
-}
-
-body.dark .search-box{
-background:#1f1f1f;
-}
-
-body.dark .search-item{
-border-color:#333;
-}
-
-body.dark .search-item:hover{
-background:#2a2a2a;
-}
-
-body.dark .search-item p{
-color:#ccc;
-}
-
-@keyframes fadeSearch{
 from{
-opacity:0;
-transform:translateY(-10px);
+
+    opacity:0;
+
+    transform:translateY(30px);
+
 }
+
+
 to{
-opacity:1;
-transform:translateY(0);
-}
-}
 
-@media(max-width:768px){
+    opacity:1;
 
-.search-box{
-left:10px;
-right:10px;
-width:auto;
-top:70px;
-}
+    transform:translateY(0);
 
 }
-.haber-card{
-text-decoration:none;
-color:inherit;
-display:block;
-cursor:pointer;
-}
-
-.haber-card:hover{
-transform:translateY(-5px);
-transition:.3s;
-}
-.news-card{
-cursor:pointer;
-}
-
-.news-card img{
-display:block;
-width:100%;
-}
-.news-card{
-cursor:pointer;
-}
-.news-image img{
-width:100%;
-height:200px;
-object-fit:cover;
-display:block;
-}
-/* ==========================
-   NOVASPOR HABER KARTI
-========================== */
-
-.news-card{
-
-background:#fff;
-overflow:hidden;
-cursor:pointer;
-transition:.3s;
-margin-bottom:25px;
-
-}
-
-
-.news-card:hover{
-
-transform:translateY(-5px);
 
 }
 
 
 
-/* RESİM */
 
-.news-image{
-
-width:100%;
-height:260px;
-overflow:hidden;
-
-}
+/* SCROLLBAR */
 
 
-.news-image img{
+::-webkit-scrollbar{
 
-width:100%;
-height:100%;
-object-fit:cover;
-display:block;
+    width:10px;
 
 }
 
 
 
-/* İÇERİK */
+::-webkit-scrollbar-thumb{
 
-.news-content{
+    background:#ffbf00;
 
-padding:28px 22px;
-
-}
-
-
-.news-content h3{
-
-font-size:24px;
-line-height:1.3;
-color:#111;
-margin:0 0 15px;
-font-weight:700;
+    border-radius:50px;
 
 }
 
 
-.news-content p{
 
-font-size:17px;
-line-height:1.5;
-color:#666;
-margin:0;
+::-webkit-scrollbar-track{
 
-}
-@media(max-width:600px){
-
-.news-image{
-
-height:210px;
-
-}
-
-
-.news-content{
-
-padding:20px;
-
-}
-
-
-.news-content h3{
-
-font-size:20px;
-
-}
-
-
-.news-content p{
-
-font-size:15px;
-
-}
+    background:#eee;
 
 }
