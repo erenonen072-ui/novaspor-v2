@@ -2296,3 +2296,25 @@ to{
     display:none;
 
 }
+#hero-title{
+display:block !important;
+opacity:1 !important;
+visibility:visible !important;
+color:white !important;
+z-index:99;
+}
+
+#hero-text{
+display:block !important;
+opacity:1 !important;
+visibility:visible !important;
+color:white !important;
+z-index:99;
+}
+
+.hero-overlay{
+display:block !important;
+opacity:1 !important;
+visibility:visible !important;
+z-index:99;
+}
