@@ -331,14 +331,12 @@ searchBox.classList.remove("active");
 });
 
 document.addEventListener("keydown",(e)=>{
-
 if(e.key==="Escape"){
-
 searchBox.classList.remove("active");
-
 }
-
 });
+
+
 // ==========================
 // NOVASPOR MANŞET SİSTEMİ
 // ==========================
@@ -350,30 +348,27 @@ const title = document.getElementById("hero-title");
 const text = document.getElementById("hero-text");
 const link = document.getElementById("hero-link");
 
-
 if(!image || !title || !text || !link) return;
 
 if(!window.mansetHaberleri) return;
 
 
-let index = 0;
+let index=0;
 
 
 function goster(){
 
-const haber = window.mansetHaberleri[index];
+const haber=window.mansetHaberleri[index];
 
-
-image.src = haber.resim;
-title.innerHTML = haber.baslik;
-text.innerHTML = haber.aciklama || "";
-link.href = haber.link || "#";
-
+image.src=haber.resim;
+title.innerHTML=haber.baslik;
+text.innerHTML=haber.aciklama || "";
+link.href=haber.link || "#";
 
 index++;
 
 if(index >= window.mansetHaberleri.length){
-index = 0;
+index=0;
 }
 
 }
@@ -383,10 +378,7 @@ goster();
 
 
 setInterval(()=>{
-
 goster();
-
 },5000);
-
 
 }
