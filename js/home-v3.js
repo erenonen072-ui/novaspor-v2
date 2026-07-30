@@ -343,22 +343,27 @@ searchBox.classList.remove("active");
 
 function mansetBaslat(){
 
+console.log("MANŞET ÇALIŞTI");
+console.log(window.mansetHaberleri[0]);
+
 const image = document.getElementById("hero-image");
 const title = document.getElementById("hero-title");
 const text = document.getElementById("hero-text");
 const link = document.getElementById("hero-link");
 
+console.log(image,title,text,link);
+
 if(!image || !title || !text || !link) return;
 
 if(!window.mansetHaberleri) return;
 
-
 let index=0;
-
 
 function goster(){
 
 const haber=window.mansetHaberleri[index];
+
+console.log("Gösteriliyor:",haber);
 
 image.src=haber.resim;
 title.innerHTML=haber.baslik;
@@ -373,9 +378,7 @@ index=0;
 
 }
 
-
 goster();
-
 
 setInterval(()=>{
 goster();
