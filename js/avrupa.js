@@ -34,7 +34,15 @@ baslik:"Real Madrid'den Avrupa'yı Sarsacak Sezon Planı! İspanyol Devi Yeniden
 aciklama:"Real Madrid yeni sezonda Avrupa'nın zirvesine çıkmak için kadro planlamasını sürdürüyor. İspanyol devi yine Şampiyonlar Ligi'nin en büyük adaylarından biri.",
 resim:"images/REALAMDERİD.jpg",
 link:"https://sites.google.com/view/novassporr/avrupa-haberleri/real-madridden-avrupay%C4%B1-sarsacak-sezon-plan%C4%B1-ispanyol-devi-yeniden-zirve?authuser=0"
-}
+},
+{
+    kategori: "TRANSFER",
+    baslik: "Barcelona'dan Dev Hamle! Karim Adeyemi Resmen Barcelona'da",
+    aciklama: "Barcelona, Borussia Dortmund'un yıldızı Karim Adeyemi'yi kadrosuna kattı. Alman futbolcu 2031 yılına kadar Katalan ekibinin formasını giyecek.",
+    resim: "images/ChatGPT Image 30 Tem 2026 14_42_38.png",
+    link: "https://sites.google.com/view/novassporr/barcelona-karim-adeyemi-transferi"
+   
+},
 
 ];
 window.avrupaHaberleri = avrupaHaberleri;
