@@ -130,7 +130,7 @@ if(!container || !haberler) return;
 
 container.innerHTML = "";
 
-haberler.forEach((haber,index)=>{
+haberler.forEach(haber=>{
 
 container.innerHTML += `
 
@@ -150,7 +150,8 @@ ${haber.baslik}
 ${haber.aciklama || ""}
 </p>
 
-<div class="news-bottom"></div>
+<div class="news-bottom">
+</div>
 
 </div>
 
@@ -160,17 +161,18 @@ ${haber.aciklama || ""}
 
 });
 
+
 document.querySelectorAll(".news-card").forEach(card=>{
 
-card.addEventListener("click",()=>{
+card.onclick = function(){
 
-let link = card.getAttribute("data-link");
+const link = this.dataset.link;
 
 if(link){
 window.open(link,"_blank");
 }
 
-});
+};
 
 });
 
