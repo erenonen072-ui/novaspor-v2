@@ -136,7 +136,44 @@ mansetGuncelle();
 }
 
 
+// SAĞ OK
+const nextBtn = document.getElementById("manset-next");
 
+if(nextBtn){
+
+nextBtn.onclick = ()=>{
+
+aktifManşet++;
+
+if(aktifManşet >= window.mansetHaberleri.length){
+aktifManşet = 0;
+}
+
+mansetGuncelle();
+
+};
+
+}
+
+
+// SOL OK
+const prevBtn = document.getElementById("manset-prev");
+
+if(prevBtn){
+
+prevBtn.onclick = ()=>{
+
+aktifManşet--;
+
+if(aktifManşet < 0){
+aktifManşet = window.mansetHaberleri.length - 1;
+}
+
+mansetGuncelle();
+
+};
+
+}
 // OTOMATİK DEĞİŞİM
 
 setInterval(()=>{
