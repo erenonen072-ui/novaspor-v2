@@ -31,9 +31,11 @@ kategori: "SON DAKİKA"
 ];
 
 
+// AKTİF HABER
 let aktifManşet = 0;
 
 
+// HTML ELEMANLARI
 const heroImage = document.getElementById("hero-image");
 const heroTitle = document.getElementById("hero-title");
 const heroText = document.getElementById("hero-text");
@@ -41,6 +43,7 @@ const heroLink = document.getElementById("hero-link");
 const heroTag = document.querySelector(".hero-tag");
 
 
+// MANŞET GÜNCELLEME
 
 function mansetGuncelle(){
 
@@ -89,15 +92,20 @@ heroTag.textContent = haber.kategori;
 
 
 
-// İLERİ BUTONU
+// ==========================
+// SAĞ OK
+// ==========================
 
 const nextBtn = document.getElementById("nextHero");
+
 
 if(nextBtn){
 
 nextBtn.addEventListener("click",()=>{
 
+
 aktifManşet++;
+
 
 if(aktifManşet >= window.mansetHaberleri.length){
 
@@ -105,7 +113,9 @@ aktifManşet = 0;
 
 }
 
+
 mansetGuncelle();
+
 
 });
 
@@ -113,15 +123,21 @@ mansetGuncelle();
 
 
 
-// GERİ BUTONU
+
+// ==========================
+// SOL OK
+// ==========================
 
 const prevBtn = document.getElementById("prevHero");
+
 
 if(prevBtn){
 
 prevBtn.addEventListener("click",()=>{
 
+
 aktifManşet--;
+
 
 if(aktifManşet < 0){
 
@@ -129,56 +145,25 @@ aktifManşet = window.mansetHaberleri.length - 1;
 
 }
 
+
 mansetGuncelle();
+
 
 });
 
 }
 
 
-// SAĞ OK
-const nextBtn = document.getElementById("manset-next");
 
-if(nextBtn){
-
-nextBtn.onclick = ()=>{
-
-aktifManşet++;
-
-if(aktifManşet >= window.mansetHaberleri.length){
-aktifManşet = 0;
-}
-
-mansetGuncelle();
-
-};
-
-}
-
-
-// SOL OK
-const prevBtn = document.getElementById("manset-prev");
-
-if(prevBtn){
-
-prevBtn.onclick = ()=>{
-
-aktifManşet--;
-
-if(aktifManşet < 0){
-aktifManşet = window.mansetHaberleri.length - 1;
-}
-
-mansetGuncelle();
-
-};
-
-}
+// ==========================
 // OTOMATİK DEĞİŞİM
+// ==========================
 
 setInterval(()=>{
 
+
 aktifManşet++;
+
 
 if(aktifManşet >= window.mansetHaberleri.length){
 
@@ -186,12 +171,16 @@ aktifManşet = 0;
 
 }
 
+
 mansetGuncelle();
+
 
 },5000);
 
 
 
+// ==========================
 // BAŞLAT
+// ==========================
 
 mansetGuncelle();
