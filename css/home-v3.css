@@ -2318,3 +2318,52 @@ opacity:1 !important;
 visibility:visible !important;
 z-index:99;
 }
+/* =====================================
+   MANŞET OVERLAY DÜZELTME
+===================================== */
+
+.hero-overlay{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    padding:30px;
+    color:white;
+    background:linear-gradient(
+        transparent,
+        rgba(0,0,0,.85)
+    );
+    z-index:5;
+}
+
+.hero-overlay .hero-tag{
+    display:inline-block;
+    background:#ffbf00;
+    color:#111;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:800;
+}
+
+.hero-overlay h1{
+    font-size:34px;
+    line-height:1.25;
+    margin:12px 0;
+    color:white;
+}
+
+.hero-overlay p{
+    font-size:16px;
+    color:white;
+    margin-bottom:15px;
+}
+
+.hero-overlay a{
+    display:inline-block;
+    background:#ffbf00;
+    color:#111;
+    padding:10px 20px;
+    border-radius:6px;
+    font-weight:700;
+}
