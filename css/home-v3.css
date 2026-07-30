@@ -3742,3 +3742,14 @@ top:70px;
 }
 
 }
+.haber-card{
+text-decoration:none;
+color:inherit;
+display:block;
+cursor:pointer;
+}
+
+.haber-card:hover{
+transform:translateY(-5px);
+transition:.3s;
+}
