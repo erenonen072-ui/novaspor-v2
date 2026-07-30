@@ -122,7 +122,6 @@ haberleriGoster(
 // ==========================
 // HABER KARTI OLUŞTURMA
 // ==========================
-
 function haberleriGoster(containerID, haberler){
 
 const container = document.getElementById(containerID);
@@ -135,12 +134,12 @@ haberler.forEach(haber=>{
 
 container.innerHTML += `
 
-<article class="news-card">
-
-<a href="${haber.link || '#'}">
+<article class="news-card" onclick="window.location.href='${haber.link || "#"}'">
 
 <div class="news-image">
+
 <img src="${haber.resim}" alt="${haber.baslik}">
+
 </div>
 
 
@@ -157,12 +156,11 @@ ${haber.aciklama || ""}
 
 
 <div class="news-bottom">
-</div>
-
 
 </div>
 
-</a>
+
+</div>
 
 </article>
 
