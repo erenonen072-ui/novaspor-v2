@@ -3753,3 +3753,11 @@ cursor:pointer;
 transform:translateY(-5px);
 transition:.3s;
 }
+.news-card{
+cursor:pointer;
+}
+
+.news-card img{
+display:block;
+width:100%;
+}
