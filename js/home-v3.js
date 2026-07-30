@@ -2,29 +2,28 @@
 // NOVASPOR HOME V3 JS
 // ==========================
 
-
 document.addEventListener("DOMContentLoaded",()=>{
-    document.addEventListener("DOMContentLoaded",()=>{
 
 console.log("HOME V3 ÇALIŞTI");
 console.log(window.mansetHaberleri);
 
-    // ⭐ MANŞET BAŞLAT
+
+// ⭐ MANŞET BAŞLAT
 mansetBaslat();
 
 
-    // ⚽ Süper Lig
-    haberleriGoster(
-        "superlig-container",
-        window.superLigHaberleri
-    );
+// ⚽ Süper Lig
+haberleriGoster(
+    "superlig-container",
+    window.superLigHaberleri
+);
 
 
-    // 🥈 1. Lig
-    haberleriGoster(
-        "lig1-container",
-        window.lig1Haberleri
-    );
+// 🥈 1. Lig
+haberleriGoster(
+    "lig1-container",
+    window.lig1Haberleri
+);
 
 
     // 🥉 2. Lig
