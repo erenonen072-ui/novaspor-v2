@@ -335,3 +335,54 @@ searchBox.classList.remove("active");
 }
 
 });
+// ==========================
+// NOVASPOR MANŞET SİSTEMİ
+// ==========================
+
+function mansetBaslat(){
+
+const image = document.getElementById("hero-image");
+const title = document.getElementById("hero-title");
+const text = document.getElementById("hero-text");
+const link = document.getElementById("hero-link");
+
+
+if(!image || !title || !text || !link) return;
+
+if(!window.mansetHaberleri) return;
+
+
+let index = 0;
+
+
+function goster(){
+
+const haber = window.mansetHaberleri[index];
+
+
+image.src = haber.resim;
+title.innerHTML = haber.baslik;
+text.innerHTML = haber.aciklama || "";
+link.href = haber.link || "#";
+
+
+index++;
+
+if(index >= window.mansetHaberleri.length){
+index = 0;
+}
+
+}
+
+
+goster();
+
+
+setInterval(()=>{
+
+goster();
+
+},5000);
+
+
+}
