@@ -130,18 +130,15 @@ if(!container || !haberler) return;
 
 container.innerHTML = "";
 
-haberler.forEach(haber=>{
+haberler.forEach((haber,index)=>{
 
 container.innerHTML += `
 
-<article class="news-card" onclick="window.location.href='${haber.link || "#"}'">
+<div class="news-card" data-link="${haber.link || ''}">
 
 <div class="news-image">
-
 <img src="${haber.resim}" alt="${haber.baslik}">
-
 </div>
-
 
 <div class="news-content">
 
@@ -149,22 +146,31 @@ container.innerHTML += `
 ${haber.baslik}
 </h3>
 
-
 <p>
 ${haber.aciklama || ""}
 </p>
 
-
-<div class="news-bottom">
-
-</div>
-
+<div class="news-bottom"></div>
 
 </div>
 
-</article>
+</div>
 
 `;
+
+});
+
+document.querySelectorAll(".news-card").forEach(card=>{
+
+card.addEventListener("click",()=>{
+
+let link = card.getAttribute("data-link");
+
+if(link){
+window.open(link,"_blank");
+}
+
+});
 
 });
 
