@@ -130,15 +130,19 @@ if(!container || !haberler) return;
 
 container.innerHTML = "";
 
+
 haberler.forEach(haber=>{
 
 container.innerHTML += `
 
-<div class="news-card" data-link="${haber.link || ''}">
+<article class="news-card" data-link="${haber.link || ''}">
 
 <div class="news-image">
-<img src="${haber.resim}" alt="${haber.baslik}">
+
+<img src="${encodeURI(haber.resim)}" alt="${haber.baslik}">
+
 </div>
+
 
 <div class="news-content">
 
@@ -146,35 +150,39 @@ container.innerHTML += `
 ${haber.baslik}
 </h3>
 
+
 <p>
 ${haber.aciklama || ""}
 </p>
 
-<div class="news-bottom">
-</div>
 
 </div>
 
-</div>
+</article>
 
 `;
 
 });
 
 
+// Kart tıklama
+
 document.querySelectorAll(".news-card").forEach(card=>{
 
-card.onclick = function(){
+card.addEventListener("click",()=>{
 
-const link = this.dataset.link;
+const link = card.dataset.link;
 
 if(link){
+
 window.open(link,"_blank");
+
 }
 
-};
+});
 
 });
+
 
 }
 // ==========================
