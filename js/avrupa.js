@@ -40,7 +40,7 @@ link:"https://sites.google.com/view/novassporr/avrupa-haberleri/real-madridden-a
     baslik: "Barcelona'dan Dev Hamle! Karim Adeyemi Resmen Barcelona'da",
     aciklama: "Barcelona, Borussia Dortmund'un yıldızı Karim Adeyemi'yi kadrosuna kattı. Alman futbolcu 2031 yılına kadar Katalan ekibinin formasını giyecek.",
     resim: "images/ChatGPT Image 30 Tem 2026 14_42_38.png",
-    link: "https://sites.google.com/view/novassporr/barcelona-karim-adeyemi-transferi"
+    link: "https://sites.google.com/view/novassporr/barcelonadan-yaz%C4%B1n-en-b%C3%BCy%C3%BCk-transferi-karim-adeyemi-resmen-katalan-devind?authuser=0"
    
 },
 
