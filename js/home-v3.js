@@ -123,44 +123,54 @@ haberleriGoster(
 // HABER KARTI OLUŞTURMA
 // ==========================
 
+function haberleriGoster(containerID, haberler){
 
-haberler.forEach(haber => {
+const container = document.getElementById(containerID);
+
+if(!container || !haberler) return;
+
+container.innerHTML = "";
+
+haberler.forEach(haber=>{
 
 container.innerHTML += `
 
-<a href="${haber.link || '#'}" class="news-card">
+<article class="news-card">
 
-    <div class="news-image">
+<a href="${haber.link || '#'}">
 
-        <img src="${haber.resim}" alt="${haber.baslik}">
-
-    </div>
-
-
-    <div class="news-content">
-
-        <h3>
-        ${haber.baslik}
-        </h3>
+<div class="news-image">
+<img src="${haber.resim}" alt="${haber.baslik}">
+</div>
 
 
-        <p>
-        ${haber.aciklama || ""}
-        </p>
+<div class="news-content">
+
+<h3>
+${haber.baslik}
+</h3>
 
 
-        <div class="news-bottom">
+<p>
+${haber.aciklama || ""}
+</p>
 
-        </div>
+
+<div class="news-bottom">
+</div>
 
 
-    </div>
+</div>
 
 </a>
+
+</article>
 
 `;
 
 });
+
+}
 // ==========================
 // COOKIE
 // ==========================
