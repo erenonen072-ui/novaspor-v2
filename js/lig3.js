@@ -17,7 +17,7 @@ const lig3Haberleri = [
     baslik: "Eskişehirspor Transferde Hız Kesmiyor: Kadro Güçlendirme Çalışmaları Sürüyor",
     aciklama: "Şampiyonluk hedefleyen Eskişehirspor, yeni sezon öncesi transfer çalışmalarına devam ederek güçlü bir kadro oluşturmayı amaçlıyor.",
     resim: "images/Eskişehirspor.png",
-    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/3-lig-haberleri/eskişehirspor-transferde-hız-kesmiyor-kadro-güçlendirme-çalışma-sürüyo"
+    link: "https://sites.google.com/view/novassporr/3-lig-haberleri/eski%C5%9Fehirspor-transferde-h%C4%B1z-kesmiyor-kadro-g%C3%BC%C3%A7lendirme-%C3%A7al%C4%B1%C5%9Fmalar%C4%B1-s%C3%BCr%C3%BCyo?authuser=0"
 },
 
 {
