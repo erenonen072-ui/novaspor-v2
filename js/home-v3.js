@@ -4,6 +4,11 @@
 
 
 document.addEventListener("DOMContentLoaded",()=>{
+    document.addEventListener("DOMContentLoaded",()=>{
+
+console.log("HOME V3 ÇALIŞTI");
+console.log(window.mansetHaberleri);
+
     // ⭐ MANŞET BAŞLAT
 mansetBaslat();
 
