@@ -26,7 +26,14 @@ const lig3Haberleri = [
     aciklama: "2026-2027 sezonu öncesinde TFF 3. Lig'de gruplar belli olurken takımlar yeni sezon hazırlıklarına başladı.",
     resim: "images/TFF3_kopya.png",
     link: "https://sites.google.com/view/novassporr/2-lig-haberleri/3-lig-haberleri/3-ligde-yeni-sezon-heyecanı-başlıyor-gruplar-ve-takımlar-belli-oldu"
-}
+},
+{
+    kategori: "TEKNİK DİREKTÖR",
+    baslik: "Karşıyaka'da Burhanettin Basatemür ile Yola Devam",
+    aciklama: "Karşıyaka, yeni sezon öncesinde teknik direktör Burhanettin Basatemür ile yeniden anlaşmaya vardı. Yeşil-kırmızılı ekip şampiyonluk hedefi doğrultusunda istikrarı tercih etti.",
+    resim: "images/ChatGPT Image 30 Tem 2026 14_38_59.png",
+    link: "https://sites.google.com/view/novassporr/kar%C5%9F%C4%B1yakadan-%C5%9Fampiyonluk-yolunda-ilk-b%C3%BCy%C3%BCk-hamle-burhanettin-basatem%C3%BCr-il?authuser=0"
+},
 
 ];
 
