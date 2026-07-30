@@ -4,7 +4,7 @@ window.basketbolHaberleri = [
 kategori:"Basketbol",
 baslik:"Fenerbahçe Beko'dan Güç Gösterisi!",
 aciklama:"Yeni transferlerle hedef Avrupa'nın zirvesi.",
-resim:"images/🏀Fenerbahçe Beko'dan Güç Gösterisi! Yeni Transferlerle Hedef Bir Kez Daha Avrupa'nın Zirvesi.png",
+resim:"images/🏀 Fenerbahçe Beko'dan Güç Gösterisi! Yeni Transferlerle Hedef Bir Kez Daha Avrupa'nın Zirvesi.png",
 link:"https://sites.google.com/view/novassporr/basketbol-haberleri_1/fenerbah%C3%A7e-bekodan-g%C3%BC%C3%A7-g%C3%B6sterisi-yeni-transferlerle-hedef-bir-kez-daha?authuser=0"
 },
 
