@@ -5,27 +5,27 @@
 window.mansetHaberleri = [
 
 {
-    baslik: "Fenerbahçe'den Mason Greenwood Hamlesi Resmileşti",
-    aciklama: "Fenerbahçe'nin transfer gündemindeki Mason Greenwood gelişmesi büyük ilgi gördü.",
-    resim: "images/hq720.jpg",
-    link: "https://sites.google.com/view/novassporr/haberler_1/fenerbahçeden-mason-greenwood-hamlesi-resmileşti?authuser=0",
-    kategori: "TRANSFER"
+baslik: "Fenerbahçe'den Mason Greenwood Hamlesi Resmileşti",
+aciklama: "Fenerbahçe'nin transfer gündemindeki Mason Greenwood gelişmesi büyük ilgi gördü.",
+resim: "images/hq720.jpg",
+link: "https://sites.google.com/view/novassporr/haberler_1/fenerbahçeden-mason-greenwood-hamlesi-resmileşti?authuser=0",
+kategori: "TRANSFER"
 },
 
 {
-    baslik: "Beşiktaş'tan Dev Transfer: Leandro Trossard Resmen Siyah-Beyazlı",
-    aciklama: "Beşiktaş transfer çalışmalarında önemli bir hamle yaptı.",
-    resim: "images/leandro-trossard-saglik-kontrolunden-gecti.jpg",
-    link: "https://sites.google.com/view/novassporr/haberler_1/beşiktaştan-dev-transfer-leandro-trossard-resmen-siyah-beyazlı?authuser=0",
-    kategori: "TRANSFER"
+baslik: "Beşiktaş'tan Dev Transfer: Leandro Trossard Resmen Siyah-Beyazlı",
+aciklama: "Beşiktaş transfer çalışmalarında önemli bir hamle yaptı.",
+resim: "images/leandro-trossard-saglik-kontrolunden-gecti.jpg",
+link: "https://sites.google.com/view/novassporr/haberler_1/beşiktaştan-dev-transfer-leandro-trossard-resmen-siyah-beyazlı?authuser=0",
+kategori: "TRANSFER"
 },
 
 {
-    baslik: "Son Dakika: Galatasaray'dan Can Uzun Hamlesi",
-    aciklama: "Galatasaray transfer çalışmalarını hızlandırdı.",
-    resim: "images/can uzun.jpg",
-    link: "https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaraydan-can-uzun-hamlesi?authuser=0",
-    kategori: "SON DAKİKA"
+baslik: "Son Dakika: Galatasaray'dan Can Uzun Hamlesi",
+aciklama: "Galatasaray transfer çalışmalarını hızlandırdı.",
+resim: "images/can uzun.jpg",
+link: "https://sites.google.com/view/novassporr/haberler_1/son-dakika-galatasaraydan-can-uzun-hamlesi?authuser=0",
+kategori: "SON DAKİKA"
 }
 
 ];
@@ -44,58 +44,117 @@ const heroTag = document.querySelector(".hero-tag");
 
 function mansetGuncelle(){
 
+const haber = window.mansetHaberleri[aktifManşet];
 
-    const haber = window.mansetHaberleri[aktifManşet];
-
-
-    if(!haber) return;
+if(!haber) return;
 
 
-    heroImage.src = haber.resim;
+if(heroImage){
 
-    heroImage.alt = haber.baslik;
+heroImage.src = haber.resim;
+heroImage.alt = haber.baslik;
 
-    heroTitle.textContent = haber.baslik;
-
-    heroText.textContent = haber.aciklama;
-
-    heroLink.href = haber.link;
+}
 
 
-    if(heroTag){
+if(heroTitle){
 
-        heroTag.textContent = haber.kategori;
+heroTitle.textContent = haber.baslik;
 
-    }
+}
+
+
+if(heroText){
+
+heroText.textContent = haber.aciklama;
+
+}
+
+
+if(heroLink){
+
+heroLink.href = haber.link;
+heroLink.target = "_blank";
+
+}
+
+
+if(heroTag){
+
+heroTag.textContent = haber.kategori;
+
+}
 
 }
 
 
 
+// İLERİ BUTONU
 
-if(heroImage && heroTitle && heroText && heroLink){
+const nextBtn = document.getElementById("nextHero");
 
+if(nextBtn){
 
-    mansetGuncelle();
+nextBtn.addEventListener("click",()=>{
 
+aktifManşet++;
 
-    setInterval(()=>{
+if(aktifManşet >= window.mansetHaberleri.length){
 
-
-        aktifManşet++;
-
-
-        if(aktifManşet >= window.mansetHaberleri.length){
-
-            aktifManşet = 0;
-
-        }
-
-
-        mansetGuncelle();
-
-
-    },5000);
-
+aktifManşet = 0;
 
 }
+
+mansetGuncelle();
+
+});
+
+}
+
+
+
+// GERİ BUTONU
+
+const prevBtn = document.getElementById("prevHero");
+
+if(prevBtn){
+
+prevBtn.addEventListener("click",()=>{
+
+aktifManşet--;
+
+if(aktifManşet < 0){
+
+aktifManşet = window.mansetHaberleri.length - 1;
+
+}
+
+mansetGuncelle();
+
+});
+
+}
+
+
+
+// OTOMATİK DEĞİŞİM
+
+setInterval(()=>{
+
+aktifManşet++;
+
+if(aktifManşet >= window.mansetHaberleri.length){
+
+aktifManşet = 0;
+
+}
+
+mansetGuncelle();
+
+},5000);
+
+
+
+// BAŞLAT
+
+mansetGuncelle();
