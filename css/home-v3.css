@@ -3770,3 +3770,106 @@ height:200px;
 object-fit:cover;
 display:block;
 }
+/* ==========================
+   NOVASPOR HABER KARTI
+========================== */
+
+.news-card{
+
+background:#fff;
+overflow:hidden;
+cursor:pointer;
+transition:.3s;
+margin-bottom:25px;
+
+}
+
+
+.news-card:hover{
+
+transform:translateY(-5px);
+
+}
+
+
+
+/* RESİM */
+
+.news-image{
+
+width:100%;
+height:260px;
+overflow:hidden;
+
+}
+
+
+.news-image img{
+
+width:100%;
+height:100%;
+object-fit:cover;
+display:block;
+
+}
+
+
+
+/* İÇERİK */
+
+.news-content{
+
+padding:28px 22px;
+
+}
+
+
+.news-content h3{
+
+font-size:24px;
+line-height:1.3;
+color:#111;
+margin:0 0 15px;
+font-weight:700;
+
+}
+
+
+.news-content p{
+
+font-size:17px;
+line-height:1.5;
+color:#666;
+margin:0;
+
+}
+@media(max-width:600px){
+
+.news-image{
+
+height:210px;
+
+}
+
+
+.news-content{
+
+padding:20px;
+
+}
+
+
+.news-content h3{
+
+font-size:20px;
+
+}
+
+
+.news-content p{
+
+font-size:15px;
+
+}
+
+}
