@@ -124,97 +124,43 @@ haberleriGoster(
 // ==========================
 
 
-function haberleriGoster(alan, liste){
+haberler.forEach(haber => {
+
+container.innerHTML += `
+
+<a href="${haber.link || '#'}" class="news-card">
+
+    <div class="news-image">
+
+        <img src="${haber.resim}" alt="${haber.baslik}">
+
+    </div>
 
 
-    const container = document.getElementById(alan);
+    <div class="news-content">
+
+        <h3>
+        ${haber.baslik}
+        </h3>
 
 
-    if(!container || !liste) return;
+        <p>
+        ${haber.aciklama || ""}
+        </p>
 
 
+        <div class="news-bottom">
 
-    container.innerHTML = "";
-
-
-
-    liste.forEach(haber=>{
+        </div>
 
 
-        container.innerHTML += `
+    </div>
 
+</a>
 
-        <article class="news-card">
+`;
 
-
-            <img 
-            src="${haber.resim}" 
-            loading="lazy"
-            alt="${haber.baslik}"
-            >
-
-
-
-            <div class="news-info">
-
-
-
-                <span class="news-tag">
-
-                    ${haber.kategori}
-
-                </span>
-
-
-
-
-                <h3>
-
-                    ${haber.baslik}
-
-                </h3>
-
-
-
-
-
-                <p>
-
-                    ${haber.aciklama || ""}
-
-                </p>
-
-
-
-
-
-                <div class="news-bottom">
-
-
-                    
-
-
-                </div>
-
-
-
-
-            </div>
-
-
-
-        </article>
-
-
-
-        `;
-
-
-
-    });
-
-
-}
+});
 // ==========================
 // COOKIE
 // ==========================
