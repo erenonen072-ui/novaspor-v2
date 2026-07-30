@@ -4,6 +4,8 @@
 
 
 document.addEventListener("DOMContentLoaded",()=>{
+    // ⭐ MANŞET BAŞLAT
+mansetBaslat();
 
 
     // ⚽ Süper Lig
