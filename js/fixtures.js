@@ -2055,6 +2055,9 @@ let aktifHafta = 1;
 
 
 // Fikstür göster
+let aktifHafta = 1;
+
+
 function fiksturGoster(){
 
     const liste = document.getElementById("fixtureList");
@@ -2065,84 +2068,94 @@ function fiksturGoster(){
 
     let maclar = [];
 
-window.superLigFixtures.forEach(item => {
 
-    // Yeni format
-    if(item.week === aktifHafta){
-
-        maclar.push(item);
-
-    }
+    window.superLigFixtures.forEach(item=>{
 
 
-    // Eski hafta formatı
-    if(item.hafta === aktifHafta){
+        // 1. hafta formatı
+        if(item.week === aktifHafta){
 
-        item.maclar.forEach(m => {
+            maclar.push(item);
 
-            maclar.push({
+        }
 
-                week: item.hafta,
 
-                home: m.ev,
+        // Diğer hafta formatı
+        if(item.hafta === aktifHafta){
 
-                away: m.dep,
+            item.maclar.forEach(mac=>{
 
-                date: m.tarih,
+                maclar.push({
 
-                time: m.saat,
+                    week:item.hafta,
 
-                status:"Yakında",
+                    home:mac.ev,
 
-                score:null
+                    away:mac.dep,
+
+                    date:mac.tarih,
+
+                    time:mac.saat,
+
+                    score:null,
+
+                    status:"Yakında"
+
+                });
 
             });
 
-        });
+        }
 
-    }
 
-});
+    });
+
+
 
     if(maclar.length === 0){
 
-        liste.innerHTML = `
+        liste.innerHTML=`
+
         <div class="error">
         Fikstür bulunamadı.
         </div>
+
         `;
 
         return;
+
     }
 
 
-    haftaYazi.innerHTML = 
-    "Hafta " + aktifHafta;
+
+    haftaYazi.innerHTML="Hafta " + aktifHafta;
 
 
-    liste.innerHTML = "";
+    liste.innerHTML="";
 
 
-  maclar.forEach(mac=>{
 
-liste.innerHTML += `
+    maclar.forEach(mac=>{
 
-<div class="fixture-card">
 
-    <div class="date">
+        liste.innerHTML += `
+
+
+        <div class="fixture-card">
+
+
+        <div class="date">
         📅 ${mac.date}
-    </div>
+        </div>
 
 
-    <div class="teams">
+
+        <div class="teams">
 
 
         <div class="team">
 
-            <img src="${logoGetir(mac.home)}"
-            onerror="this.src='images/logos/default.png'">
-
-            <span>${mac.home}</span>
+        <span>${mac.home}</span>
 
         </div>
 
@@ -2150,44 +2163,86 @@ liste.innerHTML += `
 
         <div class="match-center">
 
-            ${
-            mac.score
-            ?
-            `<strong class="score">${mac.score}</strong>`
-            :
-            `<b class="vs">VS</b>`
-            }
+        <b>VS</b>
 
-
-            <span class="status ${mac.status || "Yakında"}">
-            ${mac.status || "Yakında"}
-            </span>
+        <span class="status">
+        ${mac.status}
+        </span>
 
         </div>
-
 
 
 
         <div class="team">
 
-            <img src="${logoGetir(mac.away)}"
-            onerror="this.src='images/logos/default.png'">
-
-            <span>${mac.away}</span>
+        <span>${mac.away}</span>
 
         </div>
 
 
-    </div>
+        </div>
 
 
-    <div class="time">
+
+        <div class="time">
+
         ⏰ ${mac.time || "Saat açıklanmadı"}
-    </div>
+
+        </div>
 
 
-</div>
 
-`;
+        </div>
+
+
+        `;
+
+
+    });
+
+
+
+}
+
+
+
+
+
+function oncekiHafta(){
+
+    if(aktifHafta > 1){
+
+        aktifHafta--;
+
+        fiksturGoster();
+
+    }
+
+}
+
+
+
+
+function sonrakiHafta(){
+
+    if(aktifHafta < 34){
+
+        aktifHafta++;
+
+        fiksturGoster();
+
+    }
+
+}
+
+
+
+
+
+document.addEventListener(
+"DOMContentLoaded",
+()=>{
+
+fiksturGoster();
 
 });
