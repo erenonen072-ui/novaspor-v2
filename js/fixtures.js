@@ -2138,7 +2138,13 @@ function fiksturGoster(){
 <img src="images/logos/${mac.home}.png"
 onerror="this.src='images/logos/default.png'">
 
+<div class="team">
+
+<img src="${logoGetir(mac.home)}">
+
 <span>${mac.home}</span>
+
+</div>
 
 </div>
 
@@ -2164,8 +2170,7 @@ ${mac.status}
 
 <div class="team">
 
-<img src="images/logos/${mac.away}.png"
-onerror="this.src='images/logos/default.png'">
+<img src="${logoGetir(mac.away)}">
 
 <span>${mac.away}</span>
 
