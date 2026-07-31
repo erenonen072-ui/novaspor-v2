@@ -181,7 +181,7 @@ ${t.takim}
 <td><b>${t.P}</b></td>
 
 
-</tr>
+<tr class="${t.sira <= 4 ? 'avrupa' : t.sira >= 15 ? 'dusme' : ''}">
 
 `;
 
