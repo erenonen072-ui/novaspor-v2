@@ -2057,24 +2057,49 @@ function fiksturGoster(){
             </div>
 
 
-            <div class="teams">
-
-            <span>
-            ${mac.home}
-            </span>
+           <div class="teams">
 
 
-            <b>
-            VS
-            </b>
+<div class="team">
+
+<img src="images/logos/${mac.home}.png"
+onerror="this.src='images/logos/default.png'">
+
+<span>${mac.home}</span>
+
+</div>
 
 
-            <span>
-            ${mac.away}
-            </span>
 
-            </div>
+<div class="match-center">
 
+
+${mac.score 
+? `<strong>${mac.score}</strong>`
+: `<b>VS</b>`
+}
+
+
+<span class="status ${mac.status}">
+${mac.status}
+</span>
+
+
+</div>
+
+
+
+<div class="team">
+
+<img src="images/logos/${mac.away}.png"
+onerror="this.src='images/logos/default.png'">
+
+<span>${mac.away}</span>
+
+</div>
+
+
+</div>
 
             <div class="time">
             ⏰ ${mac.time || "Saat açıklanmadı"}
