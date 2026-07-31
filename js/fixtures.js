@@ -1103,5 +1103,7 @@ window.superLigFixtures = [
       dep: "Samsunspor",
       tarih: "24.01.2027",
       saat: ""
-    }
-  ];
+      }
+    ]
+}
+];
