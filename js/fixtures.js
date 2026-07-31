@@ -1,74 +1,42 @@
-// ==================================
-// NOVASPOR OTOMATİK LOGO SİSTEMİ
-// ==================================
+const takimLogolari = {
 
-const takimLogo = {
+"Galatasaray":"galatasaray.png",
+"Fenerbahçe":"fenerbahce.png",
+"Beşiktaş":"besiktas.png",
+"Trabzonspor":"trabzonspor.png",
 
-"Galatasaray":
-"https://media.api-sports.io/football/teams/645.png",
+"Başakşehir":"basaksehir.png",
+"İstanbul Başakşehir":"basaksehir.png",
 
-"Fenerbahçe":
-"https://media.api-sports.io/football/teams/611.png",
+"Konyaspor":"konyaspor.png",
+"Çaykur Rizespor":"rizespor.png",
 
-"Beşiktaş":
-"https://media.api-sports.io/football/teams/549.png",
+"Gaziantep FK":"gaziantep.png",
+"Alanyaspor":"alanyaspor.png",
 
-"Trabzonspor":
-"https://media.api-sports.io/football/teams/3573.png",
+"Eyüpspor":"eyupspor.png",
+"Kasımpaşa":"kasimpasa.png",
 
-"Başakşehir":
-"https://media.api-sports.io/football/teams/564.png",
+"Samsunspor":"samsunspor.png",
+"Göztepe":"goztepe.png",
 
-"İstanbul Başakşehir":
-"https://media.api-sports.io/football/teams/564.png",
+"Gençlerbirliği":"genclerbirligi.png",
 
-"Konyaspor":
-"https://media.api-sports.io/football/teams/607.png",
+"Erzurumspor FK":"erzurumspor.png",
 
-"Çaykur Rizespor":
-"https://media.api-sports.io/football/teams/626.png",
+"Kocaelispor":"kocaelispor.png",
 
-"Gaziantep FK":
-"https://media.api-sports.io/football/teams/551.png",
+"Amed SK":"amed.png",
 
-"Alanyaspor":
-"https://media.api-sports.io/football/teams/615.png",
-
-"Eyüpspor":
-"https://media.api-sports.io/football/teams/5529.png",
-
-"Kasımpaşa":
-"https://media.api-sports.io/football/teams/563.png",
-
-"Samsunspor":
-"https://media.api-sports.io/football/teams/4558.png",
-
-"Göztepe":
-"https://media.api-sports.io/football/teams/6454.png",
-
-"Gençlerbirliği":
-"https://media.api-sports.io/football/teams/1569.png",
-
-"Erzurumspor FK":
-"https://media.api-sports.io/football/teams/3588.png",
-
-"Kocaelispor":
-"https://media.api-sports.io/football/teams/3589.png",
-
-"Amed SK":
-"https://media.api-sports.io/football/teams/6774.png",
-
-"Çorum FK":
-"https://media.api-sports.io/football/teams/3587.png"
+"Çorum FK":"corum.png"
 
 };
 
 
 function logoGetir(takim){
 
-return takimLogo[takim] ||
-
-"https://cdn-icons-png.flaticon.com/512/1161/1161388.png";
+return "images/logos/" + 
+(takimLogolari[takim] || "default.png");
 
 }
 window.superLigFixtures = [
