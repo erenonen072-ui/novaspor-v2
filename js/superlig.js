@@ -36,5 +36,26 @@ window.superLigHaberleri = [
     resim: "images/ChatGPT Image 30 Tem 2026 14_26_53.png",
     link: "https://sites.google.com/view/novassporr/fenerbah%C3%A7eden-serhou-guirassy-hamlesi-golc%C3%BC-transferinde-geri-say%C4%B1m?authuser=0"
 },
+{
+    kategori: "TRANSFER",
+    baslik: "Fenerbahçe'den Jadon Sancho Bombası!",
+    aciklama: "Sarı-lacivertliler, İngiliz yıldız Jadon Sancho transferi için temaslarını sürdürüyor.",
+    resim: "images/ChatGPT Image 31 Tem 2026 18_16_55.png",
+    link: "https://sites.google.com/view/novassporr/haberler_1/fenerbahçeden-jadon-sancho-bombası-sarı-lacivertliler-transferde-vites-yü?authuser=0"
+},
+{
+    kategori: "TRANSFER",
+    baslik: "Galatasaray'dan Kaleye Dev Hamle! Mile Svilar Gündemde",
+    aciklama: "Galatasaray, Roma'nın başarılı kalecisi Mile Svilar için transfer çalışmalarını sürdürüyor.",
+    resim: "images/ChatGPT Image 31 Tem 2026 18_21_50.png",
+    link: "https://sites.google.com/view/novassporr/haberler_1/galatasaraydan-kaleye-dev-hamle-mile-svilar-için-temaslar-hızlandı?authuser=0"
+},
+{
+    kategori: "TRANSFER",
+    baslik: "Trabzonspor'dan Orkun Kökçü Sürprizi!",
+    aciklama: "Trabzonspor, milli yıldız Orkun Kökçü için transfer çalışmalarına başladı.",
+    resim: "images/ChatGPT Image 31 Tem 2026 18_25_04.png",
+    link: "https://sites.google.com/view/novassporr/haberler_1/trabzonspordan-orkun-kökçü-sürprizi-bordo-mavililer-milli-yıldız-için-şar"
+},
 
 ];
