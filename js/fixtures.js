@@ -9,1101 +9,2004 @@ window.superLigFixtures = [
     home:"Galatasaray",
     away:"Çorum FK",
     date:"14.08.2026",
-    time:"21:30",
+    time:"",
     stadium:"RAMS Park",
     status:"Yakında",
     score:null,
     broadcaster:"beIN SPORTS"
 },
+
 {
     week:1,
     home:"Konyaspor",
     away:"Çaykur Rizespor",
     date:"15.08.2026",
-    time:"19:00",
+    time:"",
     stadium:"MEDAŞ Konya Büyükşehir Stadyumu",
     status:"Yakında",
     score:null,
     broadcaster:"beIN SPORTS"
 },
+
 {
     week:1,
     home:"Gaziantep FK",
     away:"Alanyaspor",
     date:"15.08.2026",
-    time:"21:30",
+    time:"",
     stadium:"Gaziantep Büyükşehir Stadyumu",
     status:"Yakında",
     score:null,
     broadcaster:"beIN SPORTS"
 },
+
 {
     week:1,
     home:"Gençlerbirliği",
     away:"Fenerbahçe",
     date:"15.08.2026",
-    time:"21:30",
+    time:"",
     stadium:"Eryaman Stadyumu",
     status:"Yakında",
     score:null,
     broadcaster:"beIN SPORTS"
 },
+
 {
     week:1,
     home:"Kasımpaşa",
     away:"Trabzonspor",
     date:"16.08.2026",
-    time:"19:00",
+    time:"",
     stadium:"Recep Tayyip Erdoğan Stadyumu",
     status:"Yakında",
     score:null,
     broadcaster:"beIN SPORTS"
 },
+
 {
     week:1,
     home:"Beşiktaş",
     away:"Eyüpspor",
     date:"16.08.2026",
-    time:"21:30",
+    time:"",
     stadium:"Tüpraş Stadyumu",
     status:"Yakında",
     score:null,
     broadcaster:"beIN SPORTS"
 },
+
 {
     week:1,
     home:"Amed SK",
     away:"Erzurumspor FK",
     date:"17.08.2026",
-    time:"19:00",
+    time:"",
     stadium:"Diyarbakır Stadyumu",
     status:"Yakında",
     score:null,
     broadcaster:"beIN SPORTS"
 },
+
 {
     week:1,
-    home:"Başakşehir",
+    home:"İstanbul Başakşehir",
     away:"Kocaelispor",
     date:"17.08.2026",
-    time:"19:00",
+    time:"",
     stadium:"Başakşehir Fatih Terim Stadyumu",
     status:"Yakında",
     score:null,
     broadcaster:"beIN SPORTS"
 },
+
 {
     week:1,
     home:"Samsunspor",
     away:"Göztepe",
     date:"17.08.2026",
-    time:"21:30",
+    time:"",
     stadium:"Samsun Yeni 19 Mayıs Stadyumu",
     status:"Yakında",
     score:null,
     broadcaster:"beIN SPORTS"
 },
+/* ==========================
+   HAFTA 2
+========================== */
+
 {
-  hafta: 2,
-  maclar: [
-    {
-      ev: "Çorum FK",
-      dep: "Kasımpaşa",
-      tarih: "23.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Fenerbahçe",
-      dep: "Konyaspor",
-      tarih: "23.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Trabzonspor",
-      dep: "İstanbul Başakşehir",
-      tarih: "23.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Eyüpspor",
-      dep: "Gaziantep FK",
-      tarih: "23.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Alanyaspor",
-      dep: "Beşiktaş",
-      tarih: "23.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Çaykur Rizespor",
-      dep: "Samsunspor",
-      tarih: "23.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Göztepe",
-      dep: "Gençlerbirliği",
-      tarih: "23.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Kocaelispor",
-      dep: "Amed SK",
-      tarih: "23.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Erzurumspor FK",
-      dep: "Galatasaray",
-      tarih: "23.08.2026",
-      saat: ""
-    }
-  ]
+    week:2,
+    home:"Çorum FK",
+    away:"Kasımpaşa",
+    date:"23.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 3,
-  maclar: [
-    {
-      ev: "Gaziantep FK",
-      dep: "Çaykur Rizespor",
-      tarih: "30.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Eyüpspor",
-      dep: "Alanyaspor",
-      tarih: "30.08.2026",
-      saat: ""
-    },
-    {
-      ev: "İstanbul Başakşehir",
-      dep: "Kasımpaşa",
-      tarih: "30.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Amed SK",
-      dep: "Trabzonspor",
-      tarih: "30.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Gençlerbirliği",
-      dep: "Erzurumspor FK",
-      tarih: "30.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Konyaspor",
-      dep: "Kocaelispor",
-      tarih: "30.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Galatasaray",
-      dep: "Göztepe",
-      tarih: "30.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Beşiktaş",
-      dep: "Çorum FK",
-      tarih: "30.08.2026",
-      saat: ""
-    },
-    {
-      ev: "Samsunspor",
-      dep: "Fenerbahçe",
-      tarih: "30.08.2026",
-      saat: ""
-    }
-  ]
+    week:2,
+    home:"Fenerbahçe",
+    away:"Konyaspor",
+    date:"23.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 4,
-  maclar: [
-    {
-      ev: "Fenerbahçe",
-      dep: "Beşiktaş",
-      tarih: "06.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Trabzonspor",
-      dep: "Gençlerbirliği",
-      tarih: "06.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Kasımpaşa",
-      dep: "Amed SK",
-      tarih: "06.09.2026",
-      saat: ""
-    },
-    {
-      ev: "İstanbul Başakşehir",
-      dep: "Galatasaray",
-      tarih: "06.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Çaykur Rizespor",
-      dep: "Alanyaspor",
-      tarih: "06.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Göztepe",
-      dep: "Gaziantep FK",
-      tarih: "06.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Çorum FK",
-      dep: "Eyüpspor",
-      tarih: "06.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Kocaelispor",
-      dep: "Samsunspor",
-      tarih: "06.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Erzurumspor FK",
-      dep: "Konyaspor",
-      tarih: "06.09.2026",
-      saat: ""
-    }
-  ]
+    week:2,
+    home:"Trabzonspor",
+    away:"İstanbul Başakşehir",
+    date:"23.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 5,
-  maclar: [
-    {
-      ev: "Gaziantep FK",
-      dep: "Fenerbahçe",
-      tarih: "13.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Eyüpspor",
-      dep: "Çaykur Rizespor",
-      tarih: "13.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Alanyaspor",
-      dep: "Göztepe",
-      tarih: "13.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Amed SK",
-      dep: "İstanbul Başakşehir",
-      tarih: "13.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Gençlerbirliği",
-      dep: "Kasımpaşa",
-      tarih: "13.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Konyaspor",
-      dep: "Trabzonspor",
-      tarih: "13.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Galatasaray",
-      dep: "Kocaelispor",
-      tarih: "13.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Beşiktaş",
-      dep: "Erzurumspor FK",
-      tarih: "13.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Samsunspor",
-      dep: "Çorum FK",
-      tarih: "13.09.2026",
-      saat: ""
-    }
-  ]
+    week:2,
+    home:"Eyüpspor",
+    away:"Gaziantep FK",
+    date:"23.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 6,
-  maclar: [
-    {
-      ev: "Fenerbahçe",
-      dep: "Eyüpspor",
-      tarih: "20.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Trabzonspor",
-      dep: "Galatasaray",
-      tarih: "20.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Kasımpaşa",
-      dep: "Konyaspor",
-      tarih: "20.09.2026",
-      saat: ""
-    },
-    {
-      ev: "İstanbul Başakşehir",
-      dep: "Gençlerbirliği",
-      tarih: "20.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Amed SK",
-      dep: "Beşiktaş",
-      tarih: "20.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Göztepe",
-      dep: "Çaykur Rizespor",
-      tarih: "20.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Çorum FK",
-      dep: "Alanyaspor",
-      tarih: "20.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Kocaelispor",
-      dep: "Gaziantep FK",
-      tarih: "20.09.2026",
-      saat: ""
-    },
-    {
-      ev: "Erzurumspor FK",
-      dep: "Samsunspor",
-      tarih: "20.09.2026",
-      saat: ""
-    }
-  ]
+    week:2,
+    home:"Alanyaspor",
+    away:"Beşiktaş",
+    date:"23.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 7,
-  maclar: [
-    {
-      ev: "Gaziantep FK",
-      dep: "Çorum FK",
-      tarih: "11.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Eyüpspor",
-      dep: "Göztepe",
-      tarih: "11.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Alanyaspor",
-      dep: "Erzurumspor FK",
-      tarih: "11.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Çaykur Rizespor",
-      dep: "Fenerbahçe",
-      tarih: "11.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Gençlerbirliği",
-      dep: "Amed SK",
-      tarih: "11.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Konyaspor",
-      dep: "İstanbul Başakşehir",
-      tarih: "11.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Galatasaray",
-      dep: "Kasımpaşa",
-      tarih: "11.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Beşiktaş",
-      dep: "Kocaelispor",
-      tarih: "11.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Samsunspor",
-      dep: "Trabzonspor",
-      tarih: "11.10.2026",
-      saat: ""
-    }
-  ]
+    week:2,
+    home:"Çaykur Rizespor",
+    away:"Samsunspor",
+    date:"23.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 8,
-  maclar: [
-    {
-      ev: "Fenerbahçe",
-      dep: "Alanyaspor",
-      tarih: "18.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Trabzonspor",
-      dep: "Beşiktaş",
-      tarih: "18.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Kasımpaşa",
-      dep: "Samsunspor",
-      tarih: "18.10.2026",
-      saat: ""
-    },
-    {
-      ev: "İstanbul Başakşehir",
-      dep: "Gaziantep FK",
-      tarih: "18.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Amed SK",
-      dep: "Konyaspor",
-      tarih: "18.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Gençlerbirliği",
-      dep: "Galatasaray",
-      tarih: "18.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Çorum FK",
-      dep: "Çaykur Rizespor",
-      tarih: "18.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Kocaelispor",
-      dep: "Göztepe",
-      tarih: "18.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Erzurumspor FK",
-      dep: "Eyüpspor",
-      tarih: "18.10.2026",
-      saat: ""
-    }
-  ]
+    week:2,
+    home:"Göztepe",
+    away:"Gençlerbirliği",
+    date:"23.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 9,
-  maclar: [
-    {
-      ev: "Gaziantep FK",
-      dep: "Erzurumspor FK",
-      tarih: "25.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Eyüpspor",
-      dep: "Kasımpaşa",
-      tarih: "25.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Alanyaspor",
-      dep: "Kocaelispor",
-      tarih: "25.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Çaykur Rizespor",
-      dep: "Trabzonspor",
-      tarih: "25.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Göztepe",
-      dep: "Çorum FK",
-      tarih: "25.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Konyaspor",
-      dep: "Gençlerbirliği",
-      tarih: "25.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Galatasaray",
-      dep: "Fenerbahçe",
-      tarih: "25.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Beşiktaş",
-      dep: "İstanbul Başakşehir",
-      tarih: "25.10.2026",
-      saat: ""
-    },
-    {
-      ev: "Samsunspor",
-      dep: "Amed SK",
-      tarih: "25.10.2026",
-      saat: ""
-    }
-  ]
+    week:2,
+    home:"Kocaelispor",
+    away:"Amed SK",
+    date:"23.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 10,
-  maclar: [
-    {
-      ev: "Fenerbahçe",
-      dep: "Göztepe",
-      tarih: "01.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Trabzonspor",
-      dep: "Gaziantep FK",
-      tarih: "01.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Kasımpaşa",
-      dep: "Beşiktaş",
-      tarih: "01.11.2026",
-      saat: ""
-    },
-    {
-      ev: "İstanbul Başakşehir",
-      dep: "Samsunspor",
-      tarih: "01.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Amed SK",
-      dep: "Eyüpspor",
-      tarih: "01.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Gençlerbirliği",
-      dep: "Alanyaspor",
-      tarih: "01.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Konyaspor",
-      dep: "Galatasaray",
-      tarih: "01.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Kocaelispor",
-      dep: "Çaykur Rizespor",
-      tarih: "01.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Erzurumspor FK",
-      dep: "Çorum FK",
-      tarih: "01.11.2026",
-      saat: ""
-    }
-  ]
+    week:2,
+    home:"Erzurumspor FK",
+    away:"Galatasaray",
+    date:"23.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
+/* ==========================
+   HAFTA 3
+========================== */
+
 {
-  hafta: 11,
-  maclar: [
-    {
-      ev: "Gaziantep FK",
-      dep: "Kasımpaşa",
-      tarih: "08.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Eyüpspor",
-      dep: "Kocaelispor",
-      tarih: "08.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Alanyaspor",
-      dep: "Trabzonspor",
-      tarih: "08.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Çaykur Rizespor",
-      dep: "Erzurumspor FK",
-      tarih: "08.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Göztepe",
-      dep: "İstanbul Başakşehir",
-      tarih: "08.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Çorum FK",
-      dep: "Fenerbahçe",
-      tarih: "08.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Galatasaray",
-      dep: "Amed SK",
-      tarih: "08.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Beşiktaş",
-      dep: "Gençlerbirliği",
-      tarih: "08.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Samsunspor",
-      dep: "Konyaspor",
-      tarih: "08.11.2026",
-      saat: ""
-    }
-  ]
+    week:3,
+    home:"Gaziantep FK",
+    away:"Çaykur Rizespor",
+    date:"30.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 12,
-  maclar: [
-    {
-      ev: "Trabzonspor",
-      dep: "Eyüpspor",
-      tarih: "22.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Kasımpaşa",
-      dep: "Alanyaspor",
-      tarih: "22.11.2026",
-      saat: ""
-    },
-    {
-      ev: "İstanbul Başakşehir",
-      dep: "Çorum FK",
-      tarih: "22.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Amed SK",
-      dep: "Çaykur Rizespor",
-      tarih: "22.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Gençlerbirliği",
-      dep: "Gaziantep FK",
-      tarih: "22.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Konyaspor",
-      dep: "Beşiktaş",
-      tarih: "22.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Galatasaray",
-      dep: "Samsunspor",
-      tarih: "22.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Kocaelispor",
-      dep: "Fenerbahçe",
-      tarih: "22.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Erzurumspor FK",
-      dep: "Göztepe",
-      tarih: "22.11.2026",
-      saat: ""
-    }
-  ]
+    week:3,
+    home:"Eyüpspor",
+    away:"Alanyaspor",
+    date:"30.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 13,
-  maclar: [
-    {
-      ev: "Fenerbahçe",
-      dep: "Erzurumspor FK",
-      tarih: "29.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Gaziantep FK",
-      dep: "Amed SK",
-      tarih: "29.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Eyüpspor",
-      dep: "İstanbul Başakşehir",
-      tarih: "29.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Alanyaspor",
-      dep: "Konyaspor",
-      tarih: "29.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Çaykur Rizespor",
-      dep: "Kasımpaşa",
-      tarih: "29.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Göztepe",
-      dep: "Trabzonspor",
-      tarih: "29.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Çorum FK",
-      dep: "Kocaelispor",
-      tarih: "29.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Beşiktaş",
-      dep: "Galatasaray",
-      tarih: "29.11.2026",
-      saat: ""
-    },
-    {
-      ev: "Samsunspor",
-      dep: "Gençlerbirliği",
-      tarih: "29.11.2026",
-      saat: ""
-    }
-  ]
+    week:3,
+    home:"İstanbul Başakşehir",
+    away:"Kasımpaşa",
+    date:"30.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 14,
-  maclar: [
-    {
-      ev: "Trabzonspor",
-      dep: "Çorum FK",
-      tarih: "06.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Kasımpaşa",
-      dep: "Göztepe",
-      tarih: "06.12.2026",
-      saat: ""
-    },
-    {
-      ev: "İstanbul Başakşehir",
-      dep: "Fenerbahçe",
-      tarih: "06.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Amed SK",
-      dep: "Alanyaspor",
-      tarih: "06.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Gençlerbirliği",
-      dep: "Eyüpspor",
-      tarih: "06.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Konyaspor",
-      dep: "Gaziantep FK",
-      tarih: "06.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Galatasaray",
-      dep: "Çaykur Rizespor",
-      tarih: "06.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Beşiktaş",
-      dep: "Samsunspor",
-      tarih: "06.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Erzurumspor FK",
-      dep: "Kocaelispor",
-      tarih: "06.12.2026",
-      saat: ""
-    }
-  ]
+    week:3,
+    home:"Amed SK",
+    away:"Trabzonspor",
+    date:"30.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 15,
-  maclar: [
-    {
-      ev: "Fenerbahçe",
-      dep: "Trabzonspor",
-      tarih: "13.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Gaziantep FK",
-      dep: "Beşiktaş",
-      tarih: "13.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Eyüpspor",
-      dep: "Galatasaray",
-      tarih: "13.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Alanyaspor",
-      dep: "Samsunspor",
-      tarih: "13.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Çaykur Rizespor",
-      dep: "İstanbul Başakşehir",
-      tarih: "13.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Göztepe",
-      dep: "Konyaspor",
-      tarih: "13.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Çorum FK",
-      dep: "Amed SK",
-      tarih: "13.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Kocaelispor",
-      dep: "Gençlerbirliği",
-      tarih: "13.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Erzurumspor FK",
-      dep: "Kasımpaşa",
-      tarih: "13.12.2026",
-      saat: ""
-    }
-  ]
+    week:3,
+    home:"Gençlerbirliği",
+    away:"Erzurumspor FK",
+    date:"30.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 16,
-  maclar: [
-    {
-      ev: "Trabzonspor",
-      dep: "Kocaelispor",
-      tarih: "20.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Kasımpaşa",
-      dep: "Fenerbahçe",
-      tarih: "20.12.2026",
-      saat: ""
-    },
-    {
-      ev: "İstanbul Başakşehir",
-      dep: "Erzurumspor FK",
-      tarih: "20.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Amed SK",
-      dep: "Göztepe",
-      tarih: "20.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Gençlerbirliği",
-      dep: "Çorum FK",
-      tarih: "20.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Konyaspor",
-      dep: "Eyüpspor",
-      tarih: "20.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Galatasaray",
-      dep: "Alanyaspor",
-      tarih: "20.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Beşiktaş",
-      dep: "Çaykur Rizespor",
-      tarih: "20.12.2026",
-      saat: ""
-    },
-    {
-      ev: "Samsunspor",
-      dep: "Gaziantep FK",
-      tarih: "20.12.2026",
-      saat: ""
-    }
-  ]
+    week:3,
+    home:"Konyaspor",
+    away:"Kocaelispor",
+    date:"30.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 17,
-  maclar: [
-    {
-      ev: "Fenerbahçe",
-      dep: "Amed SK",
-      tarih: "17.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Gaziantep FK",
-      dep: "Galatasaray",
-      tarih: "17.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Eyüpspor",
-      dep: "Samsunspor",
-      tarih: "17.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Alanyaspor",
-      dep: "İstanbul Başakşehir",
-      tarih: "17.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Çaykur Rizespor",
-      dep: "Gençlerbirliği",
-      tarih: "17.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Göztepe",
-      dep: "Beşiktaş",
-      tarih: "17.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Çorum FK",
-      dep: "Konyaspor",
-      tarih: "17.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Kocaelispor",
-      dep: "Kasımpaşa",
-      tarih: "17.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Erzurumspor FK",
-      dep: "Trabzonspor",
-      tarih: "17.01.2027",
-      saat: ""
-    }
-  ]
+    week:3,
+    home:"Galatasaray",
+    away:"Göztepe",
+    date:"30.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 },
+
 {
-  hafta: 18,
-  maclar: [
-    {
-      ev: "Fenerbahçe",
-      dep: "Gençlerbirliği",
-      tarih: "24.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Alanyaspor",
-      dep: "Gaziantep FK",
-      tarih: "24.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Trabzonspor",
-      dep: "Kasımpaşa",
-      tarih: "24.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Kocaelispor",
-      dep: "İstanbul Başakşehir",
-      tarih: "24.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Erzurumspor FK",
-      dep: "Amed SK",
-      tarih: "24.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Çaykur Rizespor",
-      dep: "Konyaspor",
-      tarih: "24.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Çorum FK",
-      dep: "Galatasaray",
-      tarih: "24.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Eyüpspor",
-      dep: "Beşiktaş",
-      tarih: "24.01.2027",
-      saat: ""
-    },
-    {
-      ev: "Göztepe",
-      dep: "Samsunspor",
-      tarih: "24.01.2027",
-      saat: ""
-      }
-    ]
+    week:3,
+    home:"Beşiktaş",
+    away:"Çorum FK",
+    date:"30.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:3,
+    home:"Samsunspor",
+    away:"Fenerbahçe",
+    date:"30.08.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+/* ==========================
+   HAFTA 4
+========================== */
+
+{
+    week:4,
+    home:"Fenerbahçe",
+    away:"Beşiktaş",
+    date:"06.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:4,
+    home:"Trabzonspor",
+    away:"Gençlerbirliği",
+    date:"06.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:4,
+    home:"Kasımpaşa",
+    away:"Amed SK",
+    date:"06.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:4,
+    home:"İstanbul Başakşehir",
+    away:"Galatasaray",
+    date:"06.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:4,
+    home:"Çaykur Rizespor",
+    away:"Alanyaspor",
+    date:"06.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:4,
+    home:"Göztepe",
+    away:"Gaziantep FK",
+    date:"06.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:4,
+    home:"Çorum FK",
+    away:"Eyüpspor",
+    date:"06.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:4,
+    home:"Kocaelispor",
+    away:"Samsunspor",
+    date:"06.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:4,
+    home:"Erzurumspor FK",
+    away:"Konyaspor",
+    date:"06.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+/* ==========================
+   HAFTA 5
+========================== */
+
+{
+    week:5,
+    home:"Gaziantep FK",
+    away:"Fenerbahçe",
+    date:"13.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:5,
+    home:"Eyüpspor",
+    away:"Çaykur Rizespor",
+    date:"13.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:5,
+    home:"Alanyaspor",
+    away:"Göztepe",
+    date:"13.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:5,
+    home:"Amed SK",
+    away:"İstanbul Başakşehir",
+    date:"13.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:5,
+    home:"Gençlerbirliği",
+    away:"Kasımpaşa",
+    date:"13.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:5,
+    home:"Konyaspor",
+    away:"Trabzonspor",
+    date:"13.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:5,
+    home:"Galatasaray",
+    away:"Kocaelispor",
+    date:"13.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:5,
+    home:"Beşiktaş",
+    away:"Erzurumspor FK",
+    date:"13.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:5,
+    home:"Samsunspor",
+    away:"Çorum FK",
+    date:"13.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+/* ==========================
+   HAFTA 6
+========================== */
+
+{
+    week:6,
+    home:"Fenerbahçe",
+    away:"Eyüpspor",
+    date:"20.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:6,
+    home:"Trabzonspor",
+    away:"Galatasaray",
+    date:"20.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:6,
+    home:"Kasımpaşa",
+    away:"Konyaspor",
+    date:"20.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:6,
+    home:"İstanbul Başakşehir",
+    away:"Gençlerbirliği",
+    date:"20.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:6,
+    home:"Amed SK",
+    away:"Beşiktaş",
+    date:"20.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:6,
+    home:"Göztepe",
+    away:"Çaykur Rizespor",
+    date:"20.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:6,
+    home:"Çorum FK",
+    away:"Alanyaspor",
+    date:"20.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:6,
+    home:"Kocaelispor",
+    away:"Gaziantep FK",
+    date:"20.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:6,
+    home:"Erzurumspor FK",
+    away:"Samsunspor",
+    date:"20.09.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+/* ==========================
+   HAFTA 7
+========================== */
+
+{
+    week:7,
+    home:"Gaziantep FK",
+    away:"Çorum FK",
+    date:"11.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:7,
+    home:"Eyüpspor",
+    away:"Göztepe",
+    date:"11.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:7,
+    home:"Alanyaspor",
+    away:"Erzurumspor FK",
+    date:"11.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:7,
+    home:"Çaykur Rizespor",
+    away:"Fenerbahçe",
+    date:"11.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:7,
+    home:"Gençlerbirliği",
+    away:"Amed SK",
+    date:"11.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:7,
+    home:"Konyaspor",
+    away:"İstanbul Başakşehir",
+    date:"11.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:7,
+    home:"Galatasaray",
+    away:"Kasımpaşa",
+    date:"11.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:7,
+    home:"Beşiktaş",
+    away:"Kocaelispor",
+    date:"11.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:7,
+    home:"Samsunspor",
+    away:"Trabzonspor",
+    date:"11.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+/* ==========================
+   HAFTA 8
+========================== */
+
+{
+    week:8,
+    home:"Fenerbahçe",
+    away:"Alanyaspor",
+    date:"18.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:8,
+    home:"Trabzonspor",
+    away:"Beşiktaş",
+    date:"18.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:8,
+    home:"Kasımpaşa",
+    away:"Samsunspor",
+    date:"18.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:8,
+    home:"İstanbul Başakşehir",
+    away:"Gaziantep FK",
+    date:"18.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:8,
+    home:"Amed SK",
+    away:"Konyaspor",
+    date:"18.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:8,
+    home:"Gençlerbirliği",
+    away:"Galatasaray",
+    date:"18.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:8,
+    home:"Çorum FK",
+    away:"Çaykur Rizespor",
+    date:"18.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:8,
+    home:"Kocaelispor",
+    away:"Göztepe",
+    date:"18.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:8,
+    home:"Erzurumspor FK",
+    away:"Eyüpspor",
+    date:"18.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+/* ==========================
+   HAFTA 9
+========================== */
+
+{
+    week:9,
+    home:"Gaziantep FK",
+    away:"Erzurumspor FK",
+    date:"25.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:9,
+    home:"Eyüpspor",
+    away:"Kasımpaşa",
+    date:"25.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:9,
+    home:"Alanyaspor",
+    away:"Kocaelispor",
+    date:"25.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:9,
+    home:"Çaykur Rizespor",
+    away:"Trabzonspor",
+    date:"25.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:9,
+    home:"Göztepe",
+    away:"Çorum FK",
+    date:"25.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:9,
+    home:"Konyaspor",
+    away:"Gençlerbirliği",
+    date:"25.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:9,
+    home:"Galatasaray",
+    away:"Fenerbahçe",
+    date:"25.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:9,
+    home:"Beşiktaş",
+    away:"İstanbul Başakşehir",
+    date:"25.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:9,
+    home:"Samsunspor",
+    away:"Amed SK",
+    date:"25.10.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+/* ==========================
+   HAFTA 10
+========================== */
+
+{
+    week:10,
+    home:"Fenerbahçe",
+    away:"Göztepe",
+    date:"01.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:10,
+    home:"Trabzonspor",
+    away:"Gaziantep FK",
+    date:"01.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:10,
+    home:"Kasımpaşa",
+    away:"Beşiktaş",
+    date:"01.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:10,
+    home:"İstanbul Başakşehir",
+    away:"Samsunspor",
+    date:"01.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:10,
+    home:"Amed SK",
+    away:"Eyüpspor",
+    date:"01.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:10,
+    home:"Gençlerbirliği",
+    away:"Alanyaspor",
+    date:"01.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:10,
+    home:"Konyaspor",
+    away:"Galatasaray",
+    date:"01.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:10,
+    home:"Kocaelispor",
+    away:"Çaykur Rizespor",
+    date:"01.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:10,
+    home:"Erzurumspor FK",
+    away:"Çorum FK",
+    date:"01.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+/* ==========================
+   HAFTA 11
+========================== */
+
+{
+    week:11,
+    home:"Gaziantep FK",
+    away:"Kasımpaşa",
+    date:"08.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:11,
+    home:"Eyüpspor",
+    away:"Kocaelispor",
+    date:"08.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:11,
+    home:"Alanyaspor",
+    away:"Trabzonspor",
+    date:"08.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:11,
+    home:"Çaykur Rizespor",
+    away:"Erzurumspor FK",
+    date:"08.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:11,
+    home:"Göztepe",
+    away:"İstanbul Başakşehir",
+    date:"08.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:11,
+    home:"Çorum FK",
+    away:"Fenerbahçe",
+    date:"08.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:11,
+    home:"Galatasaray",
+    away:"Amed SK",
+    date:"08.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:11,
+    home:"Beşiktaş",
+    away:"Gençlerbirliği",
+    date:"08.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:11,
+    home:"Samsunspor",
+    away:"Konyaspor",
+    date:"08.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+/* ==========================
+   HAFTA 12
+========================== */
+
+{
+    week:12,
+    home:"Trabzonspor",
+    away:"Eyüpspor",
+    date:"22.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:12,
+    home:"Kasımpaşa",
+    away:"Alanyaspor",
+    date:"22.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:12,
+    home:"İstanbul Başakşehir",
+    away:"Çorum FK",
+    date:"22.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:12,
+    home:"Amed SK",
+    away:"Çaykur Rizespor",
+    date:"22.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:12,
+    home:"Gençlerbirliği",
+    away:"Gaziantep FK",
+    date:"22.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:12,
+    home:"Konyaspor",
+    away:"Beşiktaş",
+    date:"22.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:12,
+    home:"Galatasaray",
+    away:"Samsunspor",
+    date:"22.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:12,
+    home:"Kocaelispor",
+    away:"Fenerbahçe",
+    date:"22.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:12,
+    home:"Erzurumspor FK",
+    away:"Göztepe",
+    date:"22.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+/* ==========================
+   HAFTA 13
+========================== */
+
+{
+    week:13,
+    home:"Fenerbahçe",
+    away:"Erzurumspor FK",
+    date:"29.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:13,
+    home:"Gaziantep FK",
+    away:"Amed SK",
+    date:"29.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:13,
+    home:"Eyüpspor",
+    away:"İstanbul Başakşehir",
+    date:"29.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:13,
+    home:"Alanyaspor",
+    away:"Konyaspor",
+    date:"29.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:13,
+    home:"Çaykur Rizespor",
+    away:"Kasımpaşa",
+    date:"29.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:13,
+    home:"Göztepe",
+    away:"Trabzonspor",
+    date:"29.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:13,
+    home:"Çorum FK",
+    away:"Kocaelispor",
+    date:"29.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:13,
+    home:"Beşiktaş",
+    away:"Galatasaray",
+    date:"29.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:13,
+    home:"Samsunspor",
+    away:"Gençlerbirliği",
+    date:"29.11.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+/* ==========================
+   HAFTA 14
+========================== */
+
+{
+    week:14,
+    home:"Trabzonspor",
+    away:"Çorum FK",
+    date:"06.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:14,
+    home:"Kasımpaşa",
+    away:"Göztepe",
+    date:"06.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:14,
+    home:"İstanbul Başakşehir",
+    away:"Fenerbahçe",
+    date:"06.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:14,
+    home:"Amed SK",
+    away:"Alanyaspor",
+    date:"06.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:14,
+    home:"Gençlerbirliği",
+    away:"Eyüpspor",
+    date:"06.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:14,
+    home:"Konyaspor",
+    away:"Gaziantep FK",
+    date:"06.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:14,
+    home:"Galatasaray",
+    away:"Çaykur Rizespor",
+    date:"06.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:14,
+    home:"Beşiktaş",
+    away:"Samsunspor",
+    date:"06.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:14,
+    home:"Erzurumspor FK",
+    away:"Kocaelispor",
+    date:"06.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+/* ==========================
+   HAFTA 15
+========================== */
+
+{
+    week:15,
+    home:"Fenerbahçe",
+    away:"Trabzonspor",
+    date:"13.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:15,
+    home:"Gaziantep FK",
+    away:"Beşiktaş",
+    date:"13.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:15,
+    home:"Eyüpspor",
+    away:"Galatasaray",
+    date:"13.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:15,
+    home:"Alanyaspor",
+    away:"Samsunspor",
+    date:"13.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:15,
+    home:"Çaykur Rizespor",
+    away:"İstanbul Başakşehir",
+    date:"13.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:15,
+    home:"Göztepe",
+    away:"Konyaspor",
+    date:"13.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:15,
+    home:"Çorum FK",
+    away:"Amed SK",
+    date:"13.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:15,
+    home:"Kocaelispor",
+    away:"Gençlerbirliği",
+    date:"13.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:15,
+    home:"Erzurumspor FK",
+    away:"Kasımpaşa",
+    date:"13.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+/* ==========================
+   HAFTA 16
+========================== */
+
+{
+    week:16,
+    home:"Trabzonspor",
+    away:"Kocaelispor",
+    date:"20.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:16,
+    home:"Kasımpaşa",
+    away:"Fenerbahçe",
+    date:"20.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:16,
+    home:"İstanbul Başakşehir",
+    away:"Erzurumspor FK",
+    date:"20.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:16,
+    home:"Amed SK",
+    away:"Göztepe",
+    date:"20.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:16,
+    home:"Gençlerbirliği",
+    away:"Çorum FK",
+    date:"20.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:16,
+    home:"Konyaspor",
+    away:"Eyüpspor",
+    date:"20.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:16,
+    home:"Galatasaray",
+    away:"Alanyaspor",
+    date:"20.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:16,
+    home:"Beşiktaş",
+    away:"Çaykur Rizespor",
+    date:"20.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:16,
+    home:"Samsunspor",
+    away:"Gaziantep FK",
+    date:"20.12.2026",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+/* ==========================
+   HAFTA 17
+========================== */
+
+{
+    week:17,
+    home:"Fenerbahçe",
+    away:"Amed SK",
+    date:"17.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:17,
+    home:"Gaziantep FK",
+    away:"Galatasaray",
+    date:"17.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:17,
+    home:"Eyüpspor",
+    away:"Samsunspor",
+    date:"17.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:17,
+    home:"Alanyaspor",
+    away:"İstanbul Başakşehir",
+    date:"17.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:17,
+    home:"Çaykur Rizespor",
+    away:"Gençlerbirliği",
+    date:"17.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:17,
+    home:"Göztepe",
+    away:"Beşiktaş",
+    date:"17.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:17,
+    home:"Çorum FK",
+    away:"Konyaspor",
+    date:"17.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:17,
+    home:"Kocaelispor",
+    away:"Kasımpaşa",
+    date:"17.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:17,
+    home:"Erzurumspor FK",
+    away:"Trabzonspor",
+    date:"17.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+/* ==========================
+   HAFTA 18
+========================== */
+
+{
+    week:18,
+    home:"Fenerbahçe",
+    away:"Gençlerbirliği",
+    date:"24.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:18,
+    home:"Alanyaspor",
+    away:"Gaziantep FK",
+    date:"24.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:18,
+    home:"Trabzonspor",
+    away:"Kasımpaşa",
+    date:"24.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:18,
+    home:"Kocaelispor",
+    away:"İstanbul Başakşehir",
+    date:"24.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:18,
+    home:"Erzurumspor FK",
+    away:"Amed SK",
+    date:"24.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:18,
+    home:"Çaykur Rizespor",
+    away:"Konyaspor",
+    date:"24.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:18,
+    home:"Çorum FK",
+    away:"Galatasaray",
+    date:"24.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:18,
+    home:"Eyüpspor",
+    away:"Beşiktaş",
+    date:"24.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
+},
+
+{
+    week:18,
+    home:"Göztepe",
+    away:"Samsunspor",
+    date:"24.01.2027",
+    time:"",
+    stadium:"",
+    status:"Yakında",
+    score:null,
+    broadcaster:"beIN SPORTS"
 }
+
 ];
