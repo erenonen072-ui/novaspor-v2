@@ -4,9 +4,10 @@
 <head>
 
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>NovaSpor | Fikstür</title>
+<title>NovaSpor | Süper Lig Fikstür</title>
 
 <link rel="stylesheet" href="css/style.css">
 
@@ -25,27 +26,35 @@
 
 <nav>
 
-<a href="index.html">Ana Sayfa</a>
+<a href="index.html">
+Ana Sayfa
+</a>
+
 
 <a href="https://sites.google.com/view/novassporr/haberler">
 Haberler
 </a>
 
+
 <a href="canli.html">
 Canlı Skor
 </a>
+
 
 <a href="fikstur.html">
 Fikstür
 </a>
 
+
 <a href="puan.html">
 Puan Durumu
 </a>
 
+
 <a href="takimlar.html">
 Takımlar
 </a>
+
 
 </nav>
 
@@ -53,98 +62,260 @@ Takımlar
 
 
 
+
 <div class="breaking">
 
-📅 FİKSTÜR
+📅 SÜPER LİG FİKSTÜR
 
 </div>
+
+
 
 
 
 <main class="container">
 
 
+
 <h1>
-⚽ Süper Lig Fikstürü
+⚽ Trendyol Süper Lig Fikstürü
 </h1>
 
 
 
-<div class="fixture-card">
+<div class="fixture-controls">
 
 
-<h3>
+<button onclick="oncekiHafta()">
+
+⬅ Önceki Hafta
+
+</button>
+
+
+
+
+<h2 id="haftaNo">
+
+Hafta 1
+
+</h2>
+
+
+
+
+<button onclick="sonrakiHafta()">
+
+Sonraki Hafta ➡
+
+</button>
+
+
+
+</div>
+
+
+
+
+
+<div class="week-select">
+
+
+<select onchange="haftaSec(this.value)">
+
+<option value="1">
 1. Hafta
-</h3>
+</option>
 
 
-<p>
-🟡 Fenerbahçe
-&nbsp; - &nbsp;
-Galatasaray 🔴
-</p>
-
-
-<p>
-📅 10 Ağustos 2026
-</p>
-
-
-</div>
-
-
-
-
-<div class="fixture-card">
-
-
-<h3>
+<option value="2">
 2. Hafta
-</h3>
+</option>
 
 
-<p>
-🔴 Galatasaray
-&nbsp; - &nbsp;
-Trabzonspor 🔵
-</p>
-
-
-<p>
-📅 17 Ağustos 2026
-</p>
-
-
-</div>
-
-
-
-
-<div class="fixture-card">
-
-
-<h3>
+<option value="3">
 3. Hafta
-</h3>
+</option>
 
 
-<p>
-⚫ Beşiktaş
-&nbsp; - &nbsp;
-Fenerbahçe 🟡
-</p>
+<option value="4">
+4. Hafta
+</option>
 
 
-<p>
-📅 24 Ağustos 2026
-</p>
+<option value="5">
+5. Hafta
+</option>
+
+
+<option value="6">
+6. Hafta
+</option>
+
+
+<option value="7">
+7. Hafta
+</option>
+
+
+<option value="8">
+8. Hafta
+</option>
+
+
+<option value="9">
+9. Hafta
+</option>
+
+
+<option value="10">
+10. Hafta
+</option>
+
+
+<option value="11">
+11. Hafta
+</option>
+
+
+<option value="12">
+12. Hafta
+</option>
+
+
+<option value="13">
+13. Hafta
+</option>
+
+
+<option value="14">
+14. Hafta
+</option>
+
+
+<option value="15">
+15. Hafta
+</option>
+
+
+<option value="16">
+16. Hafta
+</option>
+
+
+<option value="17">
+17. Hafta
+</option>
+
+
+<option value="18">
+18. Hafta
+</option>
+
+
+<option value="19">
+19. Hafta
+</option>
+
+
+<option value="20">
+20. Hafta
+</option>
+
+
+<option value="21">
+21. Hafta
+</option>
+
+
+<option value="22">
+22. Hafta
+</option>
+
+
+<option value="23">
+23. Hafta
+</option>
+
+
+<option value="24">
+24. Hafta
+</option>
+
+
+<option value="25">
+25. Hafta
+</option>
+
+
+<option value="26">
+26. Hafta
+</option>
+
+
+<option value="27">
+27. Hafta
+</option>
+
+
+<option value="28">
+28. Hafta
+</option>
+
+
+<option value="29">
+29. Hafta
+</option>
+
+
+<option value="30">
+30. Hafta
+</option>
+
+
+<option value="31">
+31. Hafta
+</option>
+
+
+<option value="32">
+32. Hafta
+</option>
+
+
+<option value="33">
+33. Hafta
+</option>
+
+
+<option value="34">
+34. Hafta
+</option>
+
+
+</select>
 
 
 </div>
+
+
+
+
+
+<div id="fixtureList">
+
+
+<!-- Fikstür buraya JS ile gelecek -->
+
+
+</div>
+
 
 
 
 </main>
+
+
 
 
 
@@ -153,6 +324,12 @@ Fenerbahçe 🟡
 © 2026 NovaSpor
 
 </footer>
+
+
+
+
+
+<script src="fixtures.js"></script>
 
 
 </body>
