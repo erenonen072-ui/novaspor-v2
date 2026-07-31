@@ -34,10 +34,8 @@ const takimLogolari = {
 
 
 function logoGetir(takim){
-
-return "images/logos/" + 
+return "images/" + 
 (takimLogolari[takim] || "default.png");
-
 }
 window.superLigFixtures = [
 
