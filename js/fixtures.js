@@ -1,37 +1,24 @@
 const takimLogolari = {
-
-"Galatasaray":"galatasaray.png",
-"Fenerbahçe":"fenerbahce.png",
-"Beşiktaş":"besiktas.png",
-"Trabzonspor":"trabzonspor.png",
-
-"Başakşehir":"basaksehir.png",
-"İstanbul Başakşehir":"basaksehir.png",
-
-"Konyaspor":"konyaspor.png",
-"Çaykur Rizespor":"rizespor.png",
-
-"Gaziantep FK":"gaziantep.png",
-"Alanyaspor":"alanyaspor.png",
-
-"Eyüpspor":"eyupspor.png",
-"Kasımpaşa":"kasimpasa.png",
-
-"Samsunspor":"samsunspor.png",
-"Göztepe":"goztepe.png",
-
-"Gençlerbirliği":"genclerbirligi.png",
-
-"Erzurumspor FK":"erzurumspor.png",
-
-"Kocaelispor":"kocaelispor.png",
-
-"Amed SK":"amed.png",
-
-"Çorum FK":"corum.png"
-
+"Galatasaray":"galatasaray.png.png",
+"Fenerbahçe":"fenerbahce.png.png",
+"Beşiktaş":"besiktas.png.png",
+"Trabzonspor":"trabzonspor.png.png",
+"Başakşehir":"basaksehir.png.png",
+"İstanbul Başakşehir":"basaksehir.png.png",
+"Konyaspor":"konyaspor.png.png",
+"Çaykur Rizespor":"rizespor.png.png",
+"Gaziantep FK":"gaziantep.png.png",
+"Alanyaspor":"alanyaspor.png.png",
+"Eyüpspor":"eyupspor.png.png",
+"Kasımpaşa":"kasimpasa.png.png",
+"Samsunspor":"samsunspor.png.png",
+"Göztepe":"goztepe.png.png",
+"Gençlerbirliği":"genclerbirligi.png.png",
+"Erzurumspor FK":"erzurumspor.png.png",
+"Kocaelispor":"kocaelispor.png.png",
+"Amed SK":"amed.png.png",
+"Çorum FK":"corum.png.png"
 };
-
 
 function logoGetir(takim){
 return "images/" + 
