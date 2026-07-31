@@ -395,3 +395,68 @@ object-fit:contain;
 margin-bottom:8px;
 
 }
+.team{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:35%;
+    font-weight:700;
+}
+
+
+.team img{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+    margin-bottom:10px;
+}
+
+
+.match-center{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+
+
+.vs{
+    background:#111;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+}
+
+
+.score{
+    background:#111;
+    color:white;
+    padding:8px 15px;
+    border-radius:10px;
+}
+
+
+.status{
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:bold;
+}
+
+
+.status.Yakında{
+    background:#fff3cd;
+    color:#856404;
+}
+
+
+.status.Canlı{
+    background:red;
+    color:white;
+}
+
+
+.status.Bitti{
+    background:#222;
+    color:white;
+}
