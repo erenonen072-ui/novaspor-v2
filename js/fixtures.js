@@ -2208,17 +2208,6 @@ function fiksturGoster(){
 
 
 
-function oncekiHafta(){
-
-    if(aktifHafta > 1){
-
-        aktifHafta--;
-
-        fiksturGoster();
-
-    }
-
-}
 
 
 
@@ -2245,4 +2234,154 @@ document.addEventListener(
 
 fiksturGoster();
 
+});
+// ==============================
+// FİKSTÜR SİSTEMİ
+// ==============================
+
+let aktifHafta = 1;
+
+
+function fiksturGoster(){
+
+const liste = document.getElementById("fixtureList");
+const haftaYazi = document.getElementById("haftaNo");
+
+if(!liste) return;
+
+
+const maclar = window.superLigFixtures.filter(
+mac => mac.week === aktifHafta
+);
+
+
+if(maclar.length === 0){
+
+liste.innerHTML = `
+<div class="error">
+Fikstür bulunamadı.
+</div>
+`;
+
+return;
+
+}
+
+
+haftaYazi.innerHTML =
+"Hafta " + aktifHafta;
+
+
+liste.innerHTML="";
+
+
+maclar.forEach(mac=>{
+
+
+liste.innerHTML += `
+
+<div class="fixture-card">
+
+
+<div class="date">
+📅 ${mac.date}
+</div>
+
+
+<div class="teams">
+
+
+<div class="team">
+
+<img src="${logoGetir(mac.home)}">
+
+<span>${mac.home}</span>
+
+</div>
+
+
+
+<div class="match-center">
+
+<strong>
+${mac.score ? mac.score : "VS"}
+</strong>
+
+
+<span class="status yakinda">
+${mac.status}
+</span>
+
+
+</div>
+
+
+
+<div class="team">
+
+<img src="${logoGetir(mac.away)}">
+
+<span>${mac.away}</span>
+
+</div>
+
+
+</div>
+
+
+
+<div class="time">
+
+⏰ ${mac.time || "Saat açıklanmadı"}
+
+</div>
+
+
+</div>
+
+`;
+
+});
+
+
+}
+
+
+
+// ÖNCEKİ HAFTA
+
+function oncekiHafta(){
+
+if(aktifHafta > 1){
+
+aktifHafta--;
+
+fiksturGoster();
+
+}
+
+}
+
+
+
+// SONRAKİ HAFTA
+
+function sonrakiHafta(){
+
+if(aktifHafta < 34){
+
+aktifHafta++;
+
+fiksturGoster();
+
+}
+
+}
+
+
+
+document.addEventListener(
+"DOMContentLoaded",
+()=>{
+fiksturGoster();
 });
