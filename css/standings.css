@@ -129,3 +129,49 @@ height:28px;
 }
 
 }
+/* Avrupa kupaları hattı */
+
+.standings-table tr.avrupa{
+
+background:#e8f8e8;
+
+}
+
+
+.standings-table tr.avrupa td:first-child{
+
+border-left:5px solid #16a34a;
+
+}
+
+
+/* Düşme hattı */
+
+.standings-table tr.dusme{
+
+background:#ffeaea;
+
+}
+
+
+.standings-table tr.dusme td:first-child{
+
+border-left:5px solid #dc2626;
+
+}
+
+
+/* Hover */
+
+.standings-table tr.avrupa:hover{
+
+background:#d9f7d9;
+
+}
+
+
+.standings-table tr.dusme:hover{
+
+background:#ffd6d6;
+
+}
