@@ -2010,3 +2010,119 @@ window.superLigFixtures = [
 }
 
 ];
+let aktifHafta = 1;
+
+
+// Fikstür göster
+function fiksturGoster(){
+
+    const liste = document.getElementById("fixtureList");
+    const haftaYazi = document.getElementById("haftaNo");
+
+    if(!liste) return;
+
+
+    const maclar = window.superLigFixtures.filter(
+        mac => mac.week === aktifHafta
+    );
+
+
+    if(maclar.length === 0){
+
+        liste.innerHTML = `
+        <div class="error">
+        Fikstür bulunamadı.
+        </div>
+        `;
+
+        return;
+    }
+
+
+    haftaYazi.innerHTML = 
+    "Hafta " + aktifHafta;
+
+
+    liste.innerHTML = "";
+
+
+    maclar.forEach(mac=>{
+
+        liste.innerHTML += `
+
+        <div class="fixture-card">
+
+            <div class="date">
+            📅 ${mac.date}
+            </div>
+
+
+            <div class="teams">
+
+            <span>
+            ${mac.home}
+            </span>
+
+
+            <b>
+            VS
+            </b>
+
+
+            <span>
+            ${mac.away}
+            </span>
+
+            </div>
+
+
+            <div class="time">
+            ⏰ ${mac.time || "Saat açıklanmadı"}
+            </div>
+
+
+        </div>
+
+        `;
+
+    });
+
+}
+
+
+// Önceki hafta
+function oncekiHafta(){
+
+    if(aktifHafta > 1){
+
+        aktifHafta--;
+
+        fiksturGoster();
+
+    }
+
+}
+
+
+// Sonraki hafta
+function sonrakiHafta(){
+
+    if(aktifHafta < 34){
+
+        aktifHafta++;
+
+        fiksturGoster();
+
+    }
+
+}
+
+
+// Sayfa açılınca çalıştır
+document.addEventListener(
+"DOMContentLoaded",
+()=>{
+
+    fiksturGoster();
+
+});
