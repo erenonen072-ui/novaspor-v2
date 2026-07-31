@@ -2814,3 +2814,63 @@ right:15px;
 
 
 }
+.fixture-preview{
+max-width:400px;
+margin:30px auto;
+}
+
+
+.preview-card{
+background:#fff;
+border-radius:12px;
+padding:15px;
+box-shadow:0 4px 15px rgba(0,0,0,.1);
+text-align:center;
+}
+
+
+.preview-date{
+font-size:14px;
+color:#777;
+}
+
+
+.preview-teams{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:20px;
+margin:15px 0;
+}
+
+
+.preview-team{
+display:flex;
+flex-direction:column;
+align-items:center;
+font-size:13px;
+}
+
+
+.preview-team img{
+width:45px;
+height:45px;
+object-fit:contain;
+}
+
+
+.preview-time{
+font-size:13px;
+margin-bottom:15px;
+}
+
+
+.preview-card a{
+display:inline-block;
+background:#000;
+color:#fff;
+padding:8px 18px;
+border-radius:8px;
+text-decoration:none;
+font-size:13px;
+}
