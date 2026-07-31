@@ -1104,5 +1104,4 @@ window.superLigFixtures = [
       tarih: "24.01.2027",
       saat: ""
     }
-  ]
-}
+  ];
