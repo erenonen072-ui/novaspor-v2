@@ -153,7 +153,36 @@ alan.innerHTML += `
 
 `;
 
+document.addEventListener("DOMContentLoaded",()=>{
 
+const tablo=document.getElementById("puanTablo");
+
+console.log(superLigTable);
+
+superLigTable.forEach(t=>{
+
+tablo.innerHTML += `
+
+<tr>
+
+<td>${t.sira}</td>
+<td>${t.takim}</td>
+<td>${t.O}</td>
+<td>${t.G}</td>
+<td>${t.B}</td>
+<td>${t.M}</td>
+<td>${t.A}</td>
+<td>${t.Y}</td>
+<td>${t.AV}</td>
+<td>${t.P}</td>
+
+</tr>
+
+`;
+
+});
+
+});
 });
 
 
