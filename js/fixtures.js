@@ -2051,14 +2051,13 @@ window.superLigFixtures = [
 }
 
 ];
-let aktifHafta = 1;
 
 
-// Fikstür göster
-let aktifHafta = 1;
 
 
-function fiksturGoster(){
+
+
+
 
     const liste = document.getElementById("fixtureList");
     const haftaYazi = document.getElementById("haftaNo");
