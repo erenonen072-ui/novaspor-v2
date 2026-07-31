@@ -238,3 +238,141 @@
 }
 
 }
+/* TAKIM LOGOLARI */
+
+.teams{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+
+
+.team{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+width:35%;
+
+font-weight:700;
+
+}
+
+
+
+.team img{
+
+width:55px;
+height:55px;
+
+object-fit:contain;
+
+margin-bottom:8px;
+
+}
+
+
+
+/* ORTA ALAN */
+
+.match-center{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+gap:10px;
+
+}
+
+
+
+.match-center b,
+.match-center strong{
+
+font-size:22px;
+
+}
+
+
+
+.match-center strong{
+
+background:#111;
+color:white;
+
+padding:8px 15px;
+
+border-radius:10px;
+
+}
+
+
+
+/* DURUM RENKLERİ */
+
+
+.status{
+
+padding:5px 12px;
+
+border-radius:20px;
+
+font-size:12px;
+
+font-weight:700;
+
+}
+
+
+/* Yaklaşan */
+
+.status.Yakında{
+
+background:#fff3cd;
+
+color:#856404;
+
+}
+
+
+
+/* Canlı */
+
+.status.Canlı{
+
+background:#ffdddd;
+
+color:#d00000;
+
+animation:pulse 1s infinite;
+
+}
+
+
+
+/* Bitti */
+
+.status.Bitti{
+
+background:#e5e5e5;
+
+color:#333;
+
+}
+
+
+
+@keyframes pulse{
+
+50%{
+
+opacity:.5;
+
+}
+
+}
