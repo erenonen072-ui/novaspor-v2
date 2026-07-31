@@ -268,7 +268,7 @@ window.superLigFixtures = [
     score: null,
 
     broadcaster: "beIN SPORTS"
-}
+},
 
 
 // ==========================================
