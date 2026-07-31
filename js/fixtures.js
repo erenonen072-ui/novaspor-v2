@@ -2063,10 +2063,46 @@ function fiksturGoster(){
     if(!liste) return;
 
 
-    const maclar = window.superLigFixtures.filter(
-        mac => mac.week === aktifHafta
-    );
+    let maclar = [];
 
+window.superLigFixtures.forEach(item => {
+
+    // Yeni format
+    if(item.week === aktifHafta){
+
+        maclar.push(item);
+
+    }
+
+
+    // Eski hafta formatı
+    if(item.hafta === aktifHafta){
+
+        item.maclar.forEach(m => {
+
+            maclar.push({
+
+                week: item.hafta,
+
+                home: m.ev,
+
+                away: m.dep,
+
+                date: m.tarih,
+
+                time: m.saat,
+
+                status:"Yakında",
+
+                score:null
+
+            });
+
+        });
+
+    }
+
+});
 
     if(maclar.length === 0){
 
