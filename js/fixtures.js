@@ -2087,113 +2087,71 @@ function fiksturGoster(){
     liste.innerHTML = "";
 
 
-    maclar.forEach(mac=>{
+  maclar.forEach(mac=>{
 
-        liste.innerHTML += `
+liste.innerHTML += `
 
-        <div class="fixture-card">
+<div class="fixture-card">
 
-            <div class="date">
-            📅 ${mac.date}
-            </div>
-
-
-           <div class="teams">
+    <div class="date">
+        📅 ${mac.date}
+    </div>
 
 
-<div class="team">
-
-<img src="images/logos/${mac.home}.png"
-onerror="this.src='images/logos/default.png'">
-
-<div class="team">
-
-<img src="${logoGetir(mac.home)}">
-
-<span>${mac.home}</span>
-
-</div>
-
-</div>
+    <div class="teams">
 
 
+        <div class="team">
 
-<div class="match-center">
+            <img src="${logoGetir(mac.home)}"
+            onerror="this.src='images/logos/default.png'">
 
-
-${mac.score 
-? `<strong>${mac.score}</strong>`
-: `<b>VS</b>`
-}
-
-
-<span class="status ${mac.status}">
-${mac.status}
-</span>
-
-
-</div>
-
-
-
-<div class="team">
-
-<img src="${logoGetir(mac.away)}">
-
-<span>${mac.away}</span>
-
-</div>
-
-
-</div>
-
-            <div class="time">
-            ⏰ ${mac.time || "Saat açıklanmadı"}
-            </div>
-
+            <span>${mac.home}</span>
 
         </div>
 
-        `;
-
-    });
-
-}
 
 
-// Önceki hafta
-function oncekiHafta(){
+        <div class="match-center">
 
-    if(aktifHafta > 1){
-
-        aktifHafta--;
-
-        fiksturGoster();
-
-    }
-
-}
+            ${
+            mac.score
+            ?
+            `<strong class="score">${mac.score}</strong>`
+            :
+            `<b class="vs">VS</b>`
+            }
 
 
-// Sonraki hafta
-function sonrakiHafta(){
+            <span class="status ${mac.status || "Yakında"}">
+            ${mac.status || "Yakında"}
+            </span>
 
-    if(aktifHafta < 34){
-
-        aktifHafta++;
-
-        fiksturGoster();
-
-    }
-
-}
+        </div>
 
 
-// Sayfa açılınca çalıştır
-document.addEventListener(
-"DOMContentLoaded",
-()=>{
 
-    fiksturGoster();
+
+        <div class="team">
+
+            <img src="${logoGetir(mac.away)}"
+            onerror="this.src='images/logos/default.png'">
+
+            <span>${mac.away}</span>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="time">
+        ⏰ ${mac.time || "Saat açıklanmadı"}
+    </div>
+
+
+</div>
+
+`;
 
 });
