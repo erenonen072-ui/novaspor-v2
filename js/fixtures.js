@@ -1,3 +1,76 @@
+// ==================================
+// NOVASPOR OTOMATİK LOGO SİSTEMİ
+// ==================================
+
+const takimLogo = {
+
+"Galatasaray":
+"https://media.api-sports.io/football/teams/645.png",
+
+"Fenerbahçe":
+"https://media.api-sports.io/football/teams/611.png",
+
+"Beşiktaş":
+"https://media.api-sports.io/football/teams/549.png",
+
+"Trabzonspor":
+"https://media.api-sports.io/football/teams/3573.png",
+
+"Başakşehir":
+"https://media.api-sports.io/football/teams/564.png",
+
+"İstanbul Başakşehir":
+"https://media.api-sports.io/football/teams/564.png",
+
+"Konyaspor":
+"https://media.api-sports.io/football/teams/607.png",
+
+"Çaykur Rizespor":
+"https://media.api-sports.io/football/teams/626.png",
+
+"Gaziantep FK":
+"https://media.api-sports.io/football/teams/551.png",
+
+"Alanyaspor":
+"https://media.api-sports.io/football/teams/615.png",
+
+"Eyüpspor":
+"https://media.api-sports.io/football/teams/5529.png",
+
+"Kasımpaşa":
+"https://media.api-sports.io/football/teams/563.png",
+
+"Samsunspor":
+"https://media.api-sports.io/football/teams/4558.png",
+
+"Göztepe":
+"https://media.api-sports.io/football/teams/6454.png",
+
+"Gençlerbirliği":
+"https://media.api-sports.io/football/teams/1569.png",
+
+"Erzurumspor FK":
+"https://media.api-sports.io/football/teams/3588.png",
+
+"Kocaelispor":
+"https://media.api-sports.io/football/teams/3589.png",
+
+"Amed SK":
+"https://media.api-sports.io/football/teams/6774.png",
+
+"Çorum FK":
+"https://media.api-sports.io/football/teams/3587.png"
+
+};
+
+
+function logoGetir(takim){
+
+return takimLogo[takim] ||
+
+"https://cdn-icons-png.flaticon.com/512/1161/1161388.png";
+
+}
 window.superLigFixtures = [
 
 /* ==========================
