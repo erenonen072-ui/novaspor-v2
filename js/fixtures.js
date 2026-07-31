@@ -1366,7 +1366,7 @@ window.superLigFixtures = [
 
     broadcaster: "beIN SPORTS"
 },
-];
+
 
 
 // ==========================================
