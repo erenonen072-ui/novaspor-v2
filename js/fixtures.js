@@ -1369,16 +1369,7 @@ window.superLigFixtures = [
 
 
 
-// ==========================================
-// LOGO GETİRME FONKSİYONU
-// ==========================================
 
-function logoGetir(takim){
-
-    return takimLogolari[takim] 
-    || "images/logo-yok.png";
-
-}
 // ==========================================
 // NOVASPOR
 // TRENDYOL SÜPER LİG FİKSTÜR SİSTEMİ
