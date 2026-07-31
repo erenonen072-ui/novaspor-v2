@@ -43,6 +43,13 @@ link:"https://sites.google.com/view/novassporr/avrupa-haberleri/real-madridden-a
     link: "https://sites.google.com/view/novassporr/barcelonadan-yaz%C4%B1n-en-b%C3%BCy%C3%BCk-transferi-karim-adeyemi-resmen-katalan-devind?authuser=0"
    
 },
+{
+    kategori: "TRANSFER",
+    baslik: "Arsenal'dan Bruno Guimarães Hamlesi!",
+    aciklama: "Arsenal, Brezilyalı orta saha Bruno Guimarães için önemli mesafe kat etti.",
+    resim: "images/ChatGPT Image 31 Tem 2026 18_12_28.png",
+    link: "https://sites.google.com/view/novassporr/avrupa-haberleri/arsenaldan-bruno-guimarães-hamlesi-dev-transferde-sona-doğru?authuser=0"
+},
 
 ];
 window.avrupaHaberleri = avrupaHaberleri;
