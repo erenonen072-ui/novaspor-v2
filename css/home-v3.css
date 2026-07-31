@@ -2913,3 +2913,27 @@ box-shadow:0 5px 15px #0002;
     margin-right:auto;
     float:none;
 }
+.standings-table{
+width:100%;
+border-collapse:collapse;
+background:white;
+border-radius:12px;
+overflow:hidden;
+}
+
+.standings-table th{
+background:#111;
+color:white;
+padding:12px;
+}
+
+.standings-table td{
+padding:12px;
+border-bottom:1px solid #ddd;
+text-align:center;
+}
+
+.standings-table td:nth-child(2){
+text-align:left;
+font-weight:600;
+}
