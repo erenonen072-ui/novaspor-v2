@@ -1,0 +1,288 @@
+/* ===========================
+   NOVASPOR - MİLLİ TAKIM CSS
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+    color:#222;
+}
+
+/* HERO */
+
+.mt-hero{
+    position:relative;
+    height:450px;
+    background:linear-gradient(rgba(170,0,0,.65),rgba(90,0,0,.75)),
+    url("../images/milli-banner.jpg") center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+}
+
+.hero-content{
+    position:relative;
+    z-index:2;
+    width:90%;
+    max-width:900px;
+}
+
+.hero-content h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:19px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.hero-btn{
+    display:inline-block;
+    background:#fff;
+    color:#c40000;
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.hero-btn:hover{
+    background:#c40000;
+    color:#fff;
+}
+
+/* BAŞLIKLAR */
+
+section h2{
+    text-align:center;
+    margin-bottom:35px;
+    font-size:34px;
+    color:#b40000;
+}
+
+/* ORTAK */
+
+.quick-info,
+.mt-news,
+.mt-fixtures,
+.mt-squad{
+    width:92%;
+    max-width:1250px;
+    margin:70px auto;
+}
+
+/* BİLGİ KARTLARI */
+
+.quick-info{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.info-card{
+    background:#fff;
+    border-radius:16px;
+    padding:28px;
+    text-align:center;
+    box-shadow:0 8px 22px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.info-card:hover{
+    transform:translateY(-8px);
+}
+
+.info-card h3{
+    color:#c40000;
+    margin-bottom:15px;
+}
+
+/* HABERLER */
+
+.news-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.news-card{
+    background:#fff;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.news-card:hover{
+    transform:translateY(-8px);
+}
+
+.news-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.news-content{
+    padding:22px;
+}
+
+.news-content h3{
+    margin-bottom:15px;
+}
+
+.news-content p{
+    color:#666;
+    line-height:1.7;
+}
+
+.news-content a{
+    display:inline-block;
+    margin-top:18px;
+    text-decoration:none;
+    color:#c40000;
+    font-weight:bold;
+}
+
+/* MAÇLAR */
+
+.fixture-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:30px;
+}
+
+.fixture-card{
+    background:#fff;
+    border-radius:18px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.fixture-card:hover{
+    transform:translateY(-8px);
+}
+
+.match-date{
+    text-align:center;
+    color:#888;
+    margin-bottom:25px;
+}
+
+.teams{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.team{
+    text-align:center;
+}
+
+.team img{
+    width:70px;
+    height:70px;
+    object-fit:contain;
+}
+
+.team span{
+    display:block;
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.vs{
+    font-size:24px;
+    font-weight:bold;
+    color:#c40000;
+}
+
+/* KADRO */
+
+.squad-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.player-card{
+    background:#fff;
+    border-radius:18px;
+    text-align:center;
+    padding:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.player-card:hover{
+    transform:translateY(-8px);
+}
+
+.player-card img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:18px;
+    border:4px solid #c40000;
+}
+
+.player-card h3{
+    margin-bottom:8px;
+}
+
+.player-card span{
+    display:block;
+    color:#c40000;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.player-card p{
+    color:#666;
+}
+
+/* FOOTER BOŞLUK */
+
+footer{
+    margin-top:80px;
+}
+
+/* MOBİL */
+
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:34px;
+}
+
+.hero-content p{
+    font-size:16px;
+}
+
+section h2{
+    font-size:28px;
+}
+
+.team img{
+    width:55px;
+    height:55px;
+}
+
+.news-card img{
+    height:190px;
+}
+
+}
