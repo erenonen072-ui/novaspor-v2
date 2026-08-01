@@ -57,5 +57,11 @@ window.superLigHaberleri = [
     resim: "images/ChatGPT Image 31 Tem 2026 18_25_04.png",
     link: "https://sites.google.com/view/novassporr/haberler_1/trabzonspordan-orkun-kökçü-sürprizi-bordo-mavililer-milli-yıldız-için-şar"
 },
+{
+    baslik: "Süper Lig'de Geri Sayım Başladı! Yeni Sezon Öncesi Rekabet Zirveye Çıkıyor",
+    aciklama: "Trendyol Süper Lig'de yeni sezon öncesi heyecan dorukta. Kulüpler transfer çalışmalarını sürdürürken, taraftarlar sezonun ilk düdüğünü sabırsızlıkla bekliyor.",
+    resim: "images/trendyol-super-lig-.jpg",
+    link: "https://sites.google.com/view/novassporr/haberler_1/süper-ligde-geri-sayım-başladı-yeni-sezon-öncesi-rekabet-zirveye-çıkıyor?authuser=0"
+},
 
 ];
