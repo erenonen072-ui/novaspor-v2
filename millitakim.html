@@ -1,312 +1,71 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaSpor | A Milli Takım</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>NovaSpor | A Milli Takım</title>
-
-<meta name="description" content="Türkiye A Milli Futbol Takımı haberleri, fikstür, kadro, maç sonuçları ve son gelişmeler NovaSpor'da.">
-
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/millitakim.css">
-
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/millitakim.css">
 </head>
-
 <body>
 
 <header>
+    <div class="logo">⚽ NovaSpor</div>
 
-<div class="logo">
-⚽ NovaSpor
-</div>
-
-<nav>
-
-<a href="index.html">Ana Sayfa</a>
-
-<a href="news.html">Haberler</a>
-
-<a href="standings.html">Puan Durumu</a>
-
-<a href="fixtures.html">Fikstür</a>
-
-<a href="millitakim.html" class="active">🇹🇷 Milli Takım</a>
-
-</nav>
-
+    <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="news.html">Haberler</a>
+        <a href="standings.html">Puan Durumu</a>
+        <a href="fixtures.html">Fikstür</a>
+        <a href="millitakim.html" class="active">🇹🇷 Milli Takım</a>
+    </nav>
 </header>
 
+<!-- Banner -->
 
+<section class="milli-hero">
 
-<!-- HERO -->
+    <div class="overlay"></div>
 
-<section class="mt-hero">
+    <div class="hero-content">
 
-<div class="overlay"></div>
+        <h1>🇹🇷 Türkiye A Milli Futbol Takımı</h1>
 
-<div class="hero-content">
+        <p>
+            Kadro, oyuncular, istatistikler ve son gelişmeler
+        </p>
 
-<h1>🇹🇷 Türkiye A Milli Futbol Takımı</h1>
-
-<p>
-
-Ay-Yıldızlıların son dakika haberleri,
-fikstürü, kadrosu ve istatistikleri
-NovaSpor'da.
-
-</p>
-
-<a href="#haberler" class="hero-btn">
-Son Haberler
-</a>
-
-</div>
+    </div>
 
 </section>
 
+<!-- Arama -->
 
+<section class="search-area">
 
-<!-- İSTATİSTİKLER -->
-
-<section class="quick-info">
-
-<div class="info-card">
-
-<h3>🏆 Teknik Direktör</h3>
-
-<p>Vincenzo Montella</p>
-
-</div>
-
-<div class="info-card">
-
-<h3>🌍 FIFA Sıralaması</h3>
-
-<p>Güncel Veri</p>
-
-</div>
-
-<div class="info-card">
-
-<h3>⚽ Son Maç</h3>
-
-<p>Türkiye - ...</p>
-
-</div>
-
-<div class="info-card">
-
-<h3>📅 Sonraki Maç</h3>
-
-<p>Türkiye - ...</p>
-
-</div>
+<input
+type="text"
+id="searchPlayer"
+placeholder="🔍 Oyuncu ara...">
 
 </section>
-<!-- SON HABERLER -->
 
-<section class="mt-news" id="haberler">
+<!-- Oyuncular -->
 
-<h2>📰 Son Milli Takım Haberleri</h2>
-
-<div class="news-grid">
-
-<div class="news-card">
-
-<img src="images/milli1.jpg" alt="Türkiye Milli Takımı">
-
-<div class="news-content">
-
-<h3>Montella'dan Kadro Açıklaması</h3>
-
-<p>
-A Milli Takım Teknik Direktörü Vincenzo Montella,
-aday kadroyu açıkladı. Genç oyuncular dikkat çekti.
-</p>
-
-<a href="#">Devamını Oku →</a>
-
-</div>
-
-</div>
-
-<div class="news-card">
-
-<img src="images/milli2.jpg" alt="Milli Takım">
-
-<div class="news-content">
-
-<h3>Türkiye Hazırlıklarını Sürdürüyor</h3>
-
-<p>
-Ay-Yıldızlı ekip, yaklaşan karşılaşma öncesinde
-hazırlıklarını yoğun tempoda sürdürüyor.
-</p>
-
-<a href="#">Devamını Oku →</a>
-
-</div>
-
-</div>
-
-<div class="news-card">
-
-<img src="images/milli3.jpg" alt="Türkiye">
-
-<div class="news-content">
-
-<h3>Arda Güler Formda</h3>
-
-<p>
-Milli yıldız, son antrenmandaki performansıyla
-teknik heyetten tam not aldı.
-</p>
-
-<a href="#">Devamını Oku →</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-<!-- YAKLAŞAN MAÇLAR -->
-
-<section class="mt-fixtures">
-
-<h2>📅 Yaklaşan Maçlar</h2>
-
-<div class="fixture-grid">
-
-<div class="fixture-card">
-<div class="match-date">6 Eylül 2026 • 21:45</div>
-
-<div class="teams">
-<div class="team">
-<img src="images/turkiye.png" alt="Türkiye">
-<span>Türkiye</span>
-</div>
-
-<div class="vs">VS</div>
-
-<div class="team">
-<img src="images/gurcistan.png" alt="Gürcistan">
-<span>Gürcistan</span>
-</div>
-</div>
-
-<p>📍 Atatürk Olimpiyat Stadyumu</p>
-
-</div>
-
-<div class="fixture-card">
-<div class="match-date">9 Eylül 2026 • 21:45</div>
-
-<div class="teams">
-<div class="team">
-<img src="images/ispanya.png" alt="İspanya">
-<span>İspanya</span>
-</div>
-
-<div class="vs">VS</div>
-
-<div class="team">
-<img src="images/turkiye.png" alt="Türkiye">
-<span>Türkiye</span>
-</div>
-</div>
-
-<p>📍 Santiago Bernabéu</p>
-
-</div>
-
-</div>
-
-</section>
-<!-- GÜNCEL KADRO -->
-
-<section class="mt-squad">
+<section class="players-section">
 
 <h2>👥 Güncel A Milli Takım Kadrosu</h2>
 
-<div class="squad-grid">
+<div id="playersContainer" class="players-grid">
 
-<div class="player-card">
-<img src="images/arda-guler.jpg" alt="Arda Güler">
-<h3>Arda Güler</h3>
-<span>Orta Saha</span>
-<p>Real Madrid</p>
-</div>
-
-<div class="player-card">
-<img src="images/kenan-yildiz.jpg" alt="Kenan Yıldız">
-<h3>Kenan Yıldız</h3>
-<span>Forvet</span>
-<p>Juventus</p>
-</div>
-
-<div class="player-card">
-<img src="images/hakan-calhanoglu.jpg" alt="Hakan Çalhanoğlu">
-<h3>Hakan Çalhanoğlu</h3>
-<span>Orta Saha</span>
-<p>Inter</p>
-</div>
-
-<div class="player-card">
-<img src="images/merih-demiral.jpg" alt="Merih Demiral">
-<h3>Merih Demiral</h3>
-<span>Defans</span>
-<p>Al-Ahli</p>
-</div>
-
-<div class="player-card">
-<img src="images/baris-alper.jpg" alt="Barış Alper Yılmaz">
-<h3>Barış Alper Yılmaz</h3>
-<span>Kanat</span>
-<p>Galatasaray</p>
-</div>
-
-<div class="player-card">
-<img src="images/ugurcan-cakir.jpg" alt="Uğurcan Çakır">
-<h3>Uğurcan Çakır</h3>
-<span>Kaleci</span>
-<p>Trabzonspor</p>
-</div>
+<!-- JavaScript buraya ekleyecek -->
 
 </div>
 
 </section>
-<!-- MİLLİ TAKIM İSTATİSTİKLERİ -->
 
-<section class="mt-stats">
+<script src="js/millitakim.js"></script>
 
-<h2>📊 Milli Takım İstatistikleri</h2>
-
-<div class="stats-grid">
-
-<div class="stat-card">
-<h3>⚽ Oynanan Maç</h3>
-<span>641</span>
-</div>
-
-<div class="stat-card">
-<h3>🏆 Galibiyet</h3>
-<span>249</span>
-</div>
-
-<div class="stat-card">
-<h3>🤝 Beraberlik</h3>
-<span>151</span>
-</div>
-
-<div class="stat-card">
-<h3>❌ Mağlubiyet</h3>
-<span>241</span>
-</div>
-
-</div>
-
-</section>
+</body>
+</html>
