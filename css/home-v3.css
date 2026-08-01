@@ -3103,3 +3103,117 @@ text-decoration:none;
 }
 
 }
+/* ===========================
+   A MİLLİ TAKIM
+=========================== */
+
+.national-team{
+
+max-width:1200px;
+margin:70px auto;
+padding:40px;
+
+display:grid;
+grid-template-columns:1fr 1fr;
+
+gap:40px;
+
+align-items:center;
+
+background:#fff;
+
+border-radius:20px;
+
+box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.badge{
+
+display:inline-block;
+
+background:#d60000;
+
+color:#fff;
+
+padding:8px 16px;
+
+border-radius:30px;
+
+font-weight:bold;
+
+margin-bottom:20px;
+
+}
+
+.national-left h2{
+
+font-size:36px;
+
+margin-bottom:20px;
+
+}
+
+.national-left p{
+
+line-height:1.8;
+
+color:#555;
+
+margin-bottom:30px;
+
+}
+
+.national-btn{
+
+display:inline-block;
+
+padding:14px 28px;
+
+background:#d60000;
+
+color:#fff;
+
+text-decoration:none;
+
+border-radius:30px;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.national-btn:hover{
+
+background:#000;
+
+}
+
+.national-right img{
+
+width:100%;
+
+border-radius:20px;
+
+display:block;
+
+}
+
+@media(max-width:768px){
+
+.national-team{
+
+grid-template-columns:1fr;
+
+padding:25px;
+
+}
+
+.national-left{
+
+text-align:center;
+
+}
+
+}
