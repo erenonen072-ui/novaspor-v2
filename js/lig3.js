@@ -9,7 +9,7 @@ const lig3Haberleri = [
     baslik: "Malatya Yeşilyurt Spor'dan Orta Sahaya Tecrübeli Takviye: Aykut Sarıdoğan İmzayı Attı",
     aciklama: "Malatya Yeşilyurt Spor, yeni sezon kadro yapılanması kapsamında orta saha bölgesine deneyimli futbolcu Aykut Sarıdoğan'ı transfer etti.",
     resim: "images/Yeni_Malatyaspor.png",
-    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/3-lig-haberleri/malatya-yeşilyurt-spordan-orta-sahaya-tecrübeli-takviye-aykut-sarıdoğan-i"
+    link: "https://sites.google.com/view/novassporr/3-lig-haberleri/malatya-ye%C5%9Filyurt-spordan-orta-sahaya-tecr%C3%BCbeli-takviye-aykut-sar%C4%B1do%C4%9Fan-i?authuser=0"
 },
 
 {
@@ -25,14 +25,14 @@ const lig3Haberleri = [
     baslik: "3. Lig'de Yeni Sezon Heyecanı Başlıyor: Gruplar ve Takımlar Belli Oldu",
     aciklama: "2026-2027 sezonu öncesinde TFF 3. Lig'de gruplar belli olurken takımlar yeni sezon hazırlıklarına başladı.",
     resim: "images/TFF3_kopya.png",
-    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/3-lig-haberleri/3-ligde-yeni-sezon-heyecanı-başlıyor-gruplar-ve-takımlar-belli-oldu"
+    link: "https://sites.google.com/view/novassporr/3-lig-haberleri/3-ligde-yeni-sezon-heyecan%C4%B1-ba%C5%9Fl%C4%B1yor-gruplar-ve-tak%C4%B1mlar-belli-oldu?authuser=0"
 },
 {
     kategori: "TEKNİK DİREKTÖR",
     baslik: "Karşıyaka'da Burhanettin Basatemür ile Yola Devam",
     aciklama: "Karşıyaka, yeni sezon öncesinde teknik direktör Burhanettin Basatemür ile yeniden anlaşmaya vardı. Yeşil-kırmızılı ekip şampiyonluk hedefi doğrultusunda istikrarı tercih etti.",
     resim: "images/ChatGPT Image 30 Tem 2026 14_38_59.png",
-    link: "https://sites.google.com/view/novassporr/kar%C5%9F%C4%B1yakadan-%C5%9Fampiyonluk-yolunda-ilk-b%C3%BCy%C3%BCk-hamle-burhanettin-basatem%C3%BCr-il?authuser=0"
+    link: "https://sites.google.com/view/novassporr/3-lig-haberleri/kar%C5%9F%C4%B1yakadan-%C5%9Fampiyonluk-yolunda-ilk-b%C3%BCy%C3%BCk-hamle-burhanettin-basatem%C3%BCr-il?authuser=0"
 },
 
 ];
