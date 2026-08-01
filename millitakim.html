@@ -1,69 +1,147 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NovaSpor | A Milli Takım</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaSpor | Milli Takım</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/millitakim.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/millitakim.css">
 </head>
 <body>
 
 <header>
-    <div class="logo">⚽ NovaSpor</div>
+<div class="logo">⚽ NovaSpor</div>
 
-    <nav>
-        <a href="index.html">Ana Sayfa</a>
-        <a href="news.html">Haberler</a>
-        <a href="standings.html">Puan Durumu</a>
-        <a href="fixtures.html">Fikstür</a>
-        <a href="millitakim.html" class="active">🇹🇷 Milli Takım</a>
-    </nav>
+<nav>
+<a href="index.html">Ana Sayfa</a>
+<a href="haberler.html">Haberler</a>
+<a href="fikstur.html">Fikstür</a>
+<a href="puan.html">Puan Durumu</a>
+<a href="millitakim.html" class="active">🇹🇷 Milli Takım</a>
+</nav>
 </header>
 
-<!-- Banner -->
+<section class="hero">
 
-<section class="milli-hero">
+<h1>🇹🇷 Türkiye A Millî Futbol Takımı</h1>
 
-    <div class="overlay"></div>
-
-    <div class="hero-content">
-
-        <h1>🇹🇷 Türkiye A Milli Futbol Takımı</h1>
-
-        <p>
-            Kadro, oyuncular, istatistikler ve son gelişmeler
-        </p>
-
-    </div>
+<p>
+Ay-Yıldızlı ekibimizin güncel kadrosu, haberleri ve bilgileri.
+</p>
 
 </section>
 
-<!-- Arama -->
+<section class="info">
 
-<section class="search-area">
+<div class="info-card">
+<h3>Teknik Direktör</h3>
+<p>Vincenzo Montella</p>
+</div>
 
-<input
-type="text"
-id="searchPlayer"
-placeholder="🔍 Oyuncu ara...">
+<div class="info-card">
+<h3>Kaptan</h3>
+<p>Hakan Çalhanoğlu</p>
+</div>
 
-</section>
+<div class="info-card">
+<h3>Konfederasyon</h3>
+<p>UEFA</p>
+</div>
 
-<!-- Oyuncular -->
-
-<section class="players-section">
-
-<h2>👥 Güncel A Milli Takım Kadrosu</h2>
-
-<div id="playersContainer" class="players-grid">
-
-<!-- JavaScript buraya ekleyecek -->
-
+<div class="info-card">
+<h3>Federasyon</h3>
+<p>Türkiye Futbol Federasyonu</p>
 </div>
 
 </section>
+
+<h2 class="title">⭐ Öne Çıkan Oyuncular</h2>
+
+<div class="players">
+
+<div class="player">
+<img src="images/ugurcan-cakir.jpg">
+<h3>Uğurcan Çakır</h3>
+<p>Kaleci</p>
+</div>
+
+<div class="player">
+<img src="images/mert-gunok.jpg">
+<h3>Mert Günok</h3>
+<p>Kaleci</p>
+</div>
+
+<div class="player">
+<img src="images/merih-demiral.jpg">
+<h3>Merih Demiral</h3>
+<p>Defans</p>
+</div>
+
+<div class="player">
+<img src="images/mert-muldur.jpg">
+<h3>Mert Müldür</h3>
+<p>Defans</p>
+</div>
+
+<div class="player">
+<img src="images/kaan-ayhan.jpg">
+<h3>Kaan Ayhan</h3>
+<p>Defans</p>
+</div>
+
+<div class="player">
+<img src="images/ozan-kabak.jpg">
+<h3>Ozan Kabak</h3>
+<p>Defans</p>
+</div>
+
+<div class="player">
+<img src="images/ismail-yuksek.jpg">
+<h3>İsmail Yüksek</h3>
+<p>Orta Saha</p>
+</div>
+
+<div class="player">
+<img src="images/orkun-kokcu.jpg">
+<h3>Orkun Kökçü</h3>
+<p>Orta Saha</p>
+</div>
+
+<div class="player">
+<img src="images/salih-ozcan.jpg">
+<h3>Salih Özcan</h3>
+<p>Orta Saha</p>
+</div>
+
+<div class="player">
+<img src="images/kerem.jpg">
+<h3>Kerem Aktürkoğlu</h3>
+<p>Kanat</p>
+</div>
+
+</div>
+
+<h2 class="title">📰 Son Haberler</h2>
+
+<div class="news">
+
+<div class="news-card">
+<h3>Montella hazırlıklara başladı</h3>
+<p>Türkiye A Millî Takımı kamp çalışmalarını sürdürüyor.</p>
+</div>
+
+<div class="news-card">
+<h3>Dünya Kupası Elemeleri</h3>
+<p>Ay-Yıldızlı ekip yeni maçlarına hazırlanıyor.</p>
+</div>
+
+<div class="news-card">
+<h3>Genç yıldızlar dikkat çekiyor</h3>
+<p>Millî takımda forma rekabeti artıyor.</p>
+</div>
+
+</div>
 
 <script src="js/millitakim.js"></script>
 
