@@ -78,14 +78,18 @@ a{
 
 .navbar{
     display:flex;
-    gap:30px;
+    align-items:center;
+    gap:18px;
+    flex-wrap:wrap;
 }
 
 
 .navbar a{
+    font-size:15px;
     font-weight:600;
     position:relative;
     padding:8px 0;
+    white-space:nowrap;
     transition:.3s;
 }
 
