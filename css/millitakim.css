@@ -1,159 +1,162 @@
-/* =========================
-   MİLLİ TAKIM SAYFASI
-========================= */
+/* ===========================
+   NOVASPOR - MİLLİ TAKIM
+=========================== */
 
 body{
-    margin:0;
+    background:#f5f5f5;
     font-family:Arial,Helvetica,sans-serif;
-    background:#f4f4f4;
 }
 
-/* Banner */
+/* Hero */
 
-.milli-hero{
-    position:relative;
-    height:420px;
-    background:url("../images/milli-banner.jpg") center/cover no-repeat;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-.overlay{
-    position:absolute;
-    inset:0;
-    background:rgba(0,0,0,.45);
-}
-
-.hero-content{
-    position:relative;
+.hero{
+    background:linear-gradient(135deg,#d40000,#ff2b2b);
     color:#fff;
     text-align:center;
-    z-index:2;
+    padding:60px 20px;
+    margin-bottom:30px;
 }
 
-.hero-content h1{
-    font-size:52px;
-    margin:0;
+.hero h1{
+    font-size:40px;
+    margin-bottom:15px;
 }
 
-.hero-content p{
-    font-size:20px;
-    margin-top:15px;
-}
-
-/* Arama */
-
-.search-area{
-    max-width:1200px;
-    margin:40px auto;
-    padding:0 20px;
-}
-
-#searchPlayer{
-    width:100%;
-    padding:18px;
-    border:none;
-    border-radius:12px;
+.hero p{
     font-size:18px;
-    outline:none;
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    opacity:.9;
+}
+
+/* Bilgi Kartları */
+
+.info{
+    width:95%;
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-bottom:40px;
+}
+
+.info-card{
+    background:#fff;
+    border-radius:14px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.info-card:hover{
+    transform:translateY(-6px);
+}
+
+.info-card h3{
+    color:#d40000;
+    margin-bottom:10px;
 }
 
 /* Başlık */
 
-.players-section{
+.title{
+    text-align:center;
+    font-size:32px;
+    margin:40px 0 25px;
+    color:#222;
+}
+
+/* Oyuncular */
+
+.players{
+    width:95%;
     max-width:1300px;
     margin:auto;
-    padding:20px;
-}
-
-.players-section h2{
-    text-align:center;
-    font-size:34px;
-    margin-bottom:40px;
-}
-
-/* Kartlar */
-
-.players-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
     gap:25px;
 }
 
-.player-card{
+.player{
     background:#fff;
-    border-radius:18px;
+    border-radius:15px;
     overflow:hidden;
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    text-align:center;
+    box-shadow:0 5px 18px rgba(0,0,0,.12);
     transition:.3s;
-    cursor:pointer;
 }
 
-.player-card:hover{
+.player:hover{
     transform:translateY(-8px);
-    box-shadow:0 18px 35px rgba(0,0,0,.18);
 }
 
-.player-card img{
+.player img{
     width:100%;
-    height:320px;
+    height:250px;
     object-fit:cover;
-    background:#eee;
 }
 
-.player-content{
-    padding:20px;
+.player h3{
+    margin:15px 0 5px;
+    font-size:20px;
 }
 
-.player-content h3{
-    margin:0;
-    font-size:24px;
+.player p{
+    color:#777;
+    margin-bottom:18px;
 }
 
-.player-position{
-    display:inline-block;
-    margin-top:10px;
-    padding:6px 14px;
-    background:#d50000;
-    color:#fff;
-    border-radius:20px;
-    font-size:13px;
-    font-weight:bold;
+/* Haberler */
+
+.news{
+    width:95%;
+    max-width:1200px;
+    margin:40px auto 60px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
 }
 
-.player-details{
-    margin-top:18px;
-    display:none;
-    border-top:1px solid #eee;
-    padding-top:15px;
+.news-card{
+    background:#fff;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 5px 18px rgba(0,0,0,.1);
+    transition:.3s;
 }
 
-.player-details p{
-    margin:8px 0;
-    color:#444;
-    font-size:15px;
+.news-card:hover{
+    transform:translateY(-6px);
 }
 
-.player-card.active .player-details{
-    display:block;
+.news-card h3{
+    color:#d40000;
+    margin-bottom:12px;
 }
 
-/* Mobil */
+.news-card p{
+    color:#555;
+    line-height:1.6;
+}
+
+/* Responsive */
 
 @media(max-width:768px){
 
-.hero-content h1{
-    font-size:34px;
+.hero h1{
+    font-size:30px;
 }
 
-.hero-content p{
+.hero p{
     font-size:16px;
 }
 
-.player-card img{
-    height:260px;
+.title{
+    font-size:26px;
+}
+
+.player img{
+    height:220px;
 }
 
 }
