@@ -32,7 +32,7 @@ window.lig1Haberleri = [
     baslik: "Fatih Karagümrük'ten Dev Hamle! Manolis Siopis Resmen İmzayı Attı",
     aciklama: "Fatih Karagümrük, Süper Lig hedefi doğrultusunda Yunan milli orta saha Manolis Siopis'i kadrosuna kattığını resmen açıkladı.",
     resim: "images/ChatGPT Image 30 Tem 2026 14_31_30.png",
-    link: "https://sites.google.com/view/novassporr/fatih-karag%C3%BCmr%C3%BCkten-s%C3%BCper-lig-hedefine-dev-takviye-manolis-siopis-resmen?authuser=0"
+    link: "https://sites.google.com/view/novassporr/tff-1-lig-haberleri_1/fatih-karag%C3%BCmr%C3%BCkten-s%C3%BCper-lig-hedefine-dev-takviye-manolis-siopis-resmen?authuser=0"
 },
 
 ];
