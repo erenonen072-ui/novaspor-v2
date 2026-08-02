@@ -5,6 +5,13 @@
 window.voleybolHaberleri = [
 
 {
+    kategori: "VOLEYBOL",
+    baslik: "Voleybolda Yeni Sezon Heyecanı Başlıyor!",
+    aciklama: "Sultanlar Ligi ve Avrupa'nın dev kulüpleri yeni sezon hazırlıklarını sürdürürken, transferler ve Avrupa kupalarındaki hedefler voleybol gündemini belirlemeye devam ediyor.",
+    resim: "images/voleybol.png",
+    link: "https://sites.google.com/view/novassporr/voleybol-haberleri/voleybolda-yeni-sezon-heyecanı-başlıyor-sultanlar-ligi-ve-avrupada-büyük"
+},
+{
     kategori: "TRANSFER",
     baslik: "Beşiktaş'tan Orta Oyuncu Takviyesi: Aslı Kalaç Siyah-Beyazlı Formayı Giydi",
     aciklama: "Beşiktaş, yeni sezon kadro planlaması kapsamında milli orta oyuncu Aslı Kalaç'ı kadrosuna kattığını resmen duyurdu. Siyah-beyazlı ekip, tecrübeli voleybolcuyla önemli bir güç kazandı.",
