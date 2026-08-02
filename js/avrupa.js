@@ -5,6 +5,13 @@
 const avrupaHaberleri = [
 
 {
+    kategori: "AVRUPA FUTBOLU",
+    baslik: "Avrupa Devleri Yeni Sezona Hazır!",
+    aciklama: "Premier Lig, La Liga, Serie A, Bundesliga ve Ligue 1 ekipleri yeni sezon hazırlıklarını sürdürürken, transfer dönemi ve hazırlık maçları futbol gündemini belirlemeye devam ediyor.",
+    resim: "images/avrupa.png",
+    link: "https://sites.google.com/view/novassporr/avrupa-haberleri/avrupa-devleri-yeni-sezona-haz%C4%B1r-transferler-haz%C4%B1rl%C4%B1k-ma%C3%A7lar%C4%B1-ve-%C5%9Fampiyon"
+},
+{
 kategori:"AVRUPA KUPALARI",
 baslik:"Vinícius Júnior İçin Avrupa Devleri Karşı Karşıya! Brezilyalı Yıldızın Geleceği Merak Konusu Oldu",
 aciklama:"Real Madrid'in yıldızı Vinícius Júnior için Avrupa'nın dev kulüplerinin ilgisi devam ediyor. Brezilyalı futbolcunun geleceği transfer döneminin en çok konuşulan konularından biri oldu.",
