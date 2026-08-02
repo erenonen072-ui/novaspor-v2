@@ -3601,3 +3601,98 @@ body{
 
 
 }
+/* =================================
+   NOVASPOR DARK MODE YAZI DÜZELTME
+================================= */
+
+body.dark{
+    background:#0f1115;
+    color:#ffffff;
+}
+
+
+/* Genel yazılar */
+body.dark p,
+body.dark span,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark b,
+body.dark strong{
+    color:#ffffff;
+}
+
+
+/* Header */
+body.dark .header{
+    background:#151820;
+}
+
+
+body.dark .navbar a{
+    color:#ffffff;
+}
+
+
+/* Haber kartları */
+
+body.dark .news-card,
+body.dark .fixture-preview,
+body.dark .standings-preview,
+body.dark .preview-card{
+    background:#171a21;
+    color:white;
+}
+
+
+body.dark .news-info h3,
+body.dark .news-info p{
+    color:white;
+}
+
+
+/* Gündem */
+
+body.dark .hero-side,
+body.dark .side-news a{
+    background:#171a21;
+}
+
+
+body.dark .side-news h4{
+    color:white;
+}
+
+
+/* Puan durumu */
+
+body.dark .mini-row{
+    background:#171a21;
+}
+
+
+body.dark .mini-row b,
+body.dark .mini-row strong{
+    color:white;
+}
+
+
+/* Linkler */
+
+body.dark a{
+    color:#ffbf00;
+}
+
+
+/* Footer */
+
+body.dark footer{
+    background:#090a0d;
+}
+
+
+body.dark footer a,
+body.dark footer p{
+    color:#ddd;
+}
