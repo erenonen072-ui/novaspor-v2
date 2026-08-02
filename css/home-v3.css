@@ -3221,3 +3221,16 @@ text-align:center;
 }
 
 }
+.countdown-mini{
+    display:inline-block;
+    background:#1f2937;
+    color:#fff;
+    padding:10px 16px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+#countdown{
+    color:#FFD700;
+}
