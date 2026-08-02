@@ -34,5 +34,12 @@ window.lig1Haberleri = [
     resim: "images/ChatGPT Image 30 Tem 2026 14_31_30.png",
     link: "https://sites.google.com/view/novassporr/tff-1-lig-haberleri_1/fatih-karag%C3%BCmr%C3%BCkten-s%C3%BCper-lig-hedefine-dev-takviye-manolis-siopis-resmen?authuser=0"
 },
+{
+    kategori: "TFF 1. LİG",
+    baslik: "TFF 1. Lig'de Yeni Sezon Heyecanı Zirvede!",
+    aciklama: "2026-2027 sezonu öncesinde TFF 1. Lig ekipleri hazırlıklarını sürdürürken, Süper Lig'e yükselme mücadelesi şimdiden büyük heyecan yaratıyor.",
+    resim: "images/trendyol-1-lig.jpg",
+    link: "https://sites.google.com/view/novassporr/tff-1-lig-haberleri_1/tff-1-ligde-yeni-sezon-heyecan%C4%B1-zirvede-s%C3%BCper-lig-yolunda-b%C3%BCy%C3%BCk-rekabet"
+},
 
 ];
