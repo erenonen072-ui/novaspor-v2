@@ -5,6 +5,13 @@
 const lig3Haberleri = [
 
 {
+    kategori: "NESİNE 3. LİG",
+    baslik: "Nesine 3. Lig'de Yeni Sezon İçin Geri Sayım!",
+    aciklama: "2026-2027 sezonu öncesinde Nesine 3. Lig ekipleri hazırlıklarını sürdürürken, şampiyonluk yarışı ve üst lige yükselme mücadelesi futbolseverleri büyük heyecanla bekliyor.",
+    resim: "images/nesine-3-lig.jpg",
+    link: "https://sites.google.com/view/novassporr/3-lig-haberleri/nesine-3-ligde-yeni-sezon-i%C3%A7in-geri-say%C4%B1m-b%C3%BCy%C3%BCk-rekabet-ve-y%C3%BCkselme-heye"
+},
+{
     kategori: "TRANSFER",
     baslik: "Malatya Yeşilyurt Spor'dan Orta Sahaya Tecrübeli Takviye: Aykut Sarıdoğan İmzayı Attı",
     aciklama: "Malatya Yeşilyurt Spor, yeni sezon kadro yapılanması kapsamında orta saha bölgesine deneyimli futbolcu Aykut Sarıdoğan'ı transfer etti.",
