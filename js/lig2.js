@@ -5,6 +5,13 @@
 window.lig2Haberleri = [
 
 {
+    kategori: "TFF 2. LİG",
+    baslik: "TFF 2. Lig'de Yeni Sezon Başlıyor!",
+    aciklama: "2026-2027 sezonu öncesinde TFF 2. Lig ekipleri hazırlıklarını tamamlarken, şampiyonluk yarışı ve 1. Lig'e yükselme mücadelesi futbolseverleri heyecanlandırıyor.",
+    resim: "images/nesine-2-lig.jpg",
+    link: "https://sites.google.com/view/novassporr/2-lig-haberleri/tff-2-ligde-yeni-sezon-ba%C5%9Fl%C4%B1yor-%C5%9Fampiyonluk-yar%C4%B1%C5%9F%C4%B1-ve-y%C3%BCkselme-m%C3%BCcadeles"
+},
+{
     kategori: "TRANSFER",
     baslik: "Menemen FK'dan Orta Sahaya Güçlü Takviye: Deneyimli İsim Resmen Kadroda",
     aciklama: "Menemen FK yeni sezon öncesi orta saha hattını güçlendirmek için önemli bir transfer gerçekleştirdi.",
