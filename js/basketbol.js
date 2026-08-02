@@ -1,6 +1,13 @@
 window.basketbolHaberleri = [
 
 {
+    kategori: "BASKETBOL",
+    baslik: "Basketbolda Yeni Sezon Heyecanı Başlıyor!",
+    aciklama: "EuroLeague ve NBA'de yeni sezon öncesi transfer hareketliliği sürerken, dev kulüpler kadrolarını güçlendirmeye ve hazırlık maçlarıyla sezona hazırlanmaya devam ediyor.",
+    resim: "images/basketbol.png",
+    link: "https://sites.google.com/view/novassporr/basketbol-haberleri_1/basketbolda-yeni-sezon-heyecanı-başlıyor-euroleague-ve-nbade-gözler-trans"
+},
+{
 kategori:"Basketbol",
 baslik:"Fenerbahçe Beko'dan Güç Gösterisi!",
 aciklama:"Yeni transferlerle hedef Avrupa'nın zirvesi.",
