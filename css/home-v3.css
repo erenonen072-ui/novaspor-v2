@@ -3234,3 +3234,19 @@ text-align:center;
 #countdown{
     color:#FFD700;
 }
+.header .container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:nowrap;
+}
+
+.navbar{
+    flex-wrap:nowrap;
+    gap:14px;
+}
+
+.navbar a{
+    white-space:nowrap;
+    font-size:15px;
+}
