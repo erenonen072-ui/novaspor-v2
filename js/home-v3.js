@@ -385,3 +385,26 @@ goster();
 },5000);
 
 }
+const hedefTarih = new Date("2026-08-14T20:30:00").getTime();
+
+function sayaciGuncelle() {
+
+    const simdi = new Date().getTime();
+    const fark = hedefTarih - simdi;
+
+    if (fark <= 0) {
+        document.getElementById("countdown").innerHTML = "Başladı! ⚽";
+        return;
+    }
+
+    const gun = Math.floor(fark / (1000 * 60 * 60 * 24));
+    const saat = Math.floor((fark % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const dakika = Math.floor((fark % (1000 * 60 * 60)) / (1000 * 60));
+    const saniye = Math.floor((fark % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML =
+        `${gun} Gün ${saat} Saat ${dakika} Dakika ${saniye} Saniye`;
+}
+
+sayaciGuncelle();
+setInterval(sayaciGuncelle, 1000);
