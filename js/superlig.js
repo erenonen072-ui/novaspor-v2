@@ -6,6 +6,13 @@ window.superLigHaberleri = [
 
 {
     kategori: "TRANSFER",
+    baslik: "Fenerbahçe'den Ümit Akdağ Hamlesi! Genç Stoper İçin Kritik Süreç",
+    aciklama: "Fenerbahçe, Alanyaspor'un genç stoperi Ümit Akdağ için transfer görüşmelerini hızlandırdı. Sarı-lacivertliler yerli rotasyonunu güçlendirmek isterken transferde kritik aşamaya gelindi.",
+    resim: "images/13.45.png",
+    link: "https://sites.google.com/view/novassporr/haberler_1/fenerbahçeden-ümit-akdağ-hamlesi-genç-stoper-için-transferde-kritik-süreç?authuser=0"
+},
+{
+    kategori: "TRANSFER",
     baslik: "Fenerbahçe'den Mason Greenwood Hamlesi Resmileşti",
     aciklama: "Fenerbahçe transfer çalışmalarında önemli bir gelişmeye imza attı.",
     resim: "images/hq720.jpg",
