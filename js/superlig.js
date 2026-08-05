@@ -77,5 +77,12 @@ window.superLigHaberleri = [
     resim: "images/muhhammed salah.png",
     link: "https://sites.google.com/view/novassporr/haberler_1/trabzonspordan-tarihi-hamle-mohamed-salah-transferinde-sona-doğru?authuser=0"
 },
+{
+    kategori: "TRANSFER",
+    baslik: "Beşiktaş'ta Orta Saha Operasyonu! Youssouf Fofana İçin Temaslar Hız Kazandı",
+    aciklama: "Beşiktaş, orta saha hattını güçlendirmek için Youssouf Fofana'yı transfer listesine aldı. Siyah-beyazlıların oyuncunun şartlarını araştırdığı ve transfer görüşmelerinin önümüzdeki günlerde hız kazanmasının beklendiği öne sürülüyor.",
+    resim: "images/bjk.png",
+    link: "https://sites.google.com/view/novassporr/haberler_1/beşiktaşta-orta-saha-operasyonu-youssouf-fofana-için-temaslar-hız-kazandı?authuser=0"
+},
 
 ];
