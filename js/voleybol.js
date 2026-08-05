@@ -33,6 +33,13 @@ window.voleybolHaberleri = [
     aciklama: "Galatasaray Daikin, A Milli Kadın Voleybol Takımı'nın başarılı liberosu Ayça Aykaç'ı renklerine bağladı. Sarı-kırmızılılar yeni sezona iddialı bir kadroyla hazırlanıyor.",
     resim: "images/VOLEYBOL GS.jpg",
     link: "https://sites.google.com/view/novassporr/voleybol-haberleri/galatasaray-daikinden-ay%C3%A7a-ayka%C3%A7-hamlesi-milli-libero-resmen-sar%C4%B1-k%C4%B1rm?authuser=0"
-}
+},
+{
+    kategori: "VOLEYBOL",
+    baslik: "Melissa Vargas Tarihe Geçti! Filenin Sultanları'nı Şampiyonluğa Taşıyan MVP",
+    aciklama: "Melissa Vargas, 2026 Voleybol Milletler Ligi finalinde Brezilya karşısında sergilediği etkileyici performansla Türkiye'yi şampiyonluğa taşıdı. Finalde 33 sayı üreten milli yıldız, turnuvanın En Değerli Oyuncusu (MVP) seçilerek bir kez daha dünya voleyboluna damga vurdu.",
+    resim: "images/voleybol1.png",
+    link: "https://sites.google.com/view/novassporr/voleybol-haberleri/melissa-vargas-tarihe-geçti-filenin-sultanlarını-şampiyonluğa-taşıyan-mvp?authuser=0"
+},
 
 ];
