@@ -70,5 +70,12 @@ window.superLigHaberleri = [
     resim: "images/trendyol-super-lig-.jpg",
     link: "https://sites.google.com/view/novassporr/haberler_1/süper-ligde-geri-sayım-başladı-yeni-sezon-öncesi-rekabet-zirveye-çıkıyor?authuser=0"
 },
+{
+    kategori: "TRANSFER",
+    baslik: "Trabzonspor'dan Tarihi Hamle! Mohamed Salah Transferinde Sona Doğru",
+    aciklama: "Trabzonspor, dünya yıldızı Mohamed Salah transferinde önemli mesafe kat etti. Bordo-mavililer, Mısırlı yıldızın transferini kısa süre içinde resmiyete dökmeyi hedeflerken Süper Lig tarihinin en dikkat çeken transferlerinden biri gerçekleşebilir.",
+    resim: "images/muhhammed salah.png",
+    link: "https://sites.google.com/view/novassporr/haberler_1/trabzonspordan-tarihi-hamle-mohamed-salah-transferinde-sona-doğru?authuser=0"
+},
 
 ];
